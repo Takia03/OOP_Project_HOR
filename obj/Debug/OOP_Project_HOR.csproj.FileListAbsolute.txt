@@ -23,3 +23,4 @@ C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.csproj.GenerateResource.cac
 C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cache
 C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.exe
 C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.pdb
+E:\Visual Studio\House of the Rent\OOP_Project_HOR\obj\Debug\OOP_Project_HOR.add_property.resources

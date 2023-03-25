@@ -70,10 +70,10 @@
             // 
             // retype_signup_textBox
             // 
-            this.retype_signup_textBox.BackColor = System.Drawing.Color.DodgerBlue;
+            this.retype_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.retype_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.retype_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.retype_signup_textBox.ForeColor = System.Drawing.Color.White;
+            this.retype_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
             this.retype_signup_textBox.Location = new System.Drawing.Point(286, 411);
             this.retype_signup_textBox.Name = "retype_signup_textBox";
             this.retype_signup_textBox.Size = new System.Drawing.Size(275, 35);
@@ -147,10 +147,10 @@
             // 
             // password_signup_textBox
             // 
-            this.password_signup_textBox.BackColor = System.Drawing.Color.DodgerBlue;
+            this.password_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.password_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.password_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.password_signup_textBox.ForeColor = System.Drawing.Color.White;
+            this.password_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
             this.password_signup_textBox.Location = new System.Drawing.Point(286, 349);
             this.password_signup_textBox.Name = "password_signup_textBox";
             this.password_signup_textBox.Size = new System.Drawing.Size(275, 35);
@@ -158,10 +158,10 @@
             // 
             // mobile_signup_textBox
             // 
-            this.mobile_signup_textBox.BackColor = System.Drawing.Color.DodgerBlue;
+            this.mobile_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.mobile_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.mobile_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mobile_signup_textBox.ForeColor = System.Drawing.Color.White;
+            this.mobile_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
             this.mobile_signup_textBox.Location = new System.Drawing.Point(286, 291);
             this.mobile_signup_textBox.Name = "mobile_signup_textBox";
             this.mobile_signup_textBox.Size = new System.Drawing.Size(275, 35);
@@ -169,10 +169,10 @@
             // 
             // email_signup_textBox
             // 
-            this.email_signup_textBox.BackColor = System.Drawing.Color.DodgerBlue;
+            this.email_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.email_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.email_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.email_signup_textBox.ForeColor = System.Drawing.Color.White;
+            this.email_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
             this.email_signup_textBox.Location = new System.Drawing.Point(286, 226);
             this.email_signup_textBox.Name = "email_signup_textBox";
             this.email_signup_textBox.Size = new System.Drawing.Size(275, 35);
@@ -180,10 +180,10 @@
             // 
             // username_signup_textBox
             // 
-            this.username_signup_textBox.BackColor = System.Drawing.Color.DodgerBlue;
+            this.username_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.username_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.username_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.username_signup_textBox.ForeColor = System.Drawing.Color.White;
+            this.username_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
             this.username_signup_textBox.Location = new System.Drawing.Point(286, 163);
             this.username_signup_textBox.Name = "username_signup_textBox";
             this.username_signup_textBox.Size = new System.Drawing.Size(275, 35);
@@ -191,10 +191,10 @@
             // 
             // name_signup_textBox
             // 
-            this.name_signup_textBox.BackColor = System.Drawing.Color.DodgerBlue;
+            this.name_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.name_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.name_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name_signup_textBox.ForeColor = System.Drawing.Color.White;
+            this.name_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
             this.name_signup_textBox.Location = new System.Drawing.Point(286, 108);
             this.name_signup_textBox.Name = "name_signup_textBox";
             this.name_signup_textBox.Size = new System.Drawing.Size(275, 35);
