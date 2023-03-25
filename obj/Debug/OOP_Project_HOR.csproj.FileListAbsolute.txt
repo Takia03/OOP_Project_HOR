@@ -10,3 +10,16 @@ E:\Visual Studio\House of the Rent\OOP_Project_HOR\obj\Debug\OOP_Project_HOR.csp
 E:\Visual Studio\House of the Rent\OOP_Project_HOR\obj\Debug\OOP_Project_HOR.exe
 E:\Visual Studio\House of the Rent\OOP_Project_HOR\obj\Debug\OOP_Project_HOR.pdb
 E:\Visual Studio\House of the Rent\OOP_Project_HOR\obj\Debug\OOP_Project_HOR.SignUp_Form.resources
+C:\Users\USER\Desktop\hotr\bin\Debug\OOP_Project_HOR.exe.config
+C:\Users\USER\Desktop\hotr\bin\Debug\OOP_Project_HOR.exe
+C:\Users\USER\Desktop\hotr\bin\Debug\OOP_Project_HOR.pdb
+C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.add_property.resources
+C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.Login_Form.resources
+C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.Properties.Resources.resources
+C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.SignUp_Form.resources
+C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.exe
+C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.pdb
