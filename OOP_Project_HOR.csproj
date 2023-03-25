@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add_property.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_property.Designer.cs">
+      <DependentUpon>add_property.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     <Compile Include="SignUp_Form.Designer.cs">
       <DependentUpon>SignUp_Form.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="add_property.resx">
+      <DependentUpon>add_property.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login_Form.resx">
       <DependentUpon>Login_Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +103,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\hotr2crp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
