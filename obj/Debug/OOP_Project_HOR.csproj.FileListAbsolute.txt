@@ -23,3 +23,17 @@ C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.csproj.GenerateResource.cac
 C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cache
 C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.exe
 C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.pdb
+C:\Users\faiza\OneDrive\Desktop\HOTR\bin\Debug\OOP_Project_HOR.exe.config
+C:\Users\faiza\OneDrive\Desktop\HOTR\bin\Debug\OOP_Project_HOR.exe
+C:\Users\faiza\OneDrive\Desktop\HOTR\bin\Debug\OOP_Project_HOR.pdb
+C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.csproj.AssemblyReference.cache
+C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.csproj.SuggestedBindingRedirects.cache
+C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.add_property.resources
+C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.HomePage.resources
+C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.Login_Form.resources
+C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.Properties.Resources.resources
+C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.SignUp_Form.resources
+C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.csproj.GenerateResource.cache
+C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cache
+C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.exe
+C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.pdb
