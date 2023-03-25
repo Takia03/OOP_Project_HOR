@@ -16,5 +16,19 @@ namespace OOP_Project_HOR
         {
             InitializeComponent();
         }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Login_Form l1 = new Login_Form();
+            l1.Show();
+            this.Hide();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Login_Form l1 = new Login_Form();
+            l1.Show();
+            this.Hide();
+        }
     }
 }
