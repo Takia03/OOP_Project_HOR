@@ -16,5 +16,18 @@ namespace OOP_Project_HOR
         {
             InitializeComponent();
         }
+
+      
+        private void signup_label_Click(object sender, EventArgs e)
+        {
+            SignUp_Form s1 = new SignUp_Form();
+            s1.Show();
+            this.Hide();
+        }
+
+        private void exit_login_button_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

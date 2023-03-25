@@ -30,19 +30,20 @@
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.retype_signup_textBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.password_signup_textBox = new System.Windows.Forms.TextBox();
+            this.mobile_signup_textBox = new System.Windows.Forms.TextBox();
+            this.email_signup_textBox = new System.Windows.Forms.TextBox();
+            this.username_signup_textBox = new System.Windows.Forms.TextBox();
+            this.name_signup_textBox = new System.Windows.Forms.TextBox();
+            this.signup_button = new System.Windows.Forms.Button();
+            this.exit_signup_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,16 +68,16 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Information";
             // 
-            // textBox1
+            // retype_signup_textBox
             // 
-            this.textBox1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(286, 411);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(275, 35);
-            this.textBox1.TabIndex = 15;
+            this.retype_signup_textBox.BackColor = System.Drawing.Color.DodgerBlue;
+            this.retype_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.retype_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.retype_signup_textBox.ForeColor = System.Drawing.Color.White;
+            this.retype_signup_textBox.Location = new System.Drawing.Point(286, 411);
+            this.retype_signup_textBox.Name = "retype_signup_textBox";
+            this.retype_signup_textBox.Size = new System.Drawing.Size(275, 35);
+            this.retype_signup_textBox.TabIndex = 15;
             // 
             // label7
             // 
@@ -144,72 +145,87 @@
             this.label2.TabIndex = 9;
             this.label2.Text = "Name :";
             // 
-            // textBox2
+            // password_signup_textBox
             // 
-            this.textBox2.BackColor = System.Drawing.Color.DodgerBlue;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(286, 349);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(275, 35);
-            this.textBox2.TabIndex = 16;
+            this.password_signup_textBox.BackColor = System.Drawing.Color.DodgerBlue;
+            this.password_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.password_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.password_signup_textBox.ForeColor = System.Drawing.Color.White;
+            this.password_signup_textBox.Location = new System.Drawing.Point(286, 349);
+            this.password_signup_textBox.Name = "password_signup_textBox";
+            this.password_signup_textBox.Size = new System.Drawing.Size(275, 35);
+            this.password_signup_textBox.TabIndex = 16;
             // 
-            // textBox3
+            // mobile_signup_textBox
             // 
-            this.textBox3.BackColor = System.Drawing.Color.DodgerBlue;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(286, 291);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(275, 35);
-            this.textBox3.TabIndex = 17;
+            this.mobile_signup_textBox.BackColor = System.Drawing.Color.DodgerBlue;
+            this.mobile_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.mobile_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mobile_signup_textBox.ForeColor = System.Drawing.Color.White;
+            this.mobile_signup_textBox.Location = new System.Drawing.Point(286, 291);
+            this.mobile_signup_textBox.Name = "mobile_signup_textBox";
+            this.mobile_signup_textBox.Size = new System.Drawing.Size(275, 35);
+            this.mobile_signup_textBox.TabIndex = 17;
             // 
-            // textBox4
+            // email_signup_textBox
             // 
-            this.textBox4.BackColor = System.Drawing.Color.DodgerBlue;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.White;
-            this.textBox4.Location = new System.Drawing.Point(286, 226);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(275, 35);
-            this.textBox4.TabIndex = 18;
+            this.email_signup_textBox.BackColor = System.Drawing.Color.DodgerBlue;
+            this.email_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.email_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email_signup_textBox.ForeColor = System.Drawing.Color.White;
+            this.email_signup_textBox.Location = new System.Drawing.Point(286, 226);
+            this.email_signup_textBox.Name = "email_signup_textBox";
+            this.email_signup_textBox.Size = new System.Drawing.Size(275, 35);
+            this.email_signup_textBox.TabIndex = 18;
             // 
-            // textBox5
+            // username_signup_textBox
             // 
-            this.textBox5.BackColor = System.Drawing.Color.DodgerBlue;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.ForeColor = System.Drawing.Color.White;
-            this.textBox5.Location = new System.Drawing.Point(286, 163);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(275, 35);
-            this.textBox5.TabIndex = 19;
+            this.username_signup_textBox.BackColor = System.Drawing.Color.DodgerBlue;
+            this.username_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.username_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.username_signup_textBox.ForeColor = System.Drawing.Color.White;
+            this.username_signup_textBox.Location = new System.Drawing.Point(286, 163);
+            this.username_signup_textBox.Name = "username_signup_textBox";
+            this.username_signup_textBox.Size = new System.Drawing.Size(275, 35);
+            this.username_signup_textBox.TabIndex = 19;
             // 
-            // textBox6
+            // name_signup_textBox
             // 
-            this.textBox6.BackColor = System.Drawing.Color.DodgerBlue;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.Color.White;
-            this.textBox6.Location = new System.Drawing.Point(286, 108);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(275, 35);
-            this.textBox6.TabIndex = 20;
+            this.name_signup_textBox.BackColor = System.Drawing.Color.DodgerBlue;
+            this.name_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.name_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name_signup_textBox.ForeColor = System.Drawing.Color.White;
+            this.name_signup_textBox.Location = new System.Drawing.Point(286, 108);
+            this.name_signup_textBox.Name = "name_signup_textBox";
+            this.name_signup_textBox.Size = new System.Drawing.Size(275, 35);
+            this.name_signup_textBox.TabIndex = 20;
             // 
-            // button1
+            // signup_button
             // 
-            this.button1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(151, 511);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(301, 64);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = false;
+            this.signup_button.BackColor = System.Drawing.Color.DodgerBlue;
+            this.signup_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.signup_button.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signup_button.ForeColor = System.Drawing.Color.White;
+            this.signup_button.Location = new System.Drawing.Point(151, 511);
+            this.signup_button.Name = "signup_button";
+            this.signup_button.Size = new System.Drawing.Size(301, 64);
+            this.signup_button.TabIndex = 21;
+            this.signup_button.Text = "Sign Up";
+            this.signup_button.UseVisualStyleBackColor = false;
+            this.signup_button.Click += new System.EventHandler(this.signup_button_Click);
+            // 
+            // exit_signup_button
+            // 
+            this.exit_signup_button.BackColor = System.Drawing.Color.Salmon;
+            this.exit_signup_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.exit_signup_button.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exit_signup_button.Location = new System.Drawing.Point(12, 658);
+            this.exit_signup_button.Name = "exit_signup_button";
+            this.exit_signup_button.Size = new System.Drawing.Size(73, 43);
+            this.exit_signup_button.TabIndex = 22;
+            this.exit_signup_button.Text = "Exit";
+            this.exit_signup_button.UseVisualStyleBackColor = false;
+            this.exit_signup_button.Click += new System.EventHandler(this.exit_signup_button_Click);
             // 
             // SignUp_Form
             // 
@@ -218,13 +234,14 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1462, 713);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.exit_signup_button);
+            this.Controls.Add(this.signup_button);
+            this.Controls.Add(this.name_signup_textBox);
+            this.Controls.Add(this.username_signup_textBox);
+            this.Controls.Add(this.email_signup_textBox);
+            this.Controls.Add(this.mobile_signup_textBox);
+            this.Controls.Add(this.password_signup_textBox);
+            this.Controls.Add(this.retype_signup_textBox);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -245,18 +262,19 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox retype_signup_textBox;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox password_signup_textBox;
+        private System.Windows.Forms.TextBox mobile_signup_textBox;
+        private System.Windows.Forms.TextBox email_signup_textBox;
+        private System.Windows.Forms.TextBox username_signup_textBox;
+        private System.Windows.Forms.TextBox name_signup_textBox;
+        private System.Windows.Forms.Button signup_button;
+        private System.Windows.Forms.Button exit_signup_button;
     }
 }

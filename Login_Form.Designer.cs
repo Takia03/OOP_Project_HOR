@@ -35,10 +35,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.login_button = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.signup_label = new System.Windows.Forms.Label();
+            this.exit_login_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -123,18 +124,6 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Don\'t have account?";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label6.Location = new System.Drawing.Point(1336, 601);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 23);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Sign UP!";
-            // 
             // login_button
             // 
             this.login_button.BackColor = System.Drawing.Color.CornflowerBlue;
@@ -169,14 +158,41 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // signup_label
+            // 
+            this.signup_label.AutoSize = true;
+            this.signup_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
+            this.signup_label.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signup_label.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.signup_label.Location = new System.Drawing.Point(1308, 601);
+            this.signup_label.Name = "signup_label";
+            this.signup_label.Size = new System.Drawing.Size(84, 23);
+            this.signup_label.TabIndex = 11;
+            this.signup_label.Text = "Sign UP!";
+            this.signup_label.Click += new System.EventHandler(this.signup_label_Click);
+            // 
+            // exit_login_button
+            // 
+            this.exit_login_button.BackColor = System.Drawing.Color.IndianRed;
+            this.exit_login_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.exit_login_button.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exit_login_button.Location = new System.Drawing.Point(1377, 658);
+            this.exit_login_button.Name = "exit_login_button";
+            this.exit_login_button.Size = new System.Drawing.Size(73, 43);
+            this.exit_login_button.TabIndex = 13;
+            this.exit_login_button.Text = "Exit";
+            this.exit_login_button.UseVisualStyleBackColor = false;
+            this.exit_login_button.Click += new System.EventHandler(this.exit_login_button_Click);
+            // 
             // Login_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1462, 713);
+            this.Controls.Add(this.exit_login_button);
+            this.Controls.Add(this.signup_label);
             this.Controls.Add(this.login_button);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -207,8 +223,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button login_button;
+        private System.Windows.Forms.Label signup_label;
+        private System.Windows.Forms.Button exit_login_button;
     }
 }
 
