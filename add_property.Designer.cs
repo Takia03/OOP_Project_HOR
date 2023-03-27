@@ -44,7 +44,7 @@
             this.mas_comboBox = new System.Windows.Forms.ComboBox();
             this.bath_comboBox = new System.Windows.Forms.ComboBox();
             this.add_button = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.home_button = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.FlatSize_textBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -248,18 +248,19 @@
             this.add_button.Text = "ADD";
             this.add_button.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // home_button
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button1.Location = new System.Drawing.Point(1320, 653);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 48);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "Home";
-            this.button1.UseVisualStyleBackColor = false;
+            this.home_button.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.home_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.home_button.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_button.ForeColor = System.Drawing.Color.Navy;
+            this.home_button.Location = new System.Drawing.Point(1186, 653);
+            this.home_button.Name = "home_button";
+            this.home_button.Size = new System.Drawing.Size(130, 48);
+            this.home_button.TabIndex = 17;
+            this.home_button.Text = "Home";
+            this.home_button.UseVisualStyleBackColor = false;
+            this.home_button.Click += new System.EventHandler(this.home_button_Click);
             // 
             // label7
             // 
@@ -288,7 +289,7 @@
             this.ClientSize = new System.Drawing.Size(1462, 713);
             this.Controls.Add(this.FlatSize_textBox);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.home_button);
             this.Controls.Add(this.add_button);
             this.Controls.Add(this.bath_comboBox);
             this.Controls.Add(this.mas_comboBox);
@@ -333,7 +334,7 @@
         private System.Windows.Forms.ComboBox mas_comboBox;
         private System.Windows.Forms.ComboBox bath_comboBox;
         private System.Windows.Forms.Button add_button;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button home_button;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox FlatSize_textBox;
     }
