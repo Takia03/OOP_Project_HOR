@@ -26,9 +26,10 @@ namespace OOP_Project_HOR
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Login_Form l1 = new Login_Form();
-            l1.Show();
+            add_property a1 = new add_property();
+            a1.Show();
             this.Hide();
+
         }
     }
 }

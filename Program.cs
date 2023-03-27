@@ -16,8 +16,7 @@ namespace OOP_Project_HOR
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new add_property
-                ());
+            Application.Run(new Login_Form());
         }
     }
 }

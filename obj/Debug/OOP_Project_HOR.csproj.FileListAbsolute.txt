@@ -23,6 +23,9 @@ C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.csproj.GenerateResource.cac
 C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cache
 C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.exe
 C:\Users\USER\Desktop\hotr\obj\Debug\OOP_Project_HOR.pdb
+<<<<<<< HEAD
+E:\Visual Studio\House of the Rent\OOP_Project_HOR\obj\Debug\OOP_Project_HOR.add_property.resources
+=======
 C:\Users\faiza\OneDrive\Desktop\HOTR\bin\Debug\OOP_Project_HOR.exe.config
 C:\Users\faiza\OneDrive\Desktop\HOTR\bin\Debug\OOP_Project_HOR.exe
 C:\Users\faiza\OneDrive\Desktop\HOTR\bin\Debug\OOP_Project_HOR.pdb
@@ -37,3 +40,4 @@ C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.csproj.GenerateRe
 C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cache
 C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.exe
 C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.pdb
+>>>>>>> e9b7b651c9ac781fd5855b36b419673744599c85
