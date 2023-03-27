@@ -26,5 +26,13 @@ namespace OOP_Project_HOR
         {
 
         }
+
+        private void home_button_Click(object sender, EventArgs e)
+        {
+
+            HomePage h1 = new HomePage();
+            h1.Show();
+            this.Hide();
+        }
     }
 }
