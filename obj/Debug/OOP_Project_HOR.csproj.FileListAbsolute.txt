@@ -41,9 +41,7 @@ C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.csproj.CoreCompil
 C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.exe
 C:\Users\faiza\OneDrive\Desktop\HOTR\obj\Debug\OOP_Project_HOR.pdb
 >>>>>>> e9b7b651c9ac781fd5855b36b419673744599c85
-<<<<<<< HEAD
 E:\Visual Studio\House of the Rent\OOP_Project_HOR\obj\Debug\OOP_Project_HOR.HomePage.resources
-=======
 C:\Users\USER\Desktop\HOR\bin\Debug\OOP_Project_HOR.exe.config
 C:\Users\USER\Desktop\HOR\bin\Debug\OOP_Project_HOR.exe
 C:\Users\USER\Desktop\HOR\bin\Debug\OOP_Project_HOR.pdb
