@@ -29,5 +29,12 @@ namespace OOP_Project_HOR
         {
             Application.Exit();
         }
+
+        private void login_button_Click(object sender, EventArgs e)
+        {
+            HomePage h2 = new HomePage();
+            h2.Show();
+            this.Hide();
+        }
     }
 }
