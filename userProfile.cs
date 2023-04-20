@@ -16,5 +16,12 @@ namespace OOP_Project_HOR
         {
             InitializeComponent();
         }
+
+        private void h_button_Click(object sender, EventArgs e)
+        {
+            HomePage h1 = new HomePage();
+            h1.Show();
+            this.Hide();
+        }
     }
 }
