@@ -57,3 +57,4 @@ C:\Users\USER\Desktop\HOR\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cac
 C:\Users\USER\Desktop\HOR\obj\Debug\OOP_Project_HOR.exe
 C:\Users\USER\Desktop\HOR\obj\Debug\OOP_Project_HOR.pdb
 >>>>>>> c64bb6d8fa0ca2121cd7e7149a307bc431a7ea34
+C:\Users\USER\Desktop\HOR\obj\Debug\OOP_Project_HOR.userProfile.resources

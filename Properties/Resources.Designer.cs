@@ -63,6 +63,16 @@ namespace OOP_Project_HOR.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4141223 {
+            get {
+                object obj = ResourceManager.GetObject("4141223", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hotr2crp {
             get {
                 object obj = ResourceManager.GetObject("hotr2crp", resourceCulture);
