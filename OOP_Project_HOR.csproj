@@ -78,6 +78,12 @@
     <Compile Include="SignUp_Form.Designer.cs">
       <DependentUpon>SignUp_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="userProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userProfile.Designer.cs">
+      <DependentUpon>userProfile.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="add_property.resx">
       <DependentUpon>add_property.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,6 +109,9 @@
     <EmbeddedResource Include="SignUp_Form.resx">
       <DependentUpon>SignUp_Form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="userProfile.resx">
+      <DependentUpon>userProfile.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -126,7 +135,11 @@
     <None Include="Resources\o.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Resources\a.png" />
+=======
+    <None Include="Resources\4141223.jpg" />
+>>>>>>> a127fba657066ef4106cf41ba457d24f25d83668
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
