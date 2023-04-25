@@ -40,8 +40,8 @@
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
+            this.search_button = new System.Windows.Forms.Button();
+            this.logout_linkLabel = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -168,27 +168,29 @@
             this.comboBox6.TabIndex = 11;
             this.comboBox6.Text = "Price(BDT)";
             // 
-            // button1
+            // search_button
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1089, 546);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(222, 61);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Search now!";
-            this.button1.UseVisualStyleBackColor = true;
+            this.search_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search_button.Location = new System.Drawing.Point(1089, 546);
+            this.search_button.Name = "search_button";
+            this.search_button.Size = new System.Drawing.Size(222, 61);
+            this.search_button.TabIndex = 12;
+            this.search_button.Text = "Search now!";
+            this.search_button.UseVisualStyleBackColor = true;
+            this.search_button.Click += new System.EventHandler(this.search_button_Click);
             // 
-            // linkLabel4
+            // logout_linkLabel
             // 
-            this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel4.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel4.Location = new System.Drawing.Point(1317, 39);
-            this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(78, 24);
-            this.linkLabel4.TabIndex = 13;
-            this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "Log Out";
+            this.logout_linkLabel.AutoSize = true;
+            this.logout_linkLabel.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logout_linkLabel.LinkColor = System.Drawing.Color.Black;
+            this.logout_linkLabel.Location = new System.Drawing.Point(1317, 39);
+            this.logout_linkLabel.Name = "logout_linkLabel";
+            this.logout_linkLabel.Size = new System.Drawing.Size(78, 24);
+            this.logout_linkLabel.TabIndex = 13;
+            this.logout_linkLabel.TabStop = true;
+            this.logout_linkLabel.Text = "Log Out";
+            this.logout_linkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.logout_linkLabel_LinkClicked);
             // 
             // HomePage
             // 
@@ -197,8 +199,8 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
             this.ClientSize = new System.Drawing.Size(1462, 713);
-            this.Controls.Add(this.linkLabel4);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.logout_linkLabel);
+            this.Controls.Add(this.search_button);
             this.Controls.Add(this.comboBox6);
             this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.comboBox4);
@@ -231,7 +233,7 @@
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.LinkLabel linkLabel4;
+        private System.Windows.Forms.Button search_button;
+        private System.Windows.Forms.LinkLabel logout_linkLabel;
     }
 }

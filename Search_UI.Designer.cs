@@ -30,7 +30,6 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.home_button = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.name_signup_textBox = new System.Windows.Forms.TextBox();
@@ -39,6 +38,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.searchui_home_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -66,20 +66,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
-            // 
-            // home_button
-            // 
-            this.home_button.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.home_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.home_button.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.home_button.ForeColor = System.Drawing.Color.White;
-            this.home_button.Location = new System.Drawing.Point(1322, 12);
-            this.home_button.Name = "home_button";
-            this.home_button.Size = new System.Drawing.Size(128, 48);
-            this.home_button.TabIndex = 20;
-            this.home_button.Text = "Home";
-            this.home_button.UseVisualStyleBackColor = false;
-            this.home_button.Click += new System.EventHandler(this.home_button_Click);
             // 
             // label2
             // 
@@ -170,12 +156,27 @@
             this.label1.TabIndex = 29;
             this.label1.Text = "Searched Location:";
             // 
+            // searchui_home_button
+            // 
+            this.searchui_home_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(118)))), ((int)(((byte)(223)))));
+            this.searchui_home_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.searchui_home_button.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchui_home_button.ForeColor = System.Drawing.Color.White;
+            this.searchui_home_button.Location = new System.Drawing.Point(1348, 12);
+            this.searchui_home_button.Name = "searchui_home_button";
+            this.searchui_home_button.Size = new System.Drawing.Size(104, 48);
+            this.searchui_home_button.TabIndex = 30;
+            this.searchui_home_button.Text = "Home";
+            this.searchui_home_button.UseVisualStyleBackColor = false;
+            this.searchui_home_button.Click += new System.EventHandler(this.searchui_home_button_Click);
+            // 
             // Search_UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1462, 713);
+            this.Controls.Add(this.searchui_home_button);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox2);
@@ -184,7 +185,6 @@
             this.Controls.Add(this.name_signup_textBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.home_button);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Search_UI";
@@ -199,7 +199,6 @@
         #endregion
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button home_button;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox name_signup_textBox;
@@ -208,5 +207,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button searchui_home_button;
     }
 }

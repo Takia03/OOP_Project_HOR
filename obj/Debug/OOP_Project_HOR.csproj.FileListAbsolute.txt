@@ -57,8 +57,22 @@ C:\Users\USER\Desktop\HOR\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cac
 C:\Users\USER\Desktop\HOR\obj\Debug\OOP_Project_HOR.exe
 C:\Users\USER\Desktop\HOR\obj\Debug\OOP_Project_HOR.pdb
 >>>>>>> c64bb6d8fa0ca2121cd7e7149a307bc431a7ea34
-<<<<<<< HEAD
 E:\Visual Studio\House of the Rent\OOP_Project_HOR\obj\Debug\OOP_Project_HOR.Search_UI.resources
-=======
 C:\Users\USER\Desktop\HOR\obj\Debug\OOP_Project_HOR.userProfile.resources
 >>>>>>> a127fba657066ef4106cf41ba457d24f25d83668
+C:\Users\GIGABITE\Desktop\OOP Project\obj\Debug\OOP_Project_HOR.csproj.AssemblyReference.cache
+C:\Users\GIGABITE\Desktop\OOP Project\obj\Debug\OOP_Project_HOR.csproj.SuggestedBindingRedirects.cache
+C:\Users\GIGABITE\Desktop\OOP Project\obj\Debug\OOP_Project_HOR.add_property.resources
+C:\Users\GIGABITE\Desktop\OOP Project\obj\Debug\OOP_Project_HOR.HomePage.resources
+C:\Users\GIGABITE\Desktop\OOP Project\obj\Debug\OOP_Project_HOR.Login_Form.resources
+C:\Users\GIGABITE\Desktop\OOP Project\obj\Debug\OOP_Project_HOR.Search_UI.resources
+C:\Users\GIGABITE\Desktop\OOP Project\obj\Debug\OOP_Project_HOR.SignUp_Form.resources
+C:\Users\GIGABITE\Desktop\OOP Project\obj\Debug\OOP_Project_HOR.userProfile.resources
+C:\Users\GIGABITE\Desktop\OOP Project\obj\Debug\OOP_Project_HOR.csproj.GenerateResource.cache
+C:\Users\GIGABITE\Desktop\OOP Project\obj\Debug\OOP_Project_HOR.exe
+C:\Users\GIGABITE\Desktop\OOP Project\obj\Debug\OOP_Project_HOR.pdb
+C:\Users\GIGABITE\Desktop\OOP Project\obj\Debug\OOP_Project_HOR.Properties.Resources.resources
+C:\Users\GIGABITE\Desktop\OOP Project\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cache
+C:\Users\GIGABITE\Desktop\OOP Project\bin\Debug\OOP_Project_HOR.exe.config
+C:\Users\GIGABITE\Desktop\OOP Project\bin\Debug\OOP_Project_HOR.exe
+C:\Users\GIGABITE\Desktop\OOP Project\bin\Debug\OOP_Project_HOR.pdb

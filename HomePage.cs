@@ -19,8 +19,8 @@ namespace OOP_Project_HOR
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Login_Form l1 = new Login_Form();
-            l1.Show();
+            userProfile upf1 = new userProfile();
+            upf1.Show();
             this.Hide();
         }
 
@@ -30,6 +30,20 @@ namespace OOP_Project_HOR
             a1.Show();
             this.Hide();
 
+        }
+
+        private void search_button_Click(object sender, EventArgs e)
+        {
+            Search_UI home_to_search1= new Search_UI();
+            home_to_search1.Show();
+            this.Hide();
+        }
+
+        private void logout_linkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Login_Form home_to_login1= new Login_Form();
+            home_to_login1.Show();
+            this.Hide();
         }
     }
 }

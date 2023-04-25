@@ -17,10 +17,10 @@ namespace OOP_Project_HOR
             InitializeComponent();
         }
 
-        private void home_button_Click(object sender, EventArgs e)
+        private void searchui_home_button_Click(object sender, EventArgs e)
         {
-            HomePage h5 = new HomePage();
-            h5.Show();
+            HomePage suihomepage= new HomePage();
+            suihomepage.Show();
             this.Hide();
         }
     }
