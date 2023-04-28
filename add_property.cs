@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,13 @@ using System.Windows.Forms;
 namespace OOP_Project_HOR
 {
     public partial class add_property : Form
+
+
     {
+        List<property> property = new List<property>();
+        static string Path = @"D:\hor\";
+
+
         public add_property()
         {
             InitializeComponent();
@@ -33,6 +40,55 @@ namespace OOP_Project_HOR
             HomePage h1 = new HomePage();
             h1.Show();
             this.Hide();
+        }
+
+        private void add_button_Click(object sender, EventArgs e)
+        {
+            string newpath = Path + "property.txt";
+            if(File.Exists(newpath))
+            {
+                StreamWriter sw = File.AppendText(newpath);
+                string q = $"{name_textBox.Text},{city_textBox.Text},{loc_textBox.Text},{room_comboBox.Text},{bal_comboBox.Text},{bath_comboBox.Text},{mas_comboBox.Text},{FlatSize_textBox.Text},{rent_textBox.Text}";
+                sw.WriteLine(q);
+                sw.Close();
+
+
+                MessageBox.Show("Added successfully");
+                name_textBox.Clear();
+                city_textBox.Clear();
+                loc_textBox.Clear();
+                FlatSize_textBox.Clear();
+                rent_textBox.Clear();
+
+
+                HomePage h1 = new HomePage();
+                h1.Show();
+                this.Hide();
+
+
+            }
+            else
+            {
+                File.Create(newpath);
+
+                StreamWriter sw = File.AppendText(newpath);
+                string q = $"{name_textBox.Text},{city_textBox.Text},{loc_textBox.Text},{room_comboBox.Text},{bal_comboBox.Text},{bath_comboBox.Text},{mas_comboBox.Text},{FlatSize_textBox.Text},{rent_textBox.Text}";
+                sw.WriteLine(q);
+                sw.Close();
+
+                MessageBox.Show("Added successfully");
+                name_textBox.Clear();
+                city_textBox.Clear();
+                loc_textBox.Clear();
+                FlatSize_textBox.Clear();
+                rent_textBox.Clear();
+
+
+                HomePage h1 = new HomePage();
+                h1.Show();
+                this.Hide();
+
+            }
         }
     }
 }

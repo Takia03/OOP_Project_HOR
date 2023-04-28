@@ -247,6 +247,7 @@
             this.add_button.TabIndex = 16;
             this.add_button.Text = "ADD";
             this.add_button.UseVisualStyleBackColor = false;
+            this.add_button.Click += new System.EventHandler(this.add_button_Click);
             // 
             // home_button
             // 
