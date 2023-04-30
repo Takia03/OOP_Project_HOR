@@ -30,187 +30,183 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomePage));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.addpro_LL = new System.Windows.Forms.LinkLabel();
+            this.profile_LL = new System.Windows.Forms.LinkLabel();
+            this.loca_CB = new System.Windows.Forms.ComboBox();
+            this.Area_CB = new System.Windows.Forms.ComboBox();
             this.search_button = new System.Windows.Forms.Button();
             this.logout_linkLabel = new System.Windows.Forms.LinkLabel();
+            this.Price_L = new System.Windows.Forms.Label();
+            this.Min_TB = new System.Windows.Forms.TextBox();
+            this.Max_TB = new System.Windows.Forms.TextBox();
+            this.Min_L = new System.Windows.Forms.Label();
+            this.Max_L = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.groupBox1.Location = new System.Drawing.Point(46, 91);
+            this.groupBox1.Location = new System.Drawing.Point(461, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(847, 577);
+            this.groupBox1.Size = new System.Drawing.Size(998, 711);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.label1.Font = new System.Drawing.Font("Cambria Math", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(80, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(252, 129);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "House of The Rent";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.SteelBlue;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(926, 91);
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.Location = new System.Drawing.Point(48, 112);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(510, 29);
+            this.label2.Size = new System.Drawing.Size(501, 52);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Search Properties for rent                            ";
+            this.label2.Text = "Search Properties           ";
             // 
-            // linkLabel1
+            // addpro_LL
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(974, 39);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(124, 24);
-            this.linkLabel1.TabIndex = 3;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Add Property";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.addpro_LL.AutoSize = true;
+            this.addpro_LL.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addpro_LL.LinkColor = System.Drawing.Color.Black;
+            this.addpro_LL.Location = new System.Drawing.Point(53, 44);
+            this.addpro_LL.Name = "addpro_LL";
+            this.addpro_LL.Size = new System.Drawing.Size(109, 19);
+            this.addpro_LL.TabIndex = 3;
+            this.addpro_LL.TabStop = true;
+            this.addpro_LL.Text = "Add Property";
+            this.addpro_LL.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // linkLabel3
+            // profile_LL
             // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel3.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel3.Location = new System.Drawing.Point(1166, 39);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(66, 24);
-            this.linkLabel3.TabIndex = 5;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Profile";
-            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+            this.profile_LL.AutoSize = true;
+            this.profile_LL.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profile_LL.LinkColor = System.Drawing.Color.Black;
+            this.profile_LL.Location = new System.Drawing.Point(207, 44);
+            this.profile_LL.Name = "profile_LL";
+            this.profile_LL.Size = new System.Drawing.Size(62, 19);
+            this.profile_LL.TabIndex = 5;
+            this.profile_LL.TabStop = true;
+            this.profile_LL.Text = "Profile";
+            this.profile_LL.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
             // 
-            // comboBox1
+            // loca_CB
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(931, 175);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(232, 24);
-            this.comboBox1.TabIndex = 6;
-            this.comboBox1.Text = "Location";
+            this.loca_CB.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.loca_CB.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loca_CB.FormattingEnabled = true;
+            this.loca_CB.Location = new System.Drawing.Point(95, 249);
+            this.loca_CB.Name = "loca_CB";
+            this.loca_CB.Size = new System.Drawing.Size(259, 33);
+            this.loca_CB.TabIndex = 6;
+            this.loca_CB.Text = "Location";
             // 
-            // comboBox2
+            // Area_CB
             // 
-            this.comboBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(932, 230);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(232, 24);
-            this.comboBox2.TabIndex = 7;
-            this.comboBox2.Text = "Residential";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(932, 286);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(232, 24);
-            this.comboBox3.TabIndex = 8;
-            this.comboBox3.Text = "Beds";
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(931, 341);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(232, 24);
-            this.comboBox4.TabIndex = 9;
-            this.comboBox4.Text = "Baths";
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(932, 399);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(232, 24);
-            this.comboBox5.TabIndex = 10;
-            this.comboBox5.Text = "Area(Sqft)";
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.comboBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(932, 453);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(232, 24);
-            this.comboBox6.TabIndex = 11;
-            this.comboBox6.Text = "Price(BDT)";
+            this.Area_CB.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.Area_CB.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Area_CB.FormattingEnabled = true;
+            this.Area_CB.Location = new System.Drawing.Point(95, 315);
+            this.Area_CB.Name = "Area_CB";
+            this.Area_CB.Size = new System.Drawing.Size(259, 33);
+            this.Area_CB.TabIndex = 10;
+            this.Area_CB.Text = "Area(Sqft)";
             // 
             // search_button
             // 
-            this.search_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.search_button.Location = new System.Drawing.Point(1089, 546);
+            this.search_button.BackColor = System.Drawing.Color.DarkGray;
+            this.search_button.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search_button.Location = new System.Drawing.Point(109, 604);
             this.search_button.Name = "search_button";
             this.search_button.Size = new System.Drawing.Size(222, 61);
             this.search_button.TabIndex = 12;
-            this.search_button.Text = "Search now!";
-            this.search_button.UseVisualStyleBackColor = true;
+            this.search_button.Text = "Find now!!";
+            this.search_button.UseVisualStyleBackColor = false;
             this.search_button.Click += new System.EventHandler(this.search_button_Click);
             // 
             // logout_linkLabel
             // 
             this.logout_linkLabel.AutoSize = true;
-            this.logout_linkLabel.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logout_linkLabel.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logout_linkLabel.LinkColor = System.Drawing.Color.Black;
-            this.logout_linkLabel.Location = new System.Drawing.Point(1317, 39);
+            this.logout_linkLabel.Location = new System.Drawing.Point(331, 44);
             this.logout_linkLabel.Name = "logout_linkLabel";
-            this.logout_linkLabel.Size = new System.Drawing.Size(78, 24);
+            this.logout_linkLabel.Size = new System.Drawing.Size(70, 19);
             this.logout_linkLabel.TabIndex = 13;
             this.logout_linkLabel.TabStop = true;
             this.logout_linkLabel.Text = "Log Out";
             this.logout_linkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.logout_linkLabel_LinkClicked);
+            // 
+            // Price_L
+            // 
+            this.Price_L.AutoSize = true;
+            this.Price_L.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.Price_L.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Price_L.Location = new System.Drawing.Point(102, 383);
+            this.Price_L.Name = "Price_L";
+            this.Price_L.Size = new System.Drawing.Size(229, 32);
+            this.Price_L.TabIndex = 14;
+            this.Price_L.Text = "Price(BDT)           ";
+            // 
+            // Min_TB
+            // 
+            this.Min_TB.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.Min_TB.Location = new System.Drawing.Point(95, 492);
+            this.Min_TB.Name = "Min_TB";
+            this.Min_TB.Size = new System.Drawing.Size(111, 22);
+            this.Min_TB.TabIndex = 15;
+            // 
+            // Max_TB
+            // 
+            this.Max_TB.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.Max_TB.Location = new System.Drawing.Point(239, 492);
+            this.Max_TB.Name = "Max_TB";
+            this.Max_TB.Size = new System.Drawing.Size(115, 22);
+            this.Max_TB.TabIndex = 16;
+            // 
+            // Min_L
+            // 
+            this.Min_L.AutoSize = true;
+            this.Min_L.BackColor = System.Drawing.Color.White;
+            this.Min_L.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Min_L.Location = new System.Drawing.Point(91, 462);
+            this.Min_L.Name = "Min_L";
+            this.Min_L.Size = new System.Drawing.Size(74, 19);
+            this.Min_L.TabIndex = 17;
+            this.Min_L.Text = "Min :      ";
+            // 
+            // Max_L
+            // 
+            this.Max_L.AutoSize = true;
+            this.Max_L.BackColor = System.Drawing.Color.White;
+            this.Max_L.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Max_L.Location = new System.Drawing.Point(236, 462);
+            this.Max_L.Name = "Max_L";
+            this.Max_L.Size = new System.Drawing.Size(63, 17);
+            this.Max_L.TabIndex = 15;
+            this.Max_L.Text = "Max :    ";
             // 
             // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1462, 713);
+            this.Controls.Add(this.Max_L);
+            this.Controls.Add(this.Min_L);
+            this.Controls.Add(this.Max_TB);
+            this.Controls.Add(this.Min_TB);
+            this.Controls.Add(this.Price_L);
             this.Controls.Add(this.logout_linkLabel);
             this.Controls.Add(this.search_button);
-            this.Controls.Add(this.comboBox6);
-            this.Controls.Add(this.comboBox5);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.linkLabel3);
-            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.Area_CB);
+            this.Controls.Add(this.loca_CB);
+            this.Controls.Add(this.profile_LL);
+            this.Controls.Add(this.addpro_LL);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.MaximizeBox = false;
             this.Name = "HomePage";
@@ -223,17 +219,17 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.LinkLabel linkLabel3;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.LinkLabel addpro_LL;
+        private System.Windows.Forms.LinkLabel profile_LL;
+        private System.Windows.Forms.ComboBox loca_CB;
+        private System.Windows.Forms.ComboBox Area_CB;
         private System.Windows.Forms.Button search_button;
         private System.Windows.Forms.LinkLabel logout_linkLabel;
+        private System.Windows.Forms.Label Price_L;
+        private System.Windows.Forms.TextBox Min_TB;
+        private System.Windows.Forms.TextBox Max_TB;
+        private System.Windows.Forms.Label Min_L;
+        private System.Windows.Forms.Label Max_L;
     }
 }
