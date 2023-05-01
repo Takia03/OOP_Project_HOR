@@ -32,5 +32,7 @@ namespace OOP_Project_HOR
             this.size = size;
             this.rent = rent;
         }
+        public void hudai()
+        { }
     }
 }
