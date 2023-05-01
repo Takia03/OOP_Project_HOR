@@ -79,6 +79,7 @@
     <Compile Include="SignUp_Form.Designer.cs">
       <DependentUpon>SignUp_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="user.cs" />
     <Compile Include="userProfile.cs">
       <SubType>Form</SubType>
     </Compile>

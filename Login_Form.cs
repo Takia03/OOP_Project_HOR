@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,16 @@ namespace OOP_Project_HOR
         public Login_Form()
         {
             InitializeComponent();
+
+            if (Directory.Exists(@"C:\HoR"))
+            {
+
+            }
+            else
+            {
+                DirectoryInfo dir = new DirectoryInfo(@"C:\HoR");
+                dir.Create();
+            }
         }
 
       

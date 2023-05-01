@@ -24,6 +24,10 @@ namespace OOP_Project_HOR
 
         private void signup_button_Click(object sender, EventArgs e)
         {
+            
+            
+            
+            
             MessageBox.Show("Sign Up Successful");
 
             name_signup_textBox.Clear();
@@ -36,6 +40,11 @@ namespace OOP_Project_HOR
             Login_Form l1= new Login_Form();
             l1.Show();
             this.Hide();
+        }
+
+        private void userwrite()
+        {
+
         }
     }
 }
