@@ -19,7 +19,14 @@ namespace OOP_Project_HOR
         public SignUp_Form()
         {
             InitializeComponent();
-            
+
+            name_signup_textBox.Text = null;
+            username_signup_textBox.Text = null; ;
+            email_signup_textBox.Text = null;;
+            mobile_signup_textBox.Text = null;;
+            password_signup_textBox.Text = null;;
+            retype_signup_textBox.Text = null;
+
         }
 
         private void exit_signup_button_Click(object sender, EventArgs e)
@@ -30,9 +37,10 @@ namespace OOP_Project_HOR
         private void signup_button_Click(object sender, EventArgs e)
         {
 
+            
             userwrite();
-            
-            
+
+
             MessageBox.Show("Sign Up Successful");
 
             name_signup_textBox.Clear();
@@ -42,9 +50,11 @@ namespace OOP_Project_HOR
             password_signup_textBox.Clear();
             retype_signup_textBox.Clear();
 
-            Login_Form l1= new Login_Form();
+            Login_Form l1 = new Login_Form();
             l1.Show();
             this.Hide();
+            
+            
         }
         static string directory = utility.folderdir + utility.slash + "user.txt";
         
@@ -99,6 +109,30 @@ namespace OOP_Project_HOR
             string q = $"{name},{uname},{email},{mobile},{pass}";
             sw.WriteLine(q); ;
             sw.Close();
+        }
+
+        private void pass_pictureBox_Click(object sender, EventArgs e)
+        {
+            if(password_signup_textBox.UseSystemPasswordChar)
+            {
+                password_signup_textBox.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                password_signup_textBox.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void repass_pictureBox_Click(object sender, EventArgs e)
+        {
+            if (retype_signup_textBox.UseSystemPasswordChar)
+            {
+                retype_signup_textBox.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                retype_signup_textBox.UseSystemPasswordChar = true;
+            }
         }
     }
 }

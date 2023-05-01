@@ -36,10 +36,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.login_button = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.signup_label = new System.Windows.Forms.Label();
             this.exit_login_button = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -70,23 +72,23 @@
             // 
             // username_login_textBox
             // 
-            this.username_login_textBox.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.username_login_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.username_login_textBox.Location = new System.Drawing.Point(1086, 265);
-            this.username_login_textBox.Multiline = true;
             this.username_login_textBox.Name = "username_login_textBox";
-            this.username_login_textBox.Size = new System.Drawing.Size(306, 48);
+            this.username_login_textBox.Size = new System.Drawing.Size(306, 42);
             this.username_login_textBox.TabIndex = 4;
             this.username_login_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // password_login_textBox
             // 
-            this.password_login_textBox.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.password_login_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password_login_textBox.Location = new System.Drawing.Point(1086, 386);
-            this.password_login_textBox.Multiline = true;
+            this.password_login_textBox.MaxLength = 15;
             this.password_login_textBox.Name = "password_login_textBox";
-            this.password_login_textBox.Size = new System.Drawing.Size(306, 48);
+            this.password_login_textBox.Size = new System.Drawing.Size(306, 42);
             this.password_login_textBox.TabIndex = 5;
             this.password_login_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.password_login_textBox.UseSystemPasswordChar = true;
             // 
             // label3
             // 
@@ -94,7 +96,7 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label3.Location = new System.Drawing.Point(1185, 316);
+            this.label3.Location = new System.Drawing.Point(1182, 310);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 23);
             this.label3.TabIndex = 6;
@@ -106,7 +108,7 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label4.Location = new System.Drawing.Point(1199, 437);
+            this.label4.Location = new System.Drawing.Point(1196, 431);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(90, 23);
             this.label4.TabIndex = 7;
@@ -127,6 +129,7 @@
             // login_button
             // 
             this.login_button.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.login_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.login_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.login_button.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.login_button.ForeColor = System.Drawing.Color.DarkBlue;
@@ -137,6 +140,47 @@
             this.login_button.Text = "Log In";
             this.login_button.UseVisualStyleBackColor = false;
             this.login_button.Click += new System.EventHandler(this.login_button_Click);
+            // 
+            // signup_label
+            // 
+            this.signup_label.AutoSize = true;
+            this.signup_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
+            this.signup_label.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.signup_label.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signup_label.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.signup_label.Location = new System.Drawing.Point(1308, 601);
+            this.signup_label.Name = "signup_label";
+            this.signup_label.Size = new System.Drawing.Size(84, 23);
+            this.signup_label.TabIndex = 11;
+            this.signup_label.Text = "Sign UP!";
+            this.signup_label.Click += new System.EventHandler(this.signup_label_Click);
+            // 
+            // exit_login_button
+            // 
+            this.exit_login_button.BackColor = System.Drawing.Color.IndianRed;
+            this.exit_login_button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.exit_login_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.exit_login_button.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exit_login_button.Location = new System.Drawing.Point(1377, 658);
+            this.exit_login_button.Name = "exit_login_button";
+            this.exit_login_button.Size = new System.Drawing.Size(73, 43);
+            this.exit_login_button.TabIndex = 13;
+            this.exit_login_button.Text = "Exit";
+            this.exit_login_button.UseVisualStyleBackColor = false;
+            this.exit_login_button.Click += new System.EventHandler(this.exit_login_button_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.White;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = global::OOP_Project_HOR.Properties.Resources.eye1;
+            this.pictureBox3.Location = new System.Drawing.Point(1344, 386);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(48, 42);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 14;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
@@ -159,38 +203,13 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // signup_label
-            // 
-            this.signup_label.AutoSize = true;
-            this.signup_label.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
-            this.signup_label.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signup_label.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.signup_label.Location = new System.Drawing.Point(1308, 601);
-            this.signup_label.Name = "signup_label";
-            this.signup_label.Size = new System.Drawing.Size(84, 23);
-            this.signup_label.TabIndex = 11;
-            this.signup_label.Text = "Sign UP!";
-            this.signup_label.Click += new System.EventHandler(this.signup_label_Click);
-            // 
-            // exit_login_button
-            // 
-            this.exit_login_button.BackColor = System.Drawing.Color.IndianRed;
-            this.exit_login_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.exit_login_button.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exit_login_button.Location = new System.Drawing.Point(1377, 658);
-            this.exit_login_button.Name = "exit_login_button";
-            this.exit_login_button.Size = new System.Drawing.Size(73, 43);
-            this.exit_login_button.TabIndex = 13;
-            this.exit_login_button.Text = "Exit";
-            this.exit_login_button.UseVisualStyleBackColor = false;
-            this.exit_login_button.Click += new System.EventHandler(this.exit_login_button_Click);
-            // 
             // Login_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1462, 713);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.exit_login_button);
             this.Controls.Add(this.signup_label);
             this.Controls.Add(this.login_button);
@@ -206,6 +225,7 @@
             this.MaximizeBox = false;
             this.Name = "Login_Form";
             this.Text = "Login_Form";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -227,6 +247,7 @@
         private System.Windows.Forms.Button login_button;
         private System.Windows.Forms.Label signup_label;
         private System.Windows.Forms.Button exit_login_button;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -43,18 +42,13 @@
             this.mobile_signup_textBox = new System.Windows.Forms.TextBox();
             this.password_signup_textBox = new System.Windows.Forms.TextBox();
             this.retype_signup_textBox = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pass_pictureBox = new System.Windows.Forms.PictureBox();
+            this.repass_pictureBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pass_pictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repass_pictureBox)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::OOP_Project_HOR.Properties.Resources.hotr2crp;
-            this.pictureBox1.Location = new System.Drawing.Point(675, -21);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(788, 738);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // label7
             // 
@@ -219,6 +213,40 @@
             this.retype_signup_textBox.TabIndex = 27;
             this.retype_signup_textBox.UseSystemPasswordChar = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::OOP_Project_HOR.Properties.Resources.hotr2crp;
+            this.pictureBox1.Location = new System.Drawing.Point(675, -21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(788, 738);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pass_pictureBox
+            // 
+            this.pass_pictureBox.BackColor = System.Drawing.Color.White;
+            this.pass_pictureBox.Image = global::OOP_Project_HOR.Properties.Resources.eye1;
+            this.pass_pictureBox.Location = new System.Drawing.Point(607, 327);
+            this.pass_pictureBox.Name = "pass_pictureBox";
+            this.pass_pictureBox.Size = new System.Drawing.Size(48, 35);
+            this.pass_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pass_pictureBox.TabIndex = 28;
+            this.pass_pictureBox.TabStop = false;
+            this.pass_pictureBox.Click += new System.EventHandler(this.pass_pictureBox_Click);
+            // 
+            // repass_pictureBox
+            // 
+            this.repass_pictureBox.BackColor = System.Drawing.Color.White;
+            this.repass_pictureBox.Image = global::OOP_Project_HOR.Properties.Resources.eye1;
+            this.repass_pictureBox.Location = new System.Drawing.Point(607, 389);
+            this.repass_pictureBox.Name = "repass_pictureBox";
+            this.repass_pictureBox.Size = new System.Drawing.Size(48, 35);
+            this.repass_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.repass_pictureBox.TabIndex = 28;
+            this.repass_pictureBox.TabStop = false;
+            this.repass_pictureBox.Click += new System.EventHandler(this.repass_pictureBox_Click);
+            // 
             // SignUp_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -226,6 +254,8 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1462, 713);
+            this.Controls.Add(this.repass_pictureBox);
+            this.Controls.Add(this.pass_pictureBox);
             this.Controls.Add(this.retype_signup_textBox);
             this.Controls.Add(this.password_signup_textBox);
             this.Controls.Add(this.mobile_signup_textBox);
@@ -245,6 +275,8 @@
             this.Name = "SignUp_Form";
             this.Text = "SignUp_Form";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pass_pictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repass_pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -267,5 +299,7 @@
         private System.Windows.Forms.TextBox mobile_signup_textBox;
         private System.Windows.Forms.TextBox password_signup_textBox;
         private System.Windows.Forms.TextBox retype_signup_textBox;
+        private System.Windows.Forms.PictureBox pass_pictureBox;
+        private System.Windows.Forms.PictureBox repass_pictureBox;
     }
 }
