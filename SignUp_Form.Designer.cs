@@ -200,9 +200,11 @@
             this.password_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
             this.password_signup_textBox.Location = new System.Drawing.Point(326, 327);
+            this.password_signup_textBox.MaxLength = 15;
             this.password_signup_textBox.Name = "password_signup_textBox";
             this.password_signup_textBox.Size = new System.Drawing.Size(275, 35);
             this.password_signup_textBox.TabIndex = 26;
+            this.password_signup_textBox.UseSystemPasswordChar = true;
             // 
             // retype_signup_textBox
             // 
@@ -211,9 +213,11 @@
             this.retype_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.retype_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
             this.retype_signup_textBox.Location = new System.Drawing.Point(326, 389);
+            this.retype_signup_textBox.MaxLength = 15;
             this.retype_signup_textBox.Name = "retype_signup_textBox";
             this.retype_signup_textBox.Size = new System.Drawing.Size(275, 35);
             this.retype_signup_textBox.TabIndex = 27;
+            this.retype_signup_textBox.UseSystemPasswordChar = true;
             // 
             // SignUp_Form
             // 

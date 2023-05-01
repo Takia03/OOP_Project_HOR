@@ -86,6 +86,7 @@
     <Compile Include="userProfile.Designer.cs">
       <DependentUpon>userProfile.cs</DependentUpon>
     </Compile>
+    <Compile Include="utility.cs" />
     <EmbeddedResource Include="add_property.resx">
       <DependentUpon>add_property.cs</DependentUpon>
     </EmbeddedResource>
