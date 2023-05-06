@@ -23,5 +23,10 @@ namespace OOP_Project_HOR
             h1.Show();
             this.Hide();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

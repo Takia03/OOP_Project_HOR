@@ -124,3 +124,19 @@ D:\OOP Project\30 April Pull\obj\Debug\OOP_Project_HOR.csproj.GenerateResource.c
 D:\OOP Project\30 April Pull\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cache
 D:\OOP Project\30 April Pull\obj\Debug\OOP_Project_HOR.exe
 D:\OOP Project\30 April Pull\obj\Debug\OOP_Project_HOR.pdb
+C:\HOR\bin\Debug\OOP_Project_HOR.exe.config
+C:\HOR\bin\Debug\OOP_Project_HOR.exe
+C:\HOR\bin\Debug\OOP_Project_HOR.pdb
+C:\HOR\obj\Debug\OOP_Project_HOR.csproj.AssemblyReference.cache
+C:\HOR\obj\Debug\OOP_Project_HOR.csproj.SuggestedBindingRedirects.cache
+C:\HOR\obj\Debug\OOP_Project_HOR.add_property.resources
+C:\HOR\obj\Debug\OOP_Project_HOR.HomePage.resources
+C:\HOR\obj\Debug\OOP_Project_HOR.Login_Form.resources
+C:\HOR\obj\Debug\OOP_Project_HOR.Properties.Resources.resources
+C:\HOR\obj\Debug\OOP_Project_HOR.Search_UI.resources
+C:\HOR\obj\Debug\OOP_Project_HOR.SignUp_Form.resources
+C:\HOR\obj\Debug\OOP_Project_HOR.userProfile.resources
+C:\HOR\obj\Debug\OOP_Project_HOR.csproj.GenerateResource.cache
+C:\HOR\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cache
+C:\HOR\obj\Debug\OOP_Project_HOR.exe
+C:\HOR\obj\Debug\OOP_Project_HOR.pdb
