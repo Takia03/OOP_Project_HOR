@@ -13,6 +13,7 @@ namespace OOP_Project_HOR
         public string email { get; set; }
         public string mobile { get; set; }
         public string password { get; set; }
+        public string hudai { get; set; }
         public user(string name, string uname, string email, string mobile, string password)
         {
             this.name = name;
