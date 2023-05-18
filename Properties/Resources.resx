@@ -133,11 +133,14 @@
   <data name="Trial" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Trial.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hotr2crp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hotr2crp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="4141223" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4141223.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9924164_4263370" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9924164_4263370.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hotr2crp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hotr2crp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hor " type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hor .jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,7 +148,7 @@
   <data name="a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="9924164_4263370" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9924164_4263370.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SighUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SighUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

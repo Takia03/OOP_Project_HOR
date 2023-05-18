@@ -168,7 +168,7 @@ namespace OOP_Project_HOR
                 else
                 {
                     MessageBox.Show("Login error! Enter correct credentials. " +
-                        "If you don't hal,;<ve an account, create one.");
+                        "If you don't have an account, create one.");
                 } 
             }
 

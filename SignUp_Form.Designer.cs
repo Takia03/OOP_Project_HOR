@@ -56,7 +56,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(118)))), ((int)(((byte)(223)))));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label7.Location = new System.Drawing.Point(52, 389);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(252, 35);
@@ -67,7 +67,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(118)))), ((int)(((byte)(223)))));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label6.Location = new System.Drawing.Point(52, 327);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(155, 35);
@@ -78,7 +78,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(118)))), ((int)(((byte)(223)))));
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label5.Location = new System.Drawing.Point(52, 269);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(175, 35);
@@ -89,7 +89,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(118)))), ((int)(((byte)(223)))));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label4.Location = new System.Drawing.Point(52, 204);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(159, 35);
@@ -100,7 +100,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(118)))), ((int)(((byte)(223)))));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label3.Location = new System.Drawing.Point(52, 141);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(172, 35);
@@ -111,7 +111,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(118)))), ((int)(((byte)(223)))));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label2.Location = new System.Drawing.Point(52, 86);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(106, 35);
@@ -120,7 +120,7 @@
             // 
             // name_signup_textBox
             // 
-            this.name_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.name_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.name_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.name_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
@@ -131,10 +131,11 @@
             // 
             // signup_button
             // 
-            this.signup_button.BackColor = System.Drawing.Color.DodgerBlue;
+            this.signup_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.signup_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.signup_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.signup_button.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signup_button.ForeColor = System.Drawing.Color.White;
+            this.signup_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.signup_button.Location = new System.Drawing.Point(190, 560);
             this.signup_button.Name = "signup_button";
             this.signup_button.Size = new System.Drawing.Size(301, 64);
@@ -158,7 +159,7 @@
             // 
             // username_signup_textBox
             // 
-            this.username_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.username_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.username_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.username_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.username_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
@@ -169,7 +170,7 @@
             // 
             // email_signup_textBox
             // 
-            this.email_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.email_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.email_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.email_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
@@ -180,7 +181,7 @@
             // 
             // mobile_signup_textBox
             // 
-            this.mobile_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.mobile_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.mobile_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.mobile_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mobile_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
@@ -191,7 +192,7 @@
             // 
             // password_signup_textBox
             // 
-            this.password_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.password_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.password_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.password_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
@@ -204,7 +205,7 @@
             // 
             // retype_signup_textBox
             // 
-            this.retype_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.retype_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.retype_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.retype_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.retype_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
@@ -219,7 +220,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(118)))), ((int)(((byte)(223)))));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label1.Location = new System.Drawing.Point(52, 452);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(152, 35);
@@ -228,7 +229,7 @@
             // 
             // user_type_comboBox
             // 
-            this.user_type_comboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.user_type_comboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.user_type_comboBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.user_type_comboBox.FormattingEnabled = true;
             this.user_type_comboBox.Items.AddRange(new object[] {
@@ -265,11 +266,11 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::OOP_Project_HOR.Properties.Resources.hotr2crp;
-            this.pictureBox1.Location = new System.Drawing.Point(675, -21);
+            this.pictureBox1.Image = global::OOP_Project_HOR.Properties.Resources.SighUp;
+            this.pictureBox1.Location = new System.Drawing.Point(757, 56);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(788, 738);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.Size = new System.Drawing.Size(608, 585);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -278,7 +279,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1462, 713);
             this.Controls.Add(this.user_type_comboBox);
             this.Controls.Add(this.repass_pictureBox);
@@ -311,8 +312,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -331,5 +330,6 @@
         private System.Windows.Forms.PictureBox repass_pictureBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox user_type_comboBox;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
