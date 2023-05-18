@@ -28,40 +28,86 @@ namespace OOP_Project_HOR
                 dir.Create();
             }
         }
-        static string directory = utility.folderdir + utility.slash + "user.txt";
+        static string directory_varatia = utility.folderdir + utility.slash + "varatia.txt";
+        static string directory_bariwala = utility.folderdir + utility.slash + "bariwala.txt";
+
+        //reading user
         public void user_read()
         {
             // $"{name},{uname},{email},{mobile},{pass}"
 
-            try
+
+            if (File.Exists(directory_bariwala))
             {
-                StreamReader stringread = new StreamReader(directory);
-                string User = stringread.ReadLine();
-                while (User != null)
+                try
                 {
-                    string[] userfrags = User.Split(',');
-                    string name = userfrags[0];
-                    string username = userfrags[1];
-                    string email = userfrags[2];
-                    string mobile = userfrags[3];
-                    string password = userfrags[4];
+                    StreamReader stringread = new StreamReader(directory_bariwala);
+                    string User = stringread.ReadLine();
+                    while (User != null)
+                    {
+                        string[] userfrags = User.Split(',');
+                        string name = userfrags[0];
+                        string username = userfrags[1];
+                        string email = userfrags[2];
+                        string mobile = userfrags[3];
+                        string password = userfrags[4];
+                        string type = userfrags[5];
 
-                    //user u = new user(name, username, email, mobile, password);
-                    //utility.users.Add(u);
+                        user u = new user(name, username, email, mobile, password, type);
+                        utility.Bariwala.Add(u);
 
-                    User = stringread.ReadLine();
+                        User = stringread.ReadLine();
+                    }
+                    stringread.Close();
                 }
-                stringread.Close();
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Please signup First");
+            }
+
+            if (File.Exists(directory_bariwala))
+            {
+                try
+                {
+                    StreamReader stringread = new StreamReader(directory_varatia);
+                    string User = stringread.ReadLine();
+                    while (User != null)
+                    {
+                        string[] userfrags = User.Split(',');
+                        string name = userfrags[0];
+                        string username = userfrags[1];
+                        string email = userfrags[2];
+                        string mobile = userfrags[3];
+                        string password = userfrags[4];
+                        string type = userfrags[5];
+
+                        user u = new user(name, username, email, mobile, password, type);
+                        utility.Varatia.Add(u);
+
+                        User = stringread.ReadLine();
+                    }
+                    stringread.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please signup First");
             }
 
 
         }
 
-      
+
+
         private void signup_label_Click(object sender, EventArgs e)
         {
             SignUp_Form s1 = new SignUp_Form();
@@ -78,29 +124,54 @@ namespace OOP_Project_HOR
         {
             string user = username_login_textBox.Text;
             string password = password_login_textBox.Text;
-            bool flag = false; 
-            foreach( user u in utility.users )
-            {
-                if(u.uname == user && u.password == password)
-                {
-                    flag = true;
-                    break;
-                }
+            bool flag = false;
 
-            }
-            if(flag) 
+            if (user_type_cb.Text == "Landlord")
             {
-                HomePage h2 = new HomePage();
-                h2.Show();
-                this.Hide();
+                foreach (user u in utility.Bariwala)
+                {
+                    if (u.uname == user && u.password == password)
+                    {
+                        flag = true;
+                        break;
+                    }
+                }
+                if (flag)
+                {
+                    HomePage h2 = new HomePage();
+                    h2.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Login error! Enter correct credentials. " +
+                        "If you don't have an account, create one.");
+                }
             }
             else
             {
-                MessageBox.Show("Login error! Enter correct credentials. " +
-                    "If you don't have an account, create one.");
+                foreach (user u in utility.Varatia)
+                {
+                    if (u.uname == user && u.password == password)
+                    {
+                        flag = true;
+                        break;
+                    }
+                    
+                }
+                if (flag)
+                {
+                    HomePage_Bharatia l2hv = new HomePage_Bharatia();
+                    l2hv.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Login error! Enter correct credentials. " +
+                        "If you don't hal,;<ve an account, create one.");
+                } 
             }
-            
-            
+
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -114,6 +185,16 @@ namespace OOP_Project_HOR
             {
                 password_login_textBox.UseSystemPasswordChar = true;
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void username_login_textBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

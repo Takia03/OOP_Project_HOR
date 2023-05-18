@@ -58,6 +58,12 @@
     <Compile Include="HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
+    <Compile Include="HomePage_Bharatia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage_Bharatia.Designer.cs">
+      <DependentUpon>HomePage_Bharatia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage_Bharatia.resx">
+      <DependentUpon>HomePage_Bharatia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login_Form.resx">
       <DependentUpon>Login_Form.cs</DependentUpon>
@@ -149,6 +158,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\hor .jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9924164_4263370.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

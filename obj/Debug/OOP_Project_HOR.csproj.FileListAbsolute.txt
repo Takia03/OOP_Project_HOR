@@ -30,3 +30,4 @@ D:\OOP Project\13 May pull\obj\Debug\OOP_Project_HOR.csproj.GenerateResource.cac
 D:\OOP Project\13 May pull\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cache
 D:\OOP Project\13 May pull\obj\Debug\OOP_Project_HOR.exe
 D:\OOP Project\13 May pull\obj\Debug\OOP_Project_HOR.pdb
+D:\OOP Project\13 May pull\obj\Debug\OOP_Project_HOR.HomePage_Bharatia.resources

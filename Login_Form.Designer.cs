@@ -41,6 +41,8 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.user_type_cb = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -73,16 +75,17 @@
             // username_login_textBox
             // 
             this.username_login_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.username_login_textBox.Location = new System.Drawing.Point(1086, 265);
+            this.username_login_textBox.Location = new System.Drawing.Point(1086, 331);
             this.username_login_textBox.Name = "username_login_textBox";
             this.username_login_textBox.Size = new System.Drawing.Size(306, 42);
             this.username_login_textBox.TabIndex = 4;
             this.username_login_textBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.username_login_textBox.TextChanged += new System.EventHandler(this.username_login_textBox_TextChanged);
             // 
             // password_login_textBox
             // 
             this.password_login_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.password_login_textBox.Location = new System.Drawing.Point(1086, 386);
+            this.password_login_textBox.Location = new System.Drawing.Point(1086, 429);
             this.password_login_textBox.MaxLength = 15;
             this.password_login_textBox.Name = "password_login_textBox";
             this.password_login_textBox.Size = new System.Drawing.Size(306, 42);
@@ -96,11 +99,12 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label3.Location = new System.Drawing.Point(1182, 310);
+            this.label3.Location = new System.Drawing.Point(1196, 386);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 23);
             this.label3.TabIndex = 6;
             this.label3.Text = "User Name";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -108,7 +112,7 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label4.Location = new System.Drawing.Point(1196, 431);
+            this.label4.Location = new System.Drawing.Point(1196, 474);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(90, 23);
             this.label4.TabIndex = 7;
@@ -120,7 +124,7 @@
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label5.Location = new System.Drawing.Point(1082, 601);
+            this.label5.Location = new System.Drawing.Point(1082, 619);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(182, 23);
             this.label5.TabIndex = 8;
@@ -133,7 +137,7 @@
             this.login_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.login_button.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.login_button.ForeColor = System.Drawing.Color.DarkBlue;
-            this.login_button.Location = new System.Drawing.Point(1136, 494);
+            this.login_button.Location = new System.Drawing.Point(1136, 534);
             this.login_button.Name = "login_button";
             this.login_button.Size = new System.Drawing.Size(221, 62);
             this.login_button.TabIndex = 10;
@@ -148,7 +152,7 @@
             this.signup_label.Cursor = System.Windows.Forms.Cursors.Hand;
             this.signup_label.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signup_label.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.signup_label.Location = new System.Drawing.Point(1308, 601);
+            this.signup_label.Location = new System.Drawing.Point(1308, 619);
             this.signup_label.Name = "signup_label";
             this.signup_label.Size = new System.Drawing.Size(84, 23);
             this.signup_label.TabIndex = 11;
@@ -174,7 +178,7 @@
             this.pictureBox3.BackColor = System.Drawing.Color.White;
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::OOP_Project_HOR.Properties.Resources.eye1;
-            this.pictureBox3.Location = new System.Drawing.Point(1344, 386);
+            this.pictureBox3.Location = new System.Drawing.Point(1344, 429);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(48, 42);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -203,18 +207,45 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // user_type_cb
+            // 
+            this.user_type_cb.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.user_type_cb.FormattingEnabled = true;
+            this.user_type_cb.Items.AddRange(new object[] {
+            "Landlord",
+            "Tenent"});
+            this.user_type_cb.Location = new System.Drawing.Point(1086, 238);
+            this.user_type_cb.Name = "user_type_cb";
+            this.user_type_cb.Size = new System.Drawing.Size(306, 44);
+            this.user_type_cb.TabIndex = 15;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label6.Location = new System.Drawing.Point(1196, 285);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(97, 23);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "User Type";
+            this.label6.Click += new System.EventHandler(this.label3_Click);
+            // 
             // Login_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1462, 713);
+            this.Controls.Add(this.user_type_cb);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.exit_login_button);
             this.Controls.Add(this.signup_label);
             this.Controls.Add(this.login_button);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.password_login_textBox);
             this.Controls.Add(this.username_login_textBox);
@@ -248,6 +279,8 @@
         private System.Windows.Forms.Label signup_label;
         private System.Windows.Forms.Button exit_login_button;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.ComboBox user_type_cb;
+        private System.Windows.Forms.Label label6;
     }
 }
 

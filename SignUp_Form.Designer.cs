@@ -42,14 +42,14 @@
             this.mobile_signup_textBox = new System.Windows.Forms.TextBox();
             this.password_signup_textBox = new System.Windows.Forms.TextBox();
             this.retype_signup_textBox = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pass_pictureBox = new System.Windows.Forms.PictureBox();
-            this.repass_pictureBox = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.user_type_comboBox = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pass_pictureBox)).BeginInit();
+            this.repass_pictureBox = new System.Windows.Forms.PictureBox();
+            this.pass_pictureBox = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.repass_pictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pass_pictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label7
@@ -215,40 +215,6 @@
             this.retype_signup_textBox.TabIndex = 27;
             this.retype_signup_textBox.UseSystemPasswordChar = true;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::OOP_Project_HOR.Properties.Resources.hotr2crp;
-            this.pictureBox1.Location = new System.Drawing.Point(675, -21);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(788, 738);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pass_pictureBox
-            // 
-            this.pass_pictureBox.BackColor = System.Drawing.Color.White;
-            this.pass_pictureBox.Image = global::OOP_Project_HOR.Properties.Resources.eye1;
-            this.pass_pictureBox.Location = new System.Drawing.Point(607, 327);
-            this.pass_pictureBox.Name = "pass_pictureBox";
-            this.pass_pictureBox.Size = new System.Drawing.Size(48, 35);
-            this.pass_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pass_pictureBox.TabIndex = 28;
-            this.pass_pictureBox.TabStop = false;
-            this.pass_pictureBox.Click += new System.EventHandler(this.pass_pictureBox_Click);
-            // 
-            // repass_pictureBox
-            // 
-            this.repass_pictureBox.BackColor = System.Drawing.Color.White;
-            this.repass_pictureBox.Image = global::OOP_Project_HOR.Properties.Resources.eye1;
-            this.repass_pictureBox.Location = new System.Drawing.Point(607, 389);
-            this.repass_pictureBox.Name = "repass_pictureBox";
-            this.repass_pictureBox.Size = new System.Drawing.Size(48, 35);
-            this.repass_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.repass_pictureBox.TabIndex = 28;
-            this.repass_pictureBox.TabStop = false;
-            this.repass_pictureBox.Click += new System.EventHandler(this.repass_pictureBox_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -272,6 +238,40 @@
             this.user_type_comboBox.Name = "user_type_comboBox";
             this.user_type_comboBox.Size = new System.Drawing.Size(275, 42);
             this.user_type_comboBox.TabIndex = 29;
+            // 
+            // repass_pictureBox
+            // 
+            this.repass_pictureBox.BackColor = System.Drawing.Color.White;
+            this.repass_pictureBox.Image = global::OOP_Project_HOR.Properties.Resources.eye1;
+            this.repass_pictureBox.Location = new System.Drawing.Point(607, 389);
+            this.repass_pictureBox.Name = "repass_pictureBox";
+            this.repass_pictureBox.Size = new System.Drawing.Size(48, 35);
+            this.repass_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.repass_pictureBox.TabIndex = 28;
+            this.repass_pictureBox.TabStop = false;
+            this.repass_pictureBox.Click += new System.EventHandler(this.repass_pictureBox_Click);
+            // 
+            // pass_pictureBox
+            // 
+            this.pass_pictureBox.BackColor = System.Drawing.Color.White;
+            this.pass_pictureBox.Image = global::OOP_Project_HOR.Properties.Resources.eye1;
+            this.pass_pictureBox.Location = new System.Drawing.Point(607, 327);
+            this.pass_pictureBox.Name = "pass_pictureBox";
+            this.pass_pictureBox.Size = new System.Drawing.Size(48, 35);
+            this.pass_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pass_pictureBox.TabIndex = 28;
+            this.pass_pictureBox.TabStop = false;
+            this.pass_pictureBox.Click += new System.EventHandler(this.pass_pictureBox_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::OOP_Project_HOR.Properties.Resources.hotr2crp;
+            this.pictureBox1.Location = new System.Drawing.Point(675, -21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(788, 738);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // SignUp_Form
             // 
@@ -302,9 +302,9 @@
             this.MaximizeBox = false;
             this.Name = "SignUp_Form";
             this.Text = "SignUp_Form";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pass_pictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repass_pictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pass_pictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
