@@ -45,6 +45,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pass_pictureBox = new System.Windows.Forms.PictureBox();
             this.repass_pictureBox = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.user_type_comboBox = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pass_pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repass_pictureBox)).BeginInit();
@@ -133,7 +135,7 @@
             this.signup_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.signup_button.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signup_button.ForeColor = System.Drawing.Color.White;
-            this.signup_button.Location = new System.Drawing.Point(191, 489);
+            this.signup_button.Location = new System.Drawing.Point(190, 560);
             this.signup_button.Name = "signup_button";
             this.signup_button.Size = new System.Drawing.Size(301, 64);
             this.signup_button.TabIndex = 21;
@@ -247,6 +249,30 @@
             this.repass_pictureBox.TabStop = false;
             this.repass_pictureBox.Click += new System.EventHandler(this.repass_pictureBox_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(118)))), ((int)(((byte)(223)))));
+            this.label1.Location = new System.Drawing.Point(52, 452);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(152, 35);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "User Type:";
+            // 
+            // user_type_comboBox
+            // 
+            this.user_type_comboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.user_type_comboBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.user_type_comboBox.FormattingEnabled = true;
+            this.user_type_comboBox.Items.AddRange(new object[] {
+            "Landlord",
+            "Tenent"});
+            this.user_type_comboBox.Location = new System.Drawing.Point(326, 452);
+            this.user_type_comboBox.Name = "user_type_comboBox";
+            this.user_type_comboBox.Size = new System.Drawing.Size(275, 42);
+            this.user_type_comboBox.TabIndex = 29;
+            // 
             // SignUp_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -254,6 +280,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1462, 713);
+            this.Controls.Add(this.user_type_comboBox);
             this.Controls.Add(this.repass_pictureBox);
             this.Controls.Add(this.pass_pictureBox);
             this.Controls.Add(this.retype_signup_textBox);
@@ -264,6 +291,7 @@
             this.Controls.Add(this.exit_signup_button);
             this.Controls.Add(this.signup_button);
             this.Controls.Add(this.name_signup_textBox);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -301,5 +329,7 @@
         private System.Windows.Forms.TextBox retype_signup_textBox;
         private System.Windows.Forms.PictureBox pass_pictureBox;
         private System.Windows.Forms.PictureBox repass_pictureBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox user_type_comboBox;
     }
 }

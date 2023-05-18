@@ -46,8 +46,8 @@ namespace OOP_Project_HOR
                     string mobile = userfrags[3];
                     string password = userfrags[4];
 
-                    user u = new user(name, username, email, mobile, password);
-                    utility.users.Add(u);
+                    //user u = new user(name, username, email, mobile, password);
+                    //utility.users.Add(u);
 
                     User = stringread.ReadLine();
                 }

@@ -56,8 +56,9 @@ namespace OOP_Project_HOR
             
             
         }
-        static string directory = utility.folderdir + utility.slash + "user.txt";
-        
+        static string directory_varatia = utility.folderdir + utility.slash + "varatia.txt";
+        static string directory_bariwala = utility.folderdir + utility.slash + "bariwala.txt";
+
         private void userwrite()
         {
             string name = name_signup_textBox.Text;
@@ -66,6 +67,7 @@ namespace OOP_Project_HOR
             string mobile = mobile_signup_textBox.Text;
             string pass = password_signup_textBox.Text;
             string retype = retype_signup_textBox.Text;
+            string type = user_type_comboBox.Text;
 
 
 
@@ -73,18 +75,35 @@ namespace OOP_Project_HOR
             {
                 if (pass.Length > 5)
                 {
-                    user u = new user(name, uname, email, mobile, pass);
+                    user u = new user(name, uname, email, mobile, pass, type);
                     utility.users.Add(u);
 
-                    if (File.Exists(directory))
+                    if(user_type_comboBox.Text == "Landlord")
                     {
-                        habijabi();
+                        if (File.Exists(directory_bariwala))
+                        {
+                            habijabi_bariwala();
+                        }
+                        else
+                        {
+                            File.Create(directory_bariwala);
+                            habijabi_bariwala();
+                        }
                     }
                     else
                     {
-                        File.Create(directory);
-                        habijabi();
+                        if (File.Exists(directory_varatia))
+                        {
+                            habijabi_varatia();
+                        }
+                        else
+                        {
+                            File.Create(directory_varatia);
+                            habijabi_varatia();
+                        }
                     }
+
+                    
                 }
                 else
                 {
@@ -96,7 +115,7 @@ namespace OOP_Project_HOR
                 MessageBox.Show("Password and Retype Password does not match");
             }
         }
-        private void habijabi()
+        private void habijabi_varatia()
         {
             string name = name_signup_textBox.Text;
             string uname = username_signup_textBox.Text;
@@ -104,9 +123,26 @@ namespace OOP_Project_HOR
             string mobile = mobile_signup_textBox.Text;
             string pass = password_signup_textBox.Text;
             string retype = retype_signup_textBox.Text;
+            string type = user_type_comboBox.Text;
+            
 
-            StreamWriter sw = File.AppendText(directory);
-            string q = $"{name},{uname},{email},{mobile},{pass}";
+            StreamWriter sw = File.AppendText(directory_varatia);
+            string q = $"{name},{uname},{email},{mobile},{pass},{type}";
+            sw.WriteLine(q); ;
+            sw.Close();
+        }
+        private void habijabi_bariwala()
+        {
+            string name = name_signup_textBox.Text;
+            string uname = username_signup_textBox.Text;
+            string email = email_signup_textBox.Text;
+            string mobile = mobile_signup_textBox.Text;
+            string pass = password_signup_textBox.Text;
+            string retype = retype_signup_textBox.Text;
+            string type = user_type_comboBox.Text;
+
+            StreamWriter sw = File.AppendText(directory_bariwala);
+            string q = $"{name},{uname},{email},{mobile},{pass},{type}";
             sw.WriteLine(q); ;
             sw.Close();
         }
