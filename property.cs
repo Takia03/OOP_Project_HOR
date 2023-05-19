@@ -21,24 +21,24 @@ namespace OOP_Project_HOR
         public string size { get; set; }
         public string rent { get; set; }
         
-        public string Gasline { get; set; }
-        public string Water{ get; set; }
-        public string Park { get; set; }
-        public string Lake { get; set; }
-        public string Electricity { get; set; }
-        public string Security { get; set; }
-        public string Elevator { get; set; }
-        public string Market { get; set; }
-        public string Religious { get; set; }
-        public string Education { get; set; }
-        public string Parking { get; set; }
-        public string Intercom { get; set; }
-        public string Cleaning { get; set; }
-        public string Maintenance { get; set; }
+        public bool Gasline { get; set; }
+        public bool Water{ get; set; }
+        public bool Park { get; set; }
+        public bool Lake { get; set; }
+        public bool Electricity { get; set; }
+        public bool Security { get; set; }
+        public bool Elevator { get; set; }
+        public bool Market { get; set; }
+        public bool Religious { get; set; }
+        public bool Education { get; set; }
+        public bool Parking { get; set; }
+        public bool Intercom { get; set; }
+        public bool Cleaning { get; set; }
+        public bool Maintenance { get; set; }
 
 
 
-public property( string location,string name,string city,string room,string mas_bed,string bath,string balcony,string size, string rent, string gas, string water, string park, string lake, string electricity, string security,  string elevator, string market, string religious, string education, string parking, string intercom, string cleaning, string maintenance) 
+public property( string location,string name,string city,string room,string mas_bed,string bath,string balcony,string size, string rent, bool gas, bool water, bool park, bool lake, bool electricity, bool security, bool elevator, bool market, bool religious, bool education, bool parking, bool intercom, bool cleaning, bool maintenance) 
         {
             this.location = location;
             this.room = room;
