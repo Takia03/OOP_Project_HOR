@@ -36,7 +36,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.name_signup_textBox = new System.Windows.Forms.TextBox();
             this.signup_button = new System.Windows.Forms.Button();
-            this.exit_signup_button = new System.Windows.Forms.Button();
             this.username_signup_textBox = new System.Windows.Forms.TextBox();
             this.email_signup_textBox = new System.Windows.Forms.TextBox();
             this.mobile_signup_textBox = new System.Windows.Forms.TextBox();
@@ -46,9 +45,11 @@
             this.user_type_comboBox = new System.Windows.Forms.ComboBox();
             this.repass_pictureBox = new System.Windows.Forms.PictureBox();
             this.pass_pictureBox = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.repass_pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pass_pictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -123,11 +124,12 @@
             this.name_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.name_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.name_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.name_signup_textBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.name_signup_textBox.Location = new System.Drawing.Point(326, 86);
             this.name_signup_textBox.Name = "name_signup_textBox";
             this.name_signup_textBox.Size = new System.Drawing.Size(275, 35);
             this.name_signup_textBox.TabIndex = 20;
+            this.name_signup_textBox.TextChanged += new System.EventHandler(this.name_signup_textBox_TextChanged);
             // 
             // signup_button
             // 
@@ -144,77 +146,69 @@
             this.signup_button.UseVisualStyleBackColor = false;
             this.signup_button.Click += new System.EventHandler(this.signup_button_Click);
             // 
-            // exit_signup_button
-            // 
-            this.exit_signup_button.BackColor = System.Drawing.Color.Salmon;
-            this.exit_signup_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.exit_signup_button.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exit_signup_button.Location = new System.Drawing.Point(12, 658);
-            this.exit_signup_button.Name = "exit_signup_button";
-            this.exit_signup_button.Size = new System.Drawing.Size(73, 43);
-            this.exit_signup_button.TabIndex = 22;
-            this.exit_signup_button.Text = "Exit";
-            this.exit_signup_button.UseVisualStyleBackColor = false;
-            this.exit_signup_button.Click += new System.EventHandler(this.exit_signup_button_Click);
-            // 
             // username_signup_textBox
             // 
             this.username_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.username_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.username_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.username_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.username_signup_textBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.username_signup_textBox.Location = new System.Drawing.Point(326, 141);
             this.username_signup_textBox.Name = "username_signup_textBox";
             this.username_signup_textBox.Size = new System.Drawing.Size(275, 35);
             this.username_signup_textBox.TabIndex = 23;
+            this.username_signup_textBox.TextChanged += new System.EventHandler(this.username_signup_textBox_TextChanged);
             // 
             // email_signup_textBox
             // 
             this.email_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.email_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.email_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.email_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.email_signup_textBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.email_signup_textBox.Location = new System.Drawing.Point(326, 204);
             this.email_signup_textBox.Name = "email_signup_textBox";
             this.email_signup_textBox.Size = new System.Drawing.Size(275, 35);
             this.email_signup_textBox.TabIndex = 24;
+            this.email_signup_textBox.TextChanged += new System.EventHandler(this.email_signup_textBox_TextChanged);
             // 
             // mobile_signup_textBox
             // 
             this.mobile_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.mobile_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.mobile_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mobile_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.mobile_signup_textBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.mobile_signup_textBox.Location = new System.Drawing.Point(326, 269);
             this.mobile_signup_textBox.Name = "mobile_signup_textBox";
             this.mobile_signup_textBox.Size = new System.Drawing.Size(275, 35);
             this.mobile_signup_textBox.TabIndex = 25;
+            this.mobile_signup_textBox.TextChanged += new System.EventHandler(this.mobile_signup_textBox_TextChanged);
             // 
             // password_signup_textBox
             // 
             this.password_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.password_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.password_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.password_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.password_signup_textBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.password_signup_textBox.Location = new System.Drawing.Point(326, 327);
             this.password_signup_textBox.MaxLength = 15;
             this.password_signup_textBox.Name = "password_signup_textBox";
             this.password_signup_textBox.Size = new System.Drawing.Size(275, 35);
             this.password_signup_textBox.TabIndex = 26;
             this.password_signup_textBox.UseSystemPasswordChar = true;
+            this.password_signup_textBox.TextChanged += new System.EventHandler(this.password_signup_textBox_TextChanged);
             // 
             // retype_signup_textBox
             // 
             this.retype_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.retype_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.retype_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.retype_signup_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.retype_signup_textBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.retype_signup_textBox.Location = new System.Drawing.Point(326, 389);
             this.retype_signup_textBox.MaxLength = 15;
             this.retype_signup_textBox.Name = "retype_signup_textBox";
             this.retype_signup_textBox.Size = new System.Drawing.Size(275, 35);
             this.retype_signup_textBox.TabIndex = 27;
             this.retype_signup_textBox.UseSystemPasswordChar = true;
+            this.retype_signup_textBox.TextChanged += new System.EventHandler(this.retype_signup_textBox_TextChanged);
             // 
             // label1
             // 
@@ -231,6 +225,7 @@
             // 
             this.user_type_comboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.user_type_comboBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.user_type_comboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.user_type_comboBox.FormattingEnabled = true;
             this.user_type_comboBox.Items.AddRange(new object[] {
             "Landlord",
@@ -239,11 +234,12 @@
             this.user_type_comboBox.Name = "user_type_comboBox";
             this.user_type_comboBox.Size = new System.Drawing.Size(275, 42);
             this.user_type_comboBox.TabIndex = 29;
+            this.user_type_comboBox.SelectedIndexChanged += new System.EventHandler(this.user_type_comboBox_SelectedIndexChanged);
             // 
             // repass_pictureBox
             // 
-            this.repass_pictureBox.BackColor = System.Drawing.Color.White;
-            this.repass_pictureBox.Image = global::OOP_Project_HOR.Properties.Resources.eye1;
+            this.repass_pictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.repass_pictureBox.Image = global::OOP_Project_HOR.Properties.Resources.eye;
             this.repass_pictureBox.Location = new System.Drawing.Point(607, 389);
             this.repass_pictureBox.Name = "repass_pictureBox";
             this.repass_pictureBox.Size = new System.Drawing.Size(48, 35);
@@ -254,8 +250,8 @@
             // 
             // pass_pictureBox
             // 
-            this.pass_pictureBox.BackColor = System.Drawing.Color.White;
-            this.pass_pictureBox.Image = global::OOP_Project_HOR.Properties.Resources.eye1;
+            this.pass_pictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.pass_pictureBox.Image = global::OOP_Project_HOR.Properties.Resources.eye;
             this.pass_pictureBox.Location = new System.Drawing.Point(607, 327);
             this.pass_pictureBox.Name = "pass_pictureBox";
             this.pass_pictureBox.Size = new System.Drawing.Size(48, 35);
@@ -264,10 +260,21 @@
             this.pass_pictureBox.TabStop = false;
             this.pass_pictureBox.Click += new System.EventHandler(this.pass_pictureBox_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::OOP_Project_HOR.Properties.Resources.Cross;
+            this.pictureBox2.Location = new System.Drawing.Point(1414, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(36, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::OOP_Project_HOR.Properties.Resources.SighUp;
-            this.pictureBox1.Location = new System.Drawing.Point(757, 56);
+            this.pictureBox1.Location = new System.Drawing.Point(751, 66);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(608, 585);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -289,7 +296,6 @@
             this.Controls.Add(this.mobile_signup_textBox);
             this.Controls.Add(this.email_signup_textBox);
             this.Controls.Add(this.username_signup_textBox);
-            this.Controls.Add(this.exit_signup_button);
             this.Controls.Add(this.signup_button);
             this.Controls.Add(this.name_signup_textBox);
             this.Controls.Add(this.label1);
@@ -299,12 +305,18 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "SignUp_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SignUp_Form";
+            this.Load += new System.EventHandler(this.SignUp_Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.repass_pictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pass_pictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -320,7 +332,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox name_signup_textBox;
         private System.Windows.Forms.Button signup_button;
-        private System.Windows.Forms.Button exit_signup_button;
         private System.Windows.Forms.TextBox username_signup_textBox;
         private System.Windows.Forms.TextBox email_signup_textBox;
         private System.Windows.Forms.TextBox mobile_signup_textBox;
@@ -331,5 +342,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox user_type_comboBox;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

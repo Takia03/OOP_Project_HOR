@@ -29,11 +29,7 @@ namespace OOP_Project_HOR
 
         }
 
-        private void exit_signup_button_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
+        
         private void signup_button_Click(object sender, EventArgs e)
         {
 
@@ -169,6 +165,51 @@ namespace OOP_Project_HOR
             {
                 retype_signup_textBox.UseSystemPasswordChar = true;
             }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void SignUp_Form_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void username_signup_textBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void email_signup_textBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mobile_signup_textBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void name_signup_textBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void password_signup_textBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void retype_signup_textBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void user_type_comboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

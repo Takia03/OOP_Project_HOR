@@ -196,5 +196,10 @@ namespace OOP_Project_HOR
         {
 
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

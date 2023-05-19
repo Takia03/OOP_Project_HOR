@@ -37,15 +37,16 @@
             this.label5 = new System.Windows.Forms.Label();
             this.login_button = new System.Windows.Forms.Button();
             this.signup_label = new System.Windows.Forms.Label();
-            this.exit_login_button = new System.Windows.Forms.Button();
+            this.user_type_cb = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.user_type_cb = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -159,19 +160,30 @@
             this.signup_label.Text = "Sign UP!";
             this.signup_label.Click += new System.EventHandler(this.signup_label_Click);
             // 
-            // exit_login_button
+            // user_type_cb
             // 
-            this.exit_login_button.BackColor = System.Drawing.Color.IndianRed;
-            this.exit_login_button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.exit_login_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.exit_login_button.Font = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exit_login_button.Location = new System.Drawing.Point(1377, 658);
-            this.exit_login_button.Name = "exit_login_button";
-            this.exit_login_button.Size = new System.Drawing.Size(73, 43);
-            this.exit_login_button.TabIndex = 13;
-            this.exit_login_button.Text = "Exit";
-            this.exit_login_button.UseVisualStyleBackColor = false;
-            this.exit_login_button.Click += new System.EventHandler(this.exit_login_button_Click);
+            this.user_type_cb.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.user_type_cb.FormattingEnabled = true;
+            this.user_type_cb.Items.AddRange(new object[] {
+            "Landlord",
+            "Tenent"});
+            this.user_type_cb.Location = new System.Drawing.Point(1086, 238);
+            this.user_type_cb.Name = "user_type_cb";
+            this.user_type_cb.Size = new System.Drawing.Size(306, 44);
+            this.user_type_cb.TabIndex = 15;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label6.Location = new System.Drawing.Point(1196, 285);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(97, 23);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "User Type";
+            this.label6.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox3
             // 
@@ -207,30 +219,17 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // user_type_cb
+            // pictureBox4
             // 
-            this.user_type_cb.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.user_type_cb.FormattingEnabled = true;
-            this.user_type_cb.Items.AddRange(new object[] {
-            "Landlord",
-            "Tenent"});
-            this.user_type_cb.Location = new System.Drawing.Point(1086, 238);
-            this.user_type_cb.Name = "user_type_cb";
-            this.user_type_cb.Size = new System.Drawing.Size(306, 44);
-            this.user_type_cb.TabIndex = 15;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.label6.Location = new System.Drawing.Point(1196, 285);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 23);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "User Type";
-            this.label6.Click += new System.EventHandler(this.label3_Click);
+            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
+            this.pictureBox4.Image = global::OOP_Project_HOR.Properties.Resources.Cross;
+            this.pictureBox4.Location = new System.Drawing.Point(1414, 12);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(36, 35);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 16;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // Login_Form
             // 
@@ -238,9 +237,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1462, 713);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.user_type_cb);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.exit_login_button);
             this.Controls.Add(this.signup_label);
             this.Controls.Add(this.login_button);
             this.Controls.Add(this.label5);
@@ -253,12 +252,15 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "Login_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login_Form";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -277,10 +279,10 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button login_button;
         private System.Windows.Forms.Label signup_label;
-        private System.Windows.Forms.Button exit_login_button;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.ComboBox user_type_cb;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
 

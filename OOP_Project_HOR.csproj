@@ -165,5 +165,11 @@
   <ItemGroup>
     <None Include="Resources\SighUp.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
