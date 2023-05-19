@@ -40,28 +40,34 @@
             this.Max_TB = new System.Windows.Forms.TextBox();
             this.Min_L = new System.Windows.Forms.Label();
             this.Max_L = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label2.Location = new System.Drawing.Point(48, 112);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(501, 52);
+            this.label2.Size = new System.Drawing.Size(381, 53);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Search Properties           ";
+            this.label2.Text = "Search Properties";
             // 
             // addpro_LL
             // 
             this.addpro_LL.AutoSize = true;
-            this.addpro_LL.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addpro_LL.LinkColor = System.Drawing.Color.Black;
+            this.addpro_LL.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.addpro_LL.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addpro_LL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.addpro_LL.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.addpro_LL.Location = new System.Drawing.Point(53, 44);
             this.addpro_LL.Name = "addpro_LL";
-            this.addpro_LL.Size = new System.Drawing.Size(109, 19);
+            this.addpro_LL.Size = new System.Drawing.Size(150, 25);
             this.addpro_LL.TabIndex = 3;
             this.addpro_LL.TabStop = true;
             this.addpro_LL.Text = "Add Property";
@@ -70,11 +76,13 @@
             // profile_LL
             // 
             this.profile_LL.AutoSize = true;
-            this.profile_LL.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.profile_LL.LinkColor = System.Drawing.Color.Black;
-            this.profile_LL.Location = new System.Drawing.Point(207, 44);
+            this.profile_LL.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.profile_LL.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profile_LL.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.profile_LL.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.profile_LL.Location = new System.Drawing.Point(217, 44);
             this.profile_LL.Name = "profile_LL";
-            this.profile_LL.Size = new System.Drawing.Size(62, 19);
+            this.profile_LL.Size = new System.Drawing.Size(78, 25);
             this.profile_LL.TabIndex = 5;
             this.profile_LL.TabStop = true;
             this.profile_LL.Text = "Profile";
@@ -82,30 +90,36 @@
             // 
             // loca_CB
             // 
-            this.loca_CB.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.loca_CB.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loca_CB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.loca_CB.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.loca_CB.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loca_CB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.loca_CB.FormattingEnabled = true;
-            this.loca_CB.Location = new System.Drawing.Point(95, 249);
+            this.loca_CB.Location = new System.Drawing.Point(77, 231);
             this.loca_CB.Name = "loca_CB";
-            this.loca_CB.Size = new System.Drawing.Size(259, 33);
+            this.loca_CB.Size = new System.Drawing.Size(302, 39);
             this.loca_CB.TabIndex = 6;
             this.loca_CB.Text = "Location";
             // 
             // Area_CB
             // 
-            this.Area_CB.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.Area_CB.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Area_CB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.Area_CB.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Area_CB.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Area_CB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.Area_CB.FormattingEnabled = true;
-            this.Area_CB.Location = new System.Drawing.Point(95, 315);
+            this.Area_CB.Location = new System.Drawing.Point(77, 297);
             this.Area_CB.Name = "Area_CB";
-            this.Area_CB.Size = new System.Drawing.Size(259, 33);
+            this.Area_CB.Size = new System.Drawing.Size(302, 39);
             this.Area_CB.TabIndex = 10;
             this.Area_CB.Text = "Area(Sqft)";
             // 
             // search_button
             // 
-            this.search_button.BackColor = System.Drawing.Color.DarkGray;
+            this.search_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.search_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.search_button.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.search_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.search_button.Location = new System.Drawing.Point(109, 604);
             this.search_button.Name = "search_button";
             this.search_button.Size = new System.Drawing.Size(222, 61);
@@ -117,11 +131,13 @@
             // logout_linkLabel
             // 
             this.logout_linkLabel.AutoSize = true;
-            this.logout_linkLabel.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logout_linkLabel.LinkColor = System.Drawing.Color.Black;
+            this.logout_linkLabel.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.logout_linkLabel.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logout_linkLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.logout_linkLabel.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.logout_linkLabel.Location = new System.Drawing.Point(331, 44);
             this.logout_linkLabel.Name = "logout_linkLabel";
-            this.logout_linkLabel.Size = new System.Drawing.Size(70, 19);
+            this.logout_linkLabel.Size = new System.Drawing.Size(96, 25);
             this.logout_linkLabel.TabIndex = 13;
             this.logout_linkLabel.TabStop = true;
             this.logout_linkLabel.Text = "Log Out";
@@ -130,51 +146,79 @@
             // Price_L
             // 
             this.Price_L.AutoSize = true;
-            this.Price_L.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.Price_L.BackColor = System.Drawing.Color.Transparent;
             this.Price_L.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Price_L.Location = new System.Drawing.Point(102, 383);
+            this.Price_L.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.Price_L.Location = new System.Drawing.Point(71, 384);
             this.Price_L.Name = "Price_L";
-            this.Price_L.Size = new System.Drawing.Size(229, 32);
+            this.Price_L.Size = new System.Drawing.Size(217, 32);
             this.Price_L.TabIndex = 14;
-            this.Price_L.Text = "Price(BDT)           ";
+            this.Price_L.Text = "Price(BDT):        ";
             // 
             // Min_TB
             // 
-            this.Min_TB.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.Min_TB.Location = new System.Drawing.Point(95, 492);
+            this.Min_TB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.Min_TB.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Min_TB.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Min_TB.Location = new System.Drawing.Point(222, 441);
             this.Min_TB.Name = "Min_TB";
-            this.Min_TB.Size = new System.Drawing.Size(111, 22);
+            this.Min_TB.Size = new System.Drawing.Size(157, 27);
             this.Min_TB.TabIndex = 15;
             // 
             // Max_TB
             // 
-            this.Max_TB.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.Max_TB.Location = new System.Drawing.Point(239, 492);
+            this.Max_TB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.Max_TB.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Max_TB.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Max_TB.Location = new System.Drawing.Point(222, 484);
             this.Max_TB.Name = "Max_TB";
-            this.Max_TB.Size = new System.Drawing.Size(115, 22);
+            this.Max_TB.Size = new System.Drawing.Size(157, 27);
             this.Max_TB.TabIndex = 16;
             // 
             // Min_L
             // 
             this.Min_L.AutoSize = true;
-            this.Min_L.BackColor = System.Drawing.Color.White;
-            this.Min_L.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Min_L.Location = new System.Drawing.Point(91, 462);
+            this.Min_L.BackColor = System.Drawing.Color.Transparent;
+            this.Min_L.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Min_L.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.Min_L.Location = new System.Drawing.Point(113, 441);
             this.Min_L.Name = "Min_L";
-            this.Min_L.Size = new System.Drawing.Size(74, 19);
+            this.Min_L.Size = new System.Drawing.Size(103, 25);
             this.Min_L.TabIndex = 17;
             this.Min_L.Text = "Min :      ";
             // 
             // Max_L
             // 
             this.Max_L.AutoSize = true;
-            this.Max_L.BackColor = System.Drawing.Color.White;
-            this.Max_L.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Max_L.Location = new System.Drawing.Point(236, 462);
+            this.Max_L.BackColor = System.Drawing.Color.Transparent;
+            this.Max_L.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Max_L.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.Max_L.Location = new System.Drawing.Point(113, 484);
             this.Max_L.Name = "Max_L";
-            this.Max_L.Size = new System.Drawing.Size(63, 17);
+            this.Max_L.Size = new System.Drawing.Size(96, 25);
             this.Max_L.TabIndex = 15;
             this.Max_L.Text = "Max :    ";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::OOP_Project_HOR.Properties.Resources.Search;
+            this.pictureBox1.Location = new System.Drawing.Point(651, 108);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(767, 557);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 31;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::OOP_Project_HOR.Properties.Resources.Cross;
+            this.pictureBox2.Location = new System.Drawing.Point(1414, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(36, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 32;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // HomePage
             // 
@@ -183,6 +227,8 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1462, 713);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Max_L);
             this.Controls.Add(this.Min_L);
             this.Controls.Add(this.Max_TB);
@@ -200,6 +246,8 @@
             this.Name = "HomePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HomePage";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -218,5 +266,7 @@
         private System.Windows.Forms.TextBox Max_TB;
         private System.Windows.Forms.Label Min_L;
         private System.Windows.Forms.Label Max_L;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

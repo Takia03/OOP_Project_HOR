@@ -45,5 +45,10 @@ namespace OOP_Project_HOR
             home_to_login1.Show();
             this.Hide();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

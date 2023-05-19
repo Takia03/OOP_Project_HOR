@@ -23,5 +23,10 @@ namespace OOP_Project_HOR
             suihomepage.Show();
             this.Hide();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -239,6 +239,7 @@
             // 
             this.user_type_comboBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.user_type_comboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.user_type_comboBox.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.user_type_comboBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.user_type_comboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.user_type_comboBox.FormattingEnabled = true;

@@ -37,5 +37,10 @@ namespace OOP_Project_HOR
             h2u.Show();
             this.Hide();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
