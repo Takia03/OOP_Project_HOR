@@ -50,7 +50,7 @@
             this.Max_L.AutoSize = true;
             this.Max_L.BackColor = System.Drawing.Color.White;
             this.Max_L.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Max_L.Location = new System.Drawing.Point(234, 462);
+            this.Max_L.Location = new System.Drawing.Point(258, 455);
             this.Max_L.Name = "Max_L";
             this.Max_L.Size = new System.Drawing.Size(63, 17);
             this.Max_L.TabIndex = 26;
@@ -61,7 +61,7 @@
             this.Min_L.AutoSize = true;
             this.Min_L.BackColor = System.Drawing.Color.White;
             this.Min_L.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Min_L.Location = new System.Drawing.Point(89, 462);
+            this.Min_L.Location = new System.Drawing.Point(113, 454);
             this.Min_L.Name = "Min_L";
             this.Min_L.Size = new System.Drawing.Size(74, 19);
             this.Min_L.TabIndex = 29;
@@ -70,7 +70,7 @@
             // Max_TB
             // 
             this.Max_TB.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.Max_TB.Location = new System.Drawing.Point(237, 492);
+            this.Max_TB.Location = new System.Drawing.Point(261, 490);
             this.Max_TB.Name = "Max_TB";
             this.Max_TB.Size = new System.Drawing.Size(115, 22);
             this.Max_TB.TabIndex = 28;
@@ -78,7 +78,7 @@
             // Min_TB
             // 
             this.Min_TB.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.Min_TB.Location = new System.Drawing.Point(93, 492);
+            this.Min_TB.Location = new System.Drawing.Point(117, 490);
             this.Min_TB.Name = "Min_TB";
             this.Min_TB.Size = new System.Drawing.Size(111, 22);
             this.Min_TB.TabIndex = 27;
@@ -88,7 +88,7 @@
             this.Price_L.AutoSize = true;
             this.Price_L.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.Price_L.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Price_L.Location = new System.Drawing.Point(100, 383);
+            this.Price_L.Location = new System.Drawing.Point(122, 372);
             this.Price_L.Name = "Price_L";
             this.Price_L.Size = new System.Drawing.Size(229, 32);
             this.Price_L.TabIndex = 25;
@@ -111,7 +111,7 @@
             // 
             this.search_button.BackColor = System.Drawing.Color.DarkGray;
             this.search_button.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.search_button.Location = new System.Drawing.Point(107, 604);
+            this.search_button.Location = new System.Drawing.Point(144, 594);
             this.search_button.Name = "search_button";
             this.search_button.Size = new System.Drawing.Size(222, 61);
             this.search_button.TabIndex = 23;
@@ -124,7 +124,7 @@
             this.Area_CB.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.Area_CB.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Area_CB.FormattingEnabled = true;
-            this.Area_CB.Location = new System.Drawing.Point(93, 315);
+            this.Area_CB.Location = new System.Drawing.Point(117, 298);
             this.Area_CB.Name = "Area_CB";
             this.Area_CB.Size = new System.Drawing.Size(259, 33);
             this.Area_CB.TabIndex = 22;
@@ -135,7 +135,7 @@
             this.loca_CB.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.loca_CB.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loca_CB.FormattingEnabled = true;
-            this.loca_CB.Location = new System.Drawing.Point(93, 249);
+            this.loca_CB.Location = new System.Drawing.Point(117, 232);
             this.loca_CB.Name = "loca_CB";
             this.loca_CB.Size = new System.Drawing.Size(259, 33);
             this.loca_CB.TabIndex = 21;
@@ -159,13 +159,14 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label2.Location = new System.Drawing.Point(46, 112);
+            this.label2.Location = new System.Drawing.Point(64, 94);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(501, 52);
+            this.label2.Size = new System.Drawing.Size(513, 53);
             this.label2.TabIndex = 18;
             this.label2.Text = "Search Properties           ";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox1
             // 

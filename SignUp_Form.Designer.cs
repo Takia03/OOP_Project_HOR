@@ -146,7 +146,7 @@
             this.signup_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.signup_button.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signup_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.signup_button.Location = new System.Drawing.Point(190, 560);
+            this.signup_button.Location = new System.Drawing.Point(199, 587);
             this.signup_button.Name = "signup_button";
             this.signup_button.Size = new System.Drawing.Size(301, 64);
             this.signup_button.TabIndex = 21;
