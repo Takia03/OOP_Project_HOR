@@ -30,10 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button_rented = new System.Windows.Forms.Button();
-            this.button_to_let = new System.Windows.Forms.Button();
-            this.button_home = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.home_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,48 +53,8 @@
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(157, 251);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(1109, 276);
+            this.listBox1.Size = new System.Drawing.Size(1109, 468);
             this.listBox1.TabIndex = 1;
-            // 
-            // button_rented
-            // 
-            this.button_rented.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(50)))));
-            this.button_rented.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_rented.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_rented.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.button_rented.Location = new System.Drawing.Point(416, 568);
-            this.button_rented.Name = "button_rented";
-            this.button_rented.Size = new System.Drawing.Size(174, 50);
-            this.button_rented.TabIndex = 2;
-            this.button_rented.Text = "Rented";
-            this.button_rented.UseVisualStyleBackColor = false;
-            // 
-            // button_to_let
-            // 
-            this.button_to_let.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(50)))));
-            this.button_to_let.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_to_let.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_to_let.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.button_to_let.Location = new System.Drawing.Point(846, 568);
-            this.button_to_let.Name = "button_to_let";
-            this.button_to_let.Size = new System.Drawing.Size(174, 50);
-            this.button_to_let.TabIndex = 3;
-            this.button_to_let.Text = "To-Let";
-            this.button_to_let.UseVisualStyleBackColor = false;
-            // 
-            // button_home
-            // 
-            this.button_home.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(50)))));
-            this.button_home.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_home.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_home.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.button_home.Location = new System.Drawing.Point(1178, 660);
-            this.button_home.Name = "button_home";
-            this.button_home.Size = new System.Drawing.Size(174, 50);
-            this.button_home.TabIndex = 5;
-            this.button_home.Text = "home";
-            this.button_home.UseVisualStyleBackColor = false;
-            this.button_home.Click += new System.EventHandler(this.button_home_Click);
             // 
             // pictureBox2
             // 
@@ -109,16 +67,28 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
+            // home_button
+            // 
+            this.home_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.home_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.home_button.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.home_button.Location = new System.Drawing.Point(12, 678);
+            this.home_button.Name = "home_button";
+            this.home_button.Size = new System.Drawing.Size(131, 46);
+            this.home_button.TabIndex = 40;
+            this.home_button.Text = "Home";
+            this.home_button.UseVisualStyleBackColor = false;
+            this.home_button.Click += new System.EventHandler(this.home_button_Click);
+            // 
             // owner_user_page
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1444, 736);
+            this.Controls.Add(this.home_button);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button_home);
-            this.Controls.Add(this.button_to_let);
-            this.Controls.Add(this.button_rented);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -137,9 +107,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button_rented;
-        private System.Windows.Forms.Button button_to_let;
-        private System.Windows.Forms.Button button_home;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button home_button;
     }
 }

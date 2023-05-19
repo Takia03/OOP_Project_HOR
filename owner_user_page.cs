@@ -32,10 +32,15 @@ namespace OOP_Project_HOR
         private void button_home_Click(object sender, EventArgs e)
         {
            
+            
+
+        }
+
+        private void home_button_Click(object sender, EventArgs e)
+        {
             HomePage h4 = new HomePage();
             h4.Show();
             this.Hide();
-
         }
     }
 }

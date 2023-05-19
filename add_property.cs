@@ -74,16 +74,17 @@ namespace OOP_Project_HOR
             bool cleaning = checkBox_cleaning.Checked;
             bool maintenance = checkBox_maintaince.Checked;
             property p = new property(location, name, city, room, mas_bed, bath, balcony, size, rent, gasline, water, park, lake, electricity, security, elevator, market, religious, education, parking, intercom, cleaning, maintenance);
+            p.users = utility.currentuser;
             utility.properties.Add(p);
 
             StreamWriter sw = File.AppendText(utility.currentdir + "properties.txt");
-            string q = $"{name},{city},{location},{room},{mas_bed},{bath},{balcony},{size},{rent},{gasline},{water},{park},{lake},{electricity},{security},{elevator},{market},{religious},{education},{parking},{intercom},{cleaning},{maintenance}";
+            string q = $"{name},{city},{location},{room},{mas_bed},{bath},{balcony},{size},{rent},{gasline},{water},{park},{lake},{electricity},{security},{elevator},{market},{religious},{education},{parking},{intercom},{cleaning},{maintenance},{p.users.uname}";
             sw.WriteLine(q); ;
             sw.Close();
 
             StreamWriter sw1 = File.AppendText(utility.folderdir + "All Properties.txt");
-            string q1 = $"{name},{city},{location},{room},{mas_bed},{bath},{balcony},{size},{rent},{gasline},{water},{park},{lake},{electricity},{security},{elevator},{market},{religious},{education},{parking},{intercom},{cleaning},{maintenance}";
-            sw1.WriteLine(q1); ;
+            string q1 = $"{name},{city},{location},{room},{mas_bed},{bath},{balcony},{size},{rent},{gasline},{water},{park},{lake},{electricity},{security},{elevator},{market},{religious},{education},{parking},{intercom},{cleaning},{maintenance},{p.users.uname}";
+            sw1.WriteLine(q1); 
             sw1.Close();
 
             MessageBox.Show("Property added successfully!");

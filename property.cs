@@ -35,6 +35,7 @@ namespace OOP_Project_HOR
         public bool Intercom { get; set; }
         public bool Cleaning { get; set; }
         public bool Maintenance { get; set; }
+        public user users { get; set; }
 
 
 
