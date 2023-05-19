@@ -77,7 +77,7 @@ namespace OOP_Project_HOR
             utility.properties.Add(p);
 
             StreamWriter sw = File.AppendText(utility.currentdir + "properties.txt");
-            string q = $"{location},{name},{city},{room},{mas_bed},{bath},{balcony},{size},{rent},{gasline},{water},{park},{lake},{electricity},{security},{elevator},{market},{religious},{education},{parking},{intercom},{cleaning},{maintenance}";
+            string q = $"{name},{city},{location},{room},{mas_bed},{bath},{balcony},{size},{rent},{gasline},{water},{park},{lake},{electricity},{security},{elevator},{market},{religious},{education},{parking},{intercom},{cleaning},{maintenance}";
             sw.WriteLine(q); ;
             sw.Close();
 
