@@ -133,6 +133,7 @@ namespace OOP_Project_HOR
                     if (u.uname == user && u.password == password)
                     {
                         flag = true;
+                        utility.currentuser = u;
                         break;
                     }
                 }
@@ -157,14 +158,18 @@ namespace OOP_Project_HOR
                     if (u.uname == user && u.password == password)
                     {
                         flag = true;
+                        utility.currentuser = u;
                         break;
                     }
                     
                 }
                 if (flag)
                 {
-                    HomePage_Bharatia l2hv = new HomePage_Bharatia();
-                    l2hv.Show();
+                    propertyread();
+                    allpropertyread();
+
+                    HomePage l2h = new HomePage();
+                    l2h.Show();
                     this.Hide();
                 }
                 else
@@ -210,6 +215,43 @@ namespace OOP_Project_HOR
 
                 property ppp = new property(location, name, city, room, mas_bed, bath, balcony, size, rent, gasline, water, park, lake, electricity, security, elevator, market, religious, education, parking, intercom, cleaning, maintenance);
                 utility.properties.Add(ppp);
+            }
+        }
+
+        private void allpropertyread()
+        {
+            StreamReader sw = new StreamReader(utility.folderdir + "All Properties.txt");
+            string s = sw.ReadLine();
+            while (s != null)
+            {
+                string[] p = s.Split(',');
+                string name = p[0];
+                string city = p[1];
+                string location = p[2];
+                string room = p[3];
+                string mas_bed = p[4];
+                string bath = p[5];
+                string balcony = p[6];
+                string size = p[7];
+                string rent = p[8];
+
+                bool gasline = Convert.ToBoolean(p[9]);
+                bool water = Convert.ToBoolean(p[10]);
+                bool park = Convert.ToBoolean(p[11]);
+                bool lake = Convert.ToBoolean(p[12]);
+                bool electricity = Convert.ToBoolean(p[13]);
+                bool security = Convert.ToBoolean(p[14]);
+                bool elevator = Convert.ToBoolean(p[15]);
+                bool market = Convert.ToBoolean(p[16]);
+                bool religious = Convert.ToBoolean(p[17]);
+                bool education = Convert.ToBoolean(p[18]);
+                bool parking = Convert.ToBoolean(p[19]);
+                bool intercom = Convert.ToBoolean(p[20]);
+                bool cleaning = Convert.ToBoolean(p[21]);
+                bool maintenance = Convert.ToBoolean(p[22]);
+
+                property ppp = new property(location, name, city, room, mas_bed, bath, balcony, size, rent, gasline, water, park, lake, electricity, security, elevator, market, religious, education, parking, intercom, cleaning, maintenance);
+                utility.allproperties.Add(ppp);
             }
         }
 

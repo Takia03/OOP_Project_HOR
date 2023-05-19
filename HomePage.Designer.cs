@@ -95,6 +95,25 @@
             this.loca_CB.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loca_CB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.loca_CB.FormattingEnabled = true;
+            this.loca_CB.Items.AddRange(new object[] {
+            "Uttara-01",
+            "Uttara-02",
+            "Uttara-03",
+            "Uttara-04",
+            "Uttara-05",
+            "Uttara-06",
+            "Uttara-07",
+            "Uttara-08",
+            "Uttara-09",
+            "Uttara-10",
+            "Uttara-11",
+            "Uttara-12",
+            "Uttara-13",
+            "Uttara-14",
+            "Uttara-15",
+            "Uttara-16",
+            "Uttara-17",
+            "Uttara-18"});
             this.loca_CB.Location = new System.Drawing.Point(77, 231);
             this.loca_CB.Name = "loca_CB";
             this.loca_CB.Size = new System.Drawing.Size(302, 39);

@@ -14,7 +14,7 @@ namespace OOP_Project_HOR
         public string mobile { get; set; }
         public string password { get; set; }
         public string type { get; set; }
-        public string hudai { get; set; }
+        
         public user(string name, string uname, string email, string mobile, string password, string type)
         {
             this.name = name;

@@ -15,6 +15,11 @@ namespace OOP_Project_HOR
         public HomePage()
         {
             InitializeComponent();
+            if(utility.currentuser.type == "Tenent")
+            {
+                addpro_LL.Hide();
+                profile_LL.Hide();
+            }
         }
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
