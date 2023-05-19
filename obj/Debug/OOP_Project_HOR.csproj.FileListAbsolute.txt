@@ -48,6 +48,7 @@ C:\Users\USER\Desktop\hor\obj\Debug\OOP_Project_HOR.csproj.GenerateResource.cach
 C:\Users\USER\Desktop\hor\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cache
 C:\Users\USER\Desktop\hor\obj\Debug\OOP_Project_HOR.exe
 C:\Users\USER\Desktop\hor\obj\Debug\OOP_Project_HOR.pdb
+<<<<<<< HEAD
 C:\Users\faiza\OneDrive\Desktop\vallagena dhuur\bin\Debug\OOP_Project_HOR.exe.config
 C:\Users\faiza\OneDrive\Desktop\vallagena dhuur\bin\Debug\OOP_Project_HOR.exe
 C:\Users\faiza\OneDrive\Desktop\vallagena dhuur\bin\Debug\OOP_Project_HOR.pdb
@@ -65,3 +66,7 @@ C:\Users\faiza\OneDrive\Desktop\vallagena dhuur\obj\Debug\OOP_Project_HOR.csproj
 C:\Users\faiza\OneDrive\Desktop\vallagena dhuur\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cache
 C:\Users\faiza\OneDrive\Desktop\vallagena dhuur\obj\Debug\OOP_Project_HOR.exe
 C:\Users\faiza\OneDrive\Desktop\vallagena dhuur\obj\Debug\OOP_Project_HOR.pdb
+=======
+C:\Users\USER\Desktop\hor\obj\Debug\OOP_Project_HOR.show_property_details.resources
+C:\Users\USER\Desktop\hor\obj\Debug\OOP_Project_HOR.owner_user_page.resources
+>>>>>>> 91bc3b905a30d3e41044991931999e1c8f9c807a

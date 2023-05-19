@@ -38,7 +38,7 @@
             this.Area_CB = new System.Windows.Forms.ComboBox();
             this.loca_CB = new System.Windows.Forms.ComboBox();
             this.profile_LL = new System.Windows.Forms.LinkLabel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.SearchPro = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -155,18 +155,18 @@
             this.profile_LL.Text = "Profile";
             this.profile_LL.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.profile_LL_LinkClicked);
             // 
-            // label2
+            // SearchPro
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label2.Location = new System.Drawing.Point(64, 94);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(513, 53);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "Search Properties           ";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.SearchPro.AutoSize = true;
+            this.SearchPro.BackColor = System.Drawing.Color.Transparent;
+            this.SearchPro.Font = new System.Drawing.Font("Times New Roman", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SearchPro.ForeColor = System.Drawing.Color.SteelBlue;
+            this.SearchPro.Location = new System.Drawing.Point(64, 94);
+            this.SearchPro.Name = "SearchPro";
+            this.SearchPro.Size = new System.Drawing.Size(513, 53);
+            this.SearchPro.TabIndex = 18;
+            this.SearchPro.Text = "Search Properties           ";
+            this.SearchPro.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox1
             // 
@@ -207,7 +207,7 @@
             this.Controls.Add(this.Area_CB);
             this.Controls.Add(this.loca_CB);
             this.Controls.Add(this.profile_LL);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.SearchPro);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "HomePage_Bharatia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -231,7 +231,7 @@
         private System.Windows.Forms.ComboBox Area_CB;
         private System.Windows.Forms.ComboBox loca_CB;
         private System.Windows.Forms.LinkLabel profile_LL;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label SearchPro;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
