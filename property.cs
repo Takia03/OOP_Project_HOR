@@ -38,7 +38,7 @@ namespace OOP_Project_HOR
 
 
 
-public property( string location,string name,string city,string room,string mas_bed,string bath,string balcony,string size, string rent, bool gas, bool water, bool park, bool lake, bool electricity, bool security, bool elevator, bool market, bool religious, bool education, bool parking, bool intercom, bool cleaning, bool maintenance) 
+        public property( string location,string name,string city,string room,string mas_bed,string bath,string balcony,string size, string rent, bool gas, bool water, bool park, bool lake, bool electricity, bool security, bool elevator, bool market, bool religious, bool education, bool parking, bool intercom, bool cleaning, bool maintenance) 
         {
             this.location = location;
             this.room = room;
