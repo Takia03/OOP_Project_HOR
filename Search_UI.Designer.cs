@@ -37,7 +37,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.searchui_home_button = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBox_search_property = new System.Windows.Forms.ListBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -145,15 +145,16 @@
             this.searchui_home_button.UseVisualStyleBackColor = false;
             this.searchui_home_button.Click += new System.EventHandler(this.searchui_home_button_Click);
             // 
-            // listBox1
+            // listBox_search_property
             // 
-            this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(57, 91);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(1259, 596);
-            this.listBox1.TabIndex = 31;
+            this.listBox_search_property.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.listBox_search_property.FormattingEnabled = true;
+            this.listBox_search_property.ItemHeight = 16;
+            this.listBox_search_property.Location = new System.Drawing.Point(57, 91);
+            this.listBox_search_property.Name = "listBox_search_property";
+            this.listBox_search_property.Size = new System.Drawing.Size(1259, 596);
+            this.listBox_search_property.TabIndex = 31;
+            this.listBox_search_property.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // pictureBox2
             // 
@@ -174,7 +175,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1462, 713);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.listBox_search_property);
             this.Controls.Add(this.searchui_home_button);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
@@ -205,7 +206,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button searchui_home_button;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listBox_search_property;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

@@ -16,5 +16,23 @@ namespace OOP_Project_HOR
         {
             InitializeComponent();
         }
+
+        private void button_back_search_Click(object sender, EventArgs e)
+        {
+            
+            
+            Search_UI s1= new Search_UI();
+            s1.Show();
+            this.Hide();
+
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+            Application.Exit();
+
+        }
     }
 }

@@ -28,5 +28,10 @@ namespace OOP_Project_HOR
         {
             Application.Exit();
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

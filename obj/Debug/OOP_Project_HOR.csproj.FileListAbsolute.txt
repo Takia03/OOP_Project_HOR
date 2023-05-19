@@ -48,3 +48,5 @@ C:\Users\USER\Desktop\hor\obj\Debug\OOP_Project_HOR.csproj.GenerateResource.cach
 C:\Users\USER\Desktop\hor\obj\Debug\OOP_Project_HOR.csproj.CoreCompileInputs.cache
 C:\Users\USER\Desktop\hor\obj\Debug\OOP_Project_HOR.exe
 C:\Users\USER\Desktop\hor\obj\Debug\OOP_Project_HOR.pdb
+C:\Users\USER\Desktop\hor\obj\Debug\OOP_Project_HOR.show_property_details.resources
+C:\Users\USER\Desktop\hor\obj\Debug\OOP_Project_HOR.owner_user_page.resources
