@@ -32,8 +32,10 @@ namespace OOP_Project_HOR
         
         private void signup_button_Click(object sender, EventArgs e)
         {
-
-            
+            string uname = username_signup_textBox.Text;
+            DirectoryInfo dir = new DirectoryInfo(utility.folderdir + utility.slash + uname + utility.slash);
+            dir.Create();
+            utility.currentdir = utility.folderdir + utility.slash + uname + utility.slash;
             userwrite();
 
 

@@ -138,6 +138,8 @@ namespace OOP_Project_HOR
                 }
                 if (flag)
                 {
+                    string uname = username_login_textBox.Text;
+                    utility.currentdir = utility.folderdir + utility.slash + uname + utility.slash;
                     HomePage h2 = new HomePage();
                     h2.Show();
                     this.Hide();

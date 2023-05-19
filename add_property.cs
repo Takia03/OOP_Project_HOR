@@ -15,7 +15,7 @@ namespace OOP_Project_HOR
 
 
     {
-        List<property> property = new List<property>();
+        
         static string Path = @"D:\hor\";
 
 

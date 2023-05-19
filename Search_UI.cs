@@ -19,9 +19,7 @@ namespace OOP_Project_HOR
 
         private void searchui_home_button_Click(object sender, EventArgs e)
         {
-            HomePage suihomepage= new HomePage();
-            suihomepage.Show();
-            this.Hide();
+            
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -30,6 +28,18 @@ namespace OOP_Project_HOR
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void home_button_Click(object sender, EventArgs e)
+        {
+            HomePage suihomepage = new HomePage();
+            suihomepage.Show();
+            this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }

@@ -44,7 +44,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label1.Location = new System.Drawing.Point(531, 89);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(301, 62);
+            this.label1.Size = new System.Drawing.Size(300, 61);
             this.label1.TabIndex = 0;
             this.label1.Text = "User Profile";
             // 
@@ -101,7 +101,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::OOP_Project_HOR.Properties.Resources.Cross;
-            this.pictureBox2.Location = new System.Drawing.Point(1328, 57);
+            this.pictureBox2.Location = new System.Drawing.Point(1396, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(36, 35);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -121,7 +121,10 @@
             this.Controls.Add(this.button_rented);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
             this.Name = "owner_user_page";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "owner_user_page";
             this.Load += new System.EventHandler(this.owner_user_page_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

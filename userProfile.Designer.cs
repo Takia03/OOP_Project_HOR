@@ -38,9 +38,9 @@
             this.mob_textBox = new System.Windows.Forms.TextBox();
             this.e_textBox = new System.Windows.Forms.TextBox();
             this.loc_textBox = new System.Windows.Forms.TextBox();
-            this.h_button = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.home_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -140,20 +140,6 @@
             this.loc_textBox.Size = new System.Drawing.Size(234, 38);
             this.loc_textBox.TabIndex = 9;
             // 
-            // h_button
-            // 
-            this.h_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.h_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.h_button.Font = new System.Drawing.Font("Times New Roman", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.h_button.ForeColor = System.Drawing.SystemColors.Control;
-            this.h_button.Location = new System.Drawing.Point(595, 610);
-            this.h_button.Name = "h_button";
-            this.h_button.Size = new System.Drawing.Size(243, 62);
-            this.h_button.TabIndex = 10;
-            this.h_button.Text = "HOME";
-            this.h_button.UseVisualStyleBackColor = false;
-            this.h_button.Click += new System.EventHandler(this.h_button_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
@@ -176,6 +162,20 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
+            // home_button
+            // 
+            this.home_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.home_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.home_button.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.home_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.home_button.Location = new System.Drawing.Point(12, 655);
+            this.home_button.Name = "home_button";
+            this.home_button.Size = new System.Drawing.Size(131, 46);
+            this.home_button.TabIndex = 18;
+            this.home_button.Text = "Home";
+            this.home_button.UseVisualStyleBackColor = false;
+            this.home_button.Click += new System.EventHandler(this.home_button_Click);
+            // 
             // userProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -183,8 +183,8 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1462, 713);
+            this.Controls.Add(this.home_button);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.h_button);
             this.Controls.Add(this.loc_textBox);
             this.Controls.Add(this.e_textBox);
             this.Controls.Add(this.mob_textBox);
@@ -220,7 +220,7 @@
         private System.Windows.Forms.TextBox mob_textBox;
         private System.Windows.Forms.TextBox e_textBox;
         private System.Windows.Forms.TextBox loc_textBox;
-        private System.Windows.Forms.Button h_button;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button home_button;
     }
 }

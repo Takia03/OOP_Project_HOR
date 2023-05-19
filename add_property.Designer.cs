@@ -68,7 +68,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label2.Location = new System.Drawing.Point(48, 94);
@@ -80,10 +80,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label3.Location = new System.Drawing.Point(48, 417);
+            this.label3.Location = new System.Drawing.Point(48, 406);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(207, 25);
             this.label3.TabIndex = 3;
@@ -92,7 +92,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label4.Location = new System.Drawing.Point(47, 262);
@@ -104,7 +104,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.label5.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label5.Location = new System.Drawing.Point(48, 201);
@@ -116,7 +116,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.label6.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label6.Location = new System.Drawing.Point(48, 148);
@@ -141,7 +141,7 @@
             this.rent_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.rent_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.rent_textBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rent_textBox.Location = new System.Drawing.Point(300, 417);
+            this.rent_textBox.Location = new System.Drawing.Point(300, 406);
             this.rent_textBox.Name = "rent_textBox";
             this.rent_textBox.Size = new System.Drawing.Size(379, 23);
             this.rent_textBox.TabIndex = 8;
@@ -181,7 +181,8 @@
             "5",
             "6",
             "7",
-            "8"});
+            "8",
+            "8+"});
             this.room_comboBox.Location = new System.Drawing.Point(300, 262);
             this.room_comboBox.Name = "room_comboBox";
             this.room_comboBox.Size = new System.Drawing.Size(147, 27);
@@ -260,7 +261,7 @@
             this.add_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.add_button.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.add_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.add_button.Location = new System.Drawing.Point(647, 725);
+            this.add_button.Location = new System.Drawing.Point(554, 725);
             this.add_button.Name = "add_button";
             this.add_button.Size = new System.Drawing.Size(125, 46);
             this.add_button.TabIndex = 16;
@@ -274,9 +275,9 @@
             this.home_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.home_button.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.home_button.Location = new System.Drawing.Point(12, 705);
+            this.home_button.Location = new System.Drawing.Point(12, 725);
             this.home_button.Name = "home_button";
-            this.home_button.Size = new System.Drawing.Size(130, 48);
+            this.home_button.Size = new System.Drawing.Size(131, 46);
             this.home_button.TabIndex = 17;
             this.home_button.Text = "Home";
             this.home_button.UseVisualStyleBackColor = false;
@@ -285,7 +286,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.label7.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label7.Location = new System.Drawing.Point(49, 356);
@@ -318,7 +319,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label8.Location = new System.Drawing.Point(48, 464);
@@ -330,7 +331,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::OOP_Project_HOR.Properties.Resources.Cross;
-            this.pictureBox2.Location = new System.Drawing.Point(1367, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(1414, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(36, 35);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -340,27 +341,29 @@
             // 
             // checkedList_description
             // 
-            this.checkedList_description.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkedList_description.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
+            this.checkedList_description.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.checkedList_description.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkedList_description.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.checkedList_description.FormattingEnabled = true;
             this.checkedList_description.Items.AddRange(new object[] {
             "Gas line",
-            "water",
-            "park view",
-            "lake view",
-            "electricity",
-            "security",
-            "elevator",
-            "market",
-            "religious place",
-            "education",
-            "parking",
-            "intercom",
-            "cleaning service",
-            "maintenance"});
+            "Water",
+            "Park view",
+            "Lake view",
+            "Electricity",
+            "Security",
+            "Elevator",
+            "Market",
+            "Religious place",
+            "Education",
+            "Parking",
+            "Intercom",
+            "Cleaning service",
+            "Maintenance"});
             this.checkedList_description.Location = new System.Drawing.Point(300, 464);
             this.checkedList_description.Name = "checkedList_description";
-            this.checkedList_description.Size = new System.Drawing.Size(379, 229);
+            this.checkedList_description.Size = new System.Drawing.Size(379, 225);
             this.checkedList_description.TabIndex = 38;
             // 
             // add_property

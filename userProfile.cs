@@ -19,9 +19,7 @@ namespace OOP_Project_HOR
 
         private void h_button_Click(object sender, EventArgs e)
         {
-            HomePage h1 = new HomePage();
-            h1.Show();
-            this.Hide();
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -32,6 +30,13 @@ namespace OOP_Project_HOR
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void home_button_Click(object sender, EventArgs e)
+        {
+            HomePage h1 = new HomePage();
+            h1.Show();
+            this.Hide();
         }
     }
 }
