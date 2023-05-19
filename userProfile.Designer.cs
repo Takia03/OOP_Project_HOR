@@ -61,7 +61,7 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label2.Location = new System.Drawing.Point(40, 236);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(275, 38);
+            this.label2.Size = new System.Drawing.Size(259, 37);
             this.label2.TabIndex = 2;
             this.label2.Text = "Username           :";
             // 
@@ -80,7 +80,7 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label3.Location = new System.Drawing.Point(47, 298);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(273, 38);
+            this.label3.Size = new System.Drawing.Size(257, 37);
             this.label3.TabIndex = 4;
             this.label3.Text = "Location             :";
             // 
@@ -91,7 +91,7 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label4.Location = new System.Drawing.Point(47, 381);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(277, 38);
+            this.label4.Size = new System.Drawing.Size(255, 37);
             this.label4.TabIndex = 5;
             this.label4.Text = "Email                  :";
             // 
@@ -102,7 +102,7 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label5.Location = new System.Drawing.Point(47, 461);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(268, 38);
+            this.label5.Size = new System.Drawing.Size(260, 37);
             this.label5.TabIndex = 6;
             this.label5.Text = "Mobile Number :";
             // 
@@ -147,9 +147,9 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(636, -72);
+            this.pictureBox1.Location = new System.Drawing.Point(853, 94);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(927, 921);
+            this.pictureBox1.Size = new System.Drawing.Size(548, 578);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -159,7 +159,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1462, 713);
             this.Controls.Add(this.h_button);
             this.Controls.Add(this.loc_textBox);
@@ -172,8 +172,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "userProfile";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "userProfile";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

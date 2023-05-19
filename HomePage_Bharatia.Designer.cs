@@ -143,6 +143,7 @@
             // 
             this.profile_LL.AutoSize = true;
             this.profile_LL.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profile_LL.ForeColor = System.Drawing.Color.DeepSkyBlue;
             this.profile_LL.LinkColor = System.Drawing.Color.Black;
             this.profile_LL.Location = new System.Drawing.Point(205, 44);
             this.profile_LL.Name = "profile_LL";
@@ -155,7 +156,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.SteelBlue;
             this.label2.Location = new System.Drawing.Point(46, 112);
@@ -166,10 +167,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::OOP_Project_HOR.Properties.Resources._9924164_4263370;
-            this.pictureBox1.Location = new System.Drawing.Point(428, 2);
+            this.pictureBox1.Image = global::OOP_Project_HOR.Properties.Resources.Search;
+            this.pictureBox1.Location = new System.Drawing.Point(651, 108);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1031, 711);
+            this.pictureBox1.Size = new System.Drawing.Size(767, 557);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
@@ -178,7 +179,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1462, 713);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Max_L);
@@ -192,7 +193,9 @@
             this.Controls.Add(this.loca_CB);
             this.Controls.Add(this.profile_LL);
             this.Controls.Add(this.label2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "HomePage_Bharatia";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HomePage_Bharatia";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

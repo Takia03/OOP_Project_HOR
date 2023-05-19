@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomePage));
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.addpro_LL = new System.Windows.Forms.LinkLabel();
             this.profile_LL = new System.Windows.Forms.LinkLabel();
@@ -43,16 +41,6 @@
             this.Min_L = new System.Windows.Forms.Label();
             this.Max_L = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBox1.BackgroundImage")));
-            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.groupBox1.Location = new System.Drawing.Point(461, 2);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(998, 711);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
             // 
             // label2
             // 
@@ -193,7 +181,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1462, 713);
             this.Controls.Add(this.Max_L);
             this.Controls.Add(this.Min_L);
@@ -207,9 +195,10 @@
             this.Controls.Add(this.profile_LL);
             this.Controls.Add(this.addpro_LL);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "HomePage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HomePage";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -217,8 +206,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.LinkLabel addpro_LL;
         private System.Windows.Forms.LinkLabel profile_LL;

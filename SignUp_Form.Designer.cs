@@ -55,6 +55,7 @@
             // 
             // label7
             // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
@@ -66,6 +67,7 @@
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
@@ -77,6 +79,7 @@
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
@@ -88,6 +91,7 @@
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
@@ -99,6 +103,7 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
@@ -110,6 +115,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
@@ -121,6 +127,7 @@
             // 
             // name_signup_textBox
             // 
+            this.name_signup_textBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.name_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.name_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.name_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -133,6 +140,7 @@
             // 
             // signup_button
             // 
+            this.signup_button.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.signup_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.signup_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.signup_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -148,6 +156,7 @@
             // 
             // username_signup_textBox
             // 
+            this.username_signup_textBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.username_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.username_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.username_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -160,6 +169,7 @@
             // 
             // email_signup_textBox
             // 
+            this.email_signup_textBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.email_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.email_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.email_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -172,6 +182,7 @@
             // 
             // mobile_signup_textBox
             // 
+            this.mobile_signup_textBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.mobile_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.mobile_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.mobile_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -184,6 +195,7 @@
             // 
             // password_signup_textBox
             // 
+            this.password_signup_textBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.password_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.password_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.password_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -198,6 +210,7 @@
             // 
             // retype_signup_textBox
             // 
+            this.retype_signup_textBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.retype_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.retype_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.retype_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -212,6 +225,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
@@ -223,6 +237,7 @@
             // 
             // user_type_comboBox
             // 
+            this.user_type_comboBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.user_type_comboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.user_type_comboBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.user_type_comboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
@@ -238,6 +253,7 @@
             // 
             // repass_pictureBox
             // 
+            this.repass_pictureBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.repass_pictureBox.BackColor = System.Drawing.Color.Transparent;
             this.repass_pictureBox.Image = global::OOP_Project_HOR.Properties.Resources.eye;
             this.repass_pictureBox.Location = new System.Drawing.Point(607, 389);
@@ -250,6 +266,7 @@
             // 
             // pass_pictureBox
             // 
+            this.pass_pictureBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.pass_pictureBox.BackColor = System.Drawing.Color.Transparent;
             this.pass_pictureBox.Image = global::OOP_Project_HOR.Properties.Resources.eye;
             this.pass_pictureBox.Location = new System.Drawing.Point(607, 327);
@@ -273,6 +290,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBox1.Image = global::OOP_Project_HOR.Properties.Resources.SighUp;
             this.pictureBox1.Location = new System.Drawing.Point(751, 66);
             this.pictureBox1.Name = "pictureBox1";
@@ -309,7 +327,6 @@
             this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.MaximizeBox = false;
             this.Name = "SignUp_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SignUp_Form";

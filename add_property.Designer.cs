@@ -53,7 +53,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::OOP_Project_HOR.Properties.Resources.o;
-            this.pictureBox1.Location = new System.Drawing.Point(-7, -97);
+            this.pictureBox1.Location = new System.Drawing.Point(-4, -108);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1491, 819);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -287,7 +287,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1462, 713);
             this.Controls.Add(this.FlatSize_textBox);
             this.Controls.Add(this.label7);
@@ -308,8 +308,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "add_property";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "add_property";
             this.Load += new System.EventHandler(this.add_property_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
