@@ -47,17 +47,34 @@
             this.label7 = new System.Windows.Forms.Label();
             this.FlatSize_textBox = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.checkBox_gas = new System.Windows.Forms.CheckBox();
+            this.checkBox_market = new System.Windows.Forms.CheckBox();
+            this.checkBox_water = new System.Windows.Forms.CheckBox();
+            this.checkBox_security = new System.Windows.Forms.CheckBox();
+            this.checkBox_electricity = new System.Windows.Forms.CheckBox();
+            this.checkBox_lake = new System.Windows.Forms.CheckBox();
+            this.checkBox_park = new System.Windows.Forms.CheckBox();
+            this.checkBox_intercom = new System.Windows.Forms.CheckBox();
+            this.checkBox_parking = new System.Windows.Forms.CheckBox();
+            this.checkBox_education = new System.Windows.Forms.CheckBox();
+            this.checkBox_religious = new System.Windows.Forms.CheckBox();
+            this.checkBox_cleaning = new System.Windows.Forms.CheckBox();
+            this.checkBox_elevator = new System.Windows.Forms.CheckBox();
+            this.checkBox_maintaince = new System.Windows.Forms.CheckBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label1.Location = new System.Drawing.Point(178, 32);
+            this.label1.Location = new System.Drawing.Point(178, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(392, 53);
+            this.label1.Size = new System.Drawing.Size(288, 38);
             this.label1.TabIndex = 1;
             this.label1.Text = "ADD PROPERTY";
             // 
@@ -65,11 +82,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label2.Location = new System.Drawing.Point(61, 138);
+            this.label2.Location = new System.Drawing.Point(48, 94);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(266, 35);
+            this.label2.Size = new System.Drawing.Size(205, 25);
             this.label2.TabIndex = 2;
             this.label2.Text = "Name                     :";
             // 
@@ -77,11 +94,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label3.Location = new System.Drawing.Point(57, 510);
+            this.label3.Location = new System.Drawing.Point(48, 417);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(270, 35);
+            this.label3.Size = new System.Drawing.Size(207, 25);
             this.label3.TabIndex = 3;
             this.label3.Text = "Rent                       :";
             // 
@@ -89,11 +106,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label4.Location = new System.Drawing.Point(61, 321);
+            this.label4.Location = new System.Drawing.Point(47, 262);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(267, 35);
+            this.label4.Size = new System.Drawing.Size(206, 25);
             this.label4.TabIndex = 4;
             this.label4.Text = "Description            :";
             // 
@@ -101,11 +118,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label5.Location = new System.Drawing.Point(64, 262);
+            this.label5.Location = new System.Drawing.Point(48, 201);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(264, 35);
+            this.label5.Size = new System.Drawing.Size(204, 25);
             this.label5.TabIndex = 5;
             this.label5.Text = "Location                :";
             // 
@@ -113,11 +130,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label6.Location = new System.Drawing.Point(64, 201);
+            this.label6.Location = new System.Drawing.Point(48, 148);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(263, 35);
+            this.label6.Size = new System.Drawing.Size(199, 25);
             this.label6.TabIndex = 6;
             this.label6.Text = "City                       :";
             // 
@@ -125,10 +142,10 @@
             // 
             this.name_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.name_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.name_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name_textBox.Location = new System.Drawing.Point(362, 138);
+            this.name_textBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name_textBox.Location = new System.Drawing.Point(300, 94);
             this.name_textBox.Name = "name_textBox";
-            this.name_textBox.Size = new System.Drawing.Size(319, 35);
+            this.name_textBox.Size = new System.Drawing.Size(379, 23);
             this.name_textBox.TabIndex = 7;
             this.name_textBox.TextChanged += new System.EventHandler(this.name_textBox_TextChanged);
             // 
@@ -136,37 +153,37 @@
             // 
             this.rent_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.rent_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rent_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rent_textBox.Location = new System.Drawing.Point(362, 510);
+            this.rent_textBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rent_textBox.Location = new System.Drawing.Point(300, 417);
             this.rent_textBox.Name = "rent_textBox";
-            this.rent_textBox.Size = new System.Drawing.Size(319, 35);
+            this.rent_textBox.Size = new System.Drawing.Size(379, 23);
             this.rent_textBox.TabIndex = 8;
             // 
             // loc_textBox
             // 
             this.loc_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.loc_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.loc_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loc_textBox.Location = new System.Drawing.Point(362, 262);
+            this.loc_textBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loc_textBox.Location = new System.Drawing.Point(300, 203);
             this.loc_textBox.Name = "loc_textBox";
-            this.loc_textBox.Size = new System.Drawing.Size(319, 35);
+            this.loc_textBox.Size = new System.Drawing.Size(379, 23);
             this.loc_textBox.TabIndex = 9;
             // 
             // city_textBox
             // 
             this.city_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.city_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.city_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.city_textBox.Location = new System.Drawing.Point(362, 201);
+            this.city_textBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.city_textBox.Location = new System.Drawing.Point(300, 150);
             this.city_textBox.Name = "city_textBox";
-            this.city_textBox.Size = new System.Drawing.Size(319, 35);
+            this.city_textBox.Size = new System.Drawing.Size(379, 23);
             this.city_textBox.TabIndex = 10;
             // 
             // room_comboBox
             // 
             this.room_comboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.room_comboBox.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.room_comboBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.room_comboBox.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.room_comboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.room_comboBox.FormattingEnabled = true;
             this.room_comboBox.Items.AddRange(new object[] {
@@ -178,9 +195,9 @@
             "6",
             "7",
             "8"});
-            this.room_comboBox.Location = new System.Drawing.Point(362, 325);
+            this.room_comboBox.Location = new System.Drawing.Point(300, 262);
             this.room_comboBox.Name = "room_comboBox";
-            this.room_comboBox.Size = new System.Drawing.Size(135, 31);
+            this.room_comboBox.Size = new System.Drawing.Size(147, 27);
             this.room_comboBox.TabIndex = 11;
             this.room_comboBox.Text = " Room";
             // 
@@ -188,7 +205,7 @@
             // 
             this.bal_comboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.bal_comboBox.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bal_comboBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bal_comboBox.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bal_comboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.bal_comboBox.FormattingEnabled = true;
             this.bal_comboBox.Items.AddRange(new object[] {
@@ -200,9 +217,9 @@
             "6",
             "7",
             "8"});
-            this.bal_comboBox.Location = new System.Drawing.Point(543, 381);
+            this.bal_comboBox.Location = new System.Drawing.Point(519, 307);
             this.bal_comboBox.Name = "bal_comboBox";
-            this.bal_comboBox.Size = new System.Drawing.Size(138, 31);
+            this.bal_comboBox.Size = new System.Drawing.Size(160, 27);
             this.bal_comboBox.TabIndex = 13;
             this.bal_comboBox.Text = "Balcony";
             // 
@@ -210,7 +227,7 @@
             // 
             this.mas_comboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.mas_comboBox.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.mas_comboBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mas_comboBox.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mas_comboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.mas_comboBox.FormattingEnabled = true;
             this.mas_comboBox.Items.AddRange(new object[] {
@@ -222,9 +239,9 @@
             "6",
             "7",
             "8"});
-            this.mas_comboBox.Location = new System.Drawing.Point(543, 325);
+            this.mas_comboBox.Location = new System.Drawing.Point(519, 260);
             this.mas_comboBox.Name = "mas_comboBox";
-            this.mas_comboBox.Size = new System.Drawing.Size(138, 31);
+            this.mas_comboBox.Size = new System.Drawing.Size(160, 27);
             this.mas_comboBox.TabIndex = 14;
             this.mas_comboBox.Text = "Master Bed";
             // 
@@ -232,7 +249,7 @@
             // 
             this.bath_comboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.bath_comboBox.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.bath_comboBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bath_comboBox.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bath_comboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.bath_comboBox.FormattingEnabled = true;
             this.bath_comboBox.Items.AddRange(new object[] {
@@ -244,9 +261,9 @@
             "6",
             "7",
             "8"});
-            this.bath_comboBox.Location = new System.Drawing.Point(362, 381);
+            this.bath_comboBox.Location = new System.Drawing.Point(300, 307);
             this.bath_comboBox.Name = "bath_comboBox";
-            this.bath_comboBox.Size = new System.Drawing.Size(135, 31);
+            this.bath_comboBox.Size = new System.Drawing.Size(147, 27);
             this.bath_comboBox.TabIndex = 15;
             this.bath_comboBox.Text = " Bathroom";
             // 
@@ -256,9 +273,9 @@
             this.add_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.add_button.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.add_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.add_button.Location = new System.Drawing.Point(434, 586);
+            this.add_button.Location = new System.Drawing.Point(632, 725);
             this.add_button.Name = "add_button";
-            this.add_button.Size = new System.Drawing.Size(149, 56);
+            this.add_button.Size = new System.Drawing.Size(125, 46);
             this.add_button.TabIndex = 16;
             this.add_button.Text = "ADD";
             this.add_button.UseVisualStyleBackColor = false;
@@ -270,7 +287,7 @@
             this.home_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.home_button.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.home_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.home_button.Location = new System.Drawing.Point(12, 653);
+            this.home_button.Location = new System.Drawing.Point(12, 705);
             this.home_button.Name = "home_button";
             this.home_button.Size = new System.Drawing.Size(130, 48);
             this.home_button.TabIndex = 17;
@@ -282,11 +299,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label7.Location = new System.Drawing.Point(57, 445);
+            this.label7.Location = new System.Drawing.Point(49, 356);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(270, 35);
+            this.label7.Size = new System.Drawing.Size(206, 25);
             this.label7.TabIndex = 18;
             this.label7.Text = "Flat Size                 :";
             // 
@@ -294,22 +311,227 @@
             // 
             this.FlatSize_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.FlatSize_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.FlatSize_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FlatSize_textBox.Location = new System.Drawing.Point(362, 445);
+            this.FlatSize_textBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FlatSize_textBox.Location = new System.Drawing.Point(300, 356);
             this.FlatSize_textBox.Name = "FlatSize_textBox";
-            this.FlatSize_textBox.Size = new System.Drawing.Size(319, 35);
+            this.FlatSize_textBox.Size = new System.Drawing.Size(379, 23);
             this.FlatSize_textBox.TabIndex = 19;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBox1.Image = global::OOP_Project_HOR.Properties.Resources.Add_Propertyy;
-            this.pictureBox1.Location = new System.Drawing.Point(778, 68);
+            this.pictureBox1.Location = new System.Drawing.Point(778, 103);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(608, 585);
+            this.pictureBox1.Size = new System.Drawing.Size(608, 631);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.label8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.label8.Location = new System.Drawing.Point(48, 464);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(205, 23);
+            this.label8.TabIndex = 21;
+            this.label8.Text = "Other description        :";
+            // 
+            // checkBox_gas
+            // 
+            this.checkBox_gas.AutoSize = true;
+            this.checkBox_gas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkBox_gas.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_gas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.checkBox_gas.Location = new System.Drawing.Point(300, 465);
+            this.checkBox_gas.Name = "checkBox_gas";
+            this.checkBox_gas.Size = new System.Drawing.Size(101, 24);
+            this.checkBox_gas.TabIndex = 22;
+            this.checkBox_gas.Text = "Gas Line";
+            this.checkBox_gas.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_market
+            // 
+            this.checkBox_market.AutoSize = true;
+            this.checkBox_market.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkBox_market.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_market.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.checkBox_market.Location = new System.Drawing.Point(460, 560);
+            this.checkBox_market.Name = "checkBox_market";
+            this.checkBox_market.Size = new System.Drawing.Size(88, 24);
+            this.checkBox_market.TabIndex = 23;
+            this.checkBox_market.Text = "Market";
+            this.checkBox_market.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_water
+            // 
+            this.checkBox_water.AutoSize = true;
+            this.checkBox_water.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkBox_water.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_water.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.checkBox_water.Location = new System.Drawing.Point(300, 560);
+            this.checkBox_water.Name = "checkBox_water";
+            this.checkBox_water.Size = new System.Drawing.Size(77, 24);
+            this.checkBox_water.TabIndex = 24;
+            this.checkBox_water.Text = "Water";
+            this.checkBox_water.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_security
+            // 
+            this.checkBox_security.AutoSize = true;
+            this.checkBox_security.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkBox_security.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_security.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.checkBox_security.Location = new System.Drawing.Point(460, 511);
+            this.checkBox_security.Name = "checkBox_security";
+            this.checkBox_security.Size = new System.Drawing.Size(94, 24);
+            this.checkBox_security.TabIndex = 25;
+            this.checkBox_security.Text = "Security";
+            this.checkBox_security.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_electricity
+            // 
+            this.checkBox_electricity.AutoSize = true;
+            this.checkBox_electricity.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkBox_electricity.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_electricity.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.checkBox_electricity.Location = new System.Drawing.Point(300, 511);
+            this.checkBox_electricity.Name = "checkBox_electricity";
+            this.checkBox_electricity.Size = new System.Drawing.Size(109, 24);
+            this.checkBox_electricity.TabIndex = 26;
+            this.checkBox_electricity.Text = "Electricity";
+            this.checkBox_electricity.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_lake
+            // 
+            this.checkBox_lake.AutoSize = true;
+            this.checkBox_lake.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkBox_lake.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_lake.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.checkBox_lake.Location = new System.Drawing.Point(609, 463);
+            this.checkBox_lake.Name = "checkBox_lake";
+            this.checkBox_lake.Size = new System.Drawing.Size(109, 24);
+            this.checkBox_lake.TabIndex = 27;
+            this.checkBox_lake.Text = "Lake view";
+            this.checkBox_lake.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_park
+            // 
+            this.checkBox_park.AutoSize = true;
+            this.checkBox_park.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkBox_park.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_park.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.checkBox_park.Location = new System.Drawing.Point(460, 463);
+            this.checkBox_park.Name = "checkBox_park";
+            this.checkBox_park.Size = new System.Drawing.Size(107, 24);
+            this.checkBox_park.TabIndex = 28;
+            this.checkBox_park.Text = "Park view";
+            this.checkBox_park.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_intercom
+            // 
+            this.checkBox_intercom.AutoSize = true;
+            this.checkBox_intercom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkBox_intercom.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_intercom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.checkBox_intercom.Location = new System.Drawing.Point(460, 621);
+            this.checkBox_intercom.Name = "checkBox_intercom";
+            this.checkBox_intercom.Size = new System.Drawing.Size(102, 24);
+            this.checkBox_intercom.TabIndex = 29;
+            this.checkBox_intercom.Text = "Intercom";
+            this.checkBox_intercom.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_parking
+            // 
+            this.checkBox_parking.AutoSize = true;
+            this.checkBox_parking.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkBox_parking.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_parking.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.checkBox_parking.Location = new System.Drawing.Point(300, 621);
+            this.checkBox_parking.Name = "checkBox_parking";
+            this.checkBox_parking.Size = new System.Drawing.Size(92, 24);
+            this.checkBox_parking.TabIndex = 30;
+            this.checkBox_parking.Text = "Parking";
+            this.checkBox_parking.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_education
+            // 
+            this.checkBox_education.AutoSize = true;
+            this.checkBox_education.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkBox_education.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_education.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.checkBox_education.Location = new System.Drawing.Point(609, 560);
+            this.checkBox_education.Name = "checkBox_education";
+            this.checkBox_education.Size = new System.Drawing.Size(110, 24);
+            this.checkBox_education.TabIndex = 31;
+            this.checkBox_education.Text = "Education";
+            this.checkBox_education.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_religious
+            // 
+            this.checkBox_religious.AutoSize = true;
+            this.checkBox_religious.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkBox_religious.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_religious.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.checkBox_religious.Location = new System.Drawing.Point(609, 511);
+            this.checkBox_religious.Name = "checkBox_religious";
+            this.checkBox_religious.Size = new System.Drawing.Size(148, 24);
+            this.checkBox_religious.TabIndex = 32;
+            this.checkBox_religious.Text = "Religious place";
+            this.checkBox_religious.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_cleaning
+            // 
+            this.checkBox_cleaning.AutoSize = true;
+            this.checkBox_cleaning.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkBox_cleaning.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_cleaning.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.checkBox_cleaning.Location = new System.Drawing.Point(304, 673);
+            this.checkBox_cleaning.Name = "checkBox_cleaning";
+            this.checkBox_cleaning.Size = new System.Drawing.Size(157, 24);
+            this.checkBox_cleaning.TabIndex = 33;
+            this.checkBox_cleaning.Text = "Cleaning service";
+            this.checkBox_cleaning.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_elevator
+            // 
+            this.checkBox_elevator.AutoSize = true;
+            this.checkBox_elevator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkBox_elevator.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_elevator.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.checkBox_elevator.Location = new System.Drawing.Point(609, 621);
+            this.checkBox_elevator.Name = "checkBox_elevator";
+            this.checkBox_elevator.Size = new System.Drawing.Size(96, 24);
+            this.checkBox_elevator.TabIndex = 34;
+            this.checkBox_elevator.Text = "Elevator";
+            this.checkBox_elevator.UseVisualStyleBackColor = false;
+            // 
+            // checkBox_maintaince
+            // 
+            this.checkBox_maintaince.AutoSize = true;
+            this.checkBox_maintaince.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.checkBox_maintaince.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox_maintaince.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.checkBox_maintaince.Location = new System.Drawing.Point(544, 673);
+            this.checkBox_maintaince.Name = "checkBox_maintaince";
+            this.checkBox_maintaince.Size = new System.Drawing.Size(116, 24);
+            this.checkBox_maintaince.TabIndex = 36;
+            this.checkBox_maintaince.Text = "maintaince";
+            this.checkBox_maintaince.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::OOP_Project_HOR.Properties.Resources.Cross;
+            this.pictureBox2.Location = new System.Drawing.Point(1367, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(36, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 37;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // add_property
             // 
@@ -317,7 +539,23 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
-            this.ClientSize = new System.Drawing.Size(1462, 713);
+            this.ClientSize = new System.Drawing.Size(1462, 783);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.checkBox_maintaince);
+            this.Controls.Add(this.checkBox_elevator);
+            this.Controls.Add(this.checkBox_cleaning);
+            this.Controls.Add(this.checkBox_religious);
+            this.Controls.Add(this.checkBox_education);
+            this.Controls.Add(this.checkBox_parking);
+            this.Controls.Add(this.checkBox_intercom);
+            this.Controls.Add(this.checkBox_park);
+            this.Controls.Add(this.checkBox_lake);
+            this.Controls.Add(this.checkBox_electricity);
+            this.Controls.Add(this.checkBox_security);
+            this.Controls.Add(this.checkBox_water);
+            this.Controls.Add(this.checkBox_market);
+            this.Controls.Add(this.checkBox_gas);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.FlatSize_textBox);
             this.Controls.Add(this.label7);
@@ -344,6 +582,7 @@
             this.Text = "add_property";
             this.Load += new System.EventHandler(this.add_property_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -369,5 +608,21 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox FlatSize_textBox;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.CheckBox checkBox_gas;
+        private System.Windows.Forms.CheckBox checkBox_market;
+        private System.Windows.Forms.CheckBox checkBox_water;
+        private System.Windows.Forms.CheckBox checkBox_security;
+        private System.Windows.Forms.CheckBox checkBox_electricity;
+        private System.Windows.Forms.CheckBox checkBox_lake;
+        private System.Windows.Forms.CheckBox checkBox_park;
+        private System.Windows.Forms.CheckBox checkBox_intercom;
+        private System.Windows.Forms.CheckBox checkBox_parking;
+        private System.Windows.Forms.CheckBox checkBox_education;
+        private System.Windows.Forms.CheckBox checkBox_religious;
+        private System.Windows.Forms.CheckBox checkBox_cleaning;
+        private System.Windows.Forms.CheckBox checkBox_elevator;
+        private System.Windows.Forms.CheckBox checkBox_maintaince;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
