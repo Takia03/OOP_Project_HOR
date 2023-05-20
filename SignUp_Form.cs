@@ -141,7 +141,7 @@ namespace OOP_Project_HOR
 
             StreamWriter sw = File.AppendText(directory_bariwala);
             string q = $"{name},{uname},{email},{mobile},{pass},{type}";
-            sw.WriteLine(q); ;
+            sw.WriteLine(q); 
             sw.Close();
         }
 
