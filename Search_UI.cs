@@ -16,6 +16,13 @@ namespace OOP_Project_HOR
         public Search_UI()
         {
             InitializeComponent();
+            rayshadboss();
+        }
+
+        private void rayshadboss()
+        {
+            string s = $"Name\tRooms\tBathrooms\tSize (sft)\tRent (taka)";
+            listBox_search_property.Items.Add(s);
         }
 
         private void searchui_home_button_Click(object sender, EventArgs e)
@@ -47,10 +54,13 @@ namespace OOP_Project_HOR
 
         private void search_button_Click(object sender, EventArgs e)
         {
-            
+            propertyList.Clear();
+            listBox_search_property.Items.Clear();
+            rayshadboss();
+
             string location = loc_comboBox.Text;
-            int min = Convert.ToInt32(min_textBox);
-            int max = Convert.ToInt32(max_textBox);
+            int min = Convert.ToInt32(min_textBox.Text);
+            int max = Convert.ToInt32(max_textBox.Text);
 
             bool gasline = checkBox_gas.Checked;
             bool water = checkBox_water.Checked;
@@ -69,70 +79,93 @@ namespace OOP_Project_HOR
 
             foreach(property p in utility.allproperties)
             {
-                if(Convert.ToInt32(p.rent) >= min && Convert.ToInt32(p.rent) <= max)
+               if(p.location == location)
                 {
-                    bool includeProperty = true;
-                    if(checkBox_gas.Checked && !p.Gasline)
+                    if (Convert.ToInt32(p.rent) >= min && Convert.ToInt32(p.rent) <= max)
                     {
-                        includeProperty= false;
-                    }
-                    if(checkBox_water.Checked && !p.Water)
-                    {
-                        includeProperty= false;
-                    }
-                    if (checkBox_park.Checked && !p.Park)
-                    {
-                        includeProperty = false;
-                    }
-                    if (checkBox_lake.Checked && !p.Lake)
-                    {
-                        includeProperty = false;
-                    }
-                    if (checkBox_electricity.Checked && !p.Electricity)
-                    {
-                        includeProperty = false;
-                    }
-                    if (checkBox_security.Checked && !p.Security)
-                    {
-                        includeProperty = false;
-                    }
-                    if (checkBox_elevator.Checked && !p.Elevator)
-                    {
-                        includeProperty = false;
-                    }
-                    if (checkBox_market.Checked && !p.Market)
-                    {
-                        includeProperty = false;
-                    }
-                    if (checkBox_religious.Checked && !p.Religious)
-                    {
-                        includeProperty = false;
-                    }
-                    if (checkBox_education.Checked && !p.Education)
-                    {
-                        includeProperty = false;
-                    }
-                    if (checkBox_parking.Checked && !p.Parking)
-                    {
-                        includeProperty = false;
-                    }
-                    if (checkBox_intercom.Checked && !p.Intercom)
-                    {
-                        includeProperty = false;
-                    }
-                    if (checkBox_cleaning.Checked && !p.Cleaning)
-                    {
-                        includeProperty = false;
-                    }
-                    if (checkBox_maintenance.Checked && !p.Maintenance)
-                    {
-                        includeProperty = false;
-                    }
+                        bool includeProperty = true;
+                        if (gasline && !p.Gasline)
+                        {
+                            includeProperty = false;
+                            //MessageBox.Show("Dib shkibidi 3");
+                        }
+                        if (water && !p.Water)
+                        {
+                            includeProperty = false;
+                            //MessageBox.Show("Dib shkibidi 4");
+                        }
+                        if (park && !p.Park)
+                        {
+                            includeProperty = false;
+                            //MessageBox.Show("Dib shkibidi 6");
+                        }
+                        if (lake && !p.Lake)
+                        {
+                            includeProperty = false;
+                            //MessageBox.Show("Dib shkibidi 7");
+                        }
+                        if (electricity && !p.Electricity)
+                        {
+                            includeProperty = false;
+                            //MessageBox.Show("Dib shkibidi 8");
+                        }
+                        if (security && !p.Security)
+                        {
+                            includeProperty = false;
+                            //MessageBox.Show("Dib shkibidi 9");
+                        }
+                        if (elevator && !p.Elevator)
+                        {
+                            includeProperty = false;
+                            //MessageBox.Show("Dib shkibidi 10");
+                        }
+                        if (market && !p.Market)
+                        {
+                            includeProperty = false;
+                            //MessageBox.Show("Dib shkibidi 11");
+                        }
+                        if (religious && !p.Religious)
+                        {
+                            includeProperty = false;
+                            //MessageBox.Show("Dib shkibidi 12");
+                        }
+                        if (education && !p.Education)
+                        {
+                            includeProperty = false;
+                            //MessageBox.Show("Dib shkibidi 13");
+                        }
+                        if (parking && !p.Parking)
+                        {
+                            includeProperty = false;
+                            //MessageBox.Show("Dib shkibidi parking");
+                        }
+                        if (intercom && !p.Intercom)
+                        {
+                            includeProperty = false;
+                            //MessageBox.Show("Dib shkibidi com");
+                        }
+                        if (cleaning && !p.Cleaning)
+                        {
+                            includeProperty = false;
+                            //MessageBox.Show("Dib shkibidi clean");
+                        }
+                        if (maintenance && !p.Maintenance)
+                        {
+                            includeProperty = false;
+                            //MessageBox.Show("Dib shkibidi main");
+                        }
 
-                    if(includeProperty)
+                        if (includeProperty)
+                        {
+                            propertyList.Add(p);
+                            string ss = $"{p.name}\t{p.room}\t{p.bath}\t{p.size} sft\t{p.rent} taka";
+                            listBox_search_property.Items.Add(ss);
+                            //MessageBox.Show("Dib shkibidi");
+                        }
+                    }
+                    else
                     {
-                        propertyList.Add(p);
-
+                        MessageBox.Show("Dibba");
                     }
                 }
             }

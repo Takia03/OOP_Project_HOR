@@ -21,5 +21,17 @@ namespace OOP_Project_HOR
 
         public static string currentdir;
         public static user currentuser;
+
+        public static void addkori()
+        {
+            foreach(user u in Bariwala)
+            {
+                users.Add(u);
+            }
+            foreach(user u in Varatia)
+            {
+                users.Add(u);
+            }
+        }
     }
 }

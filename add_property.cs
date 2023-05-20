@@ -82,7 +82,7 @@ namespace OOP_Project_HOR
             sw.WriteLine(q); ;
             sw.Close();
 
-            StreamWriter sw1 = File.AppendText(utility.folderdir + "All Properties.txt");
+            StreamWriter sw1 = File.AppendText(utility.folderdir +utility.slash + "All Properties.txt");
             string q1 = $"{name},{city},{location},{room},{mas_bed},{bath},{balcony},{size},{rent},{gasline},{water},{park},{lake},{electricity},{security},{elevator},{market},{religious},{education},{parking},{intercom},{cleaning},{maintenance},{p.users.uname}";
             sw1.WriteLine(q1); 
             sw1.Close();

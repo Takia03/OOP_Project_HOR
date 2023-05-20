@@ -39,6 +39,8 @@ namespace OOP_Project_HOR
 
         private void search_button_Click(object sender, EventArgs e)
         {
+            //label2.Text = Convert.ToString(utility.allproperties.Count);
+            
             Search_UI home_to_search1= new Search_UI();
             home_to_search1.Show();
             this.Hide();

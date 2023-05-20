@@ -141,6 +141,8 @@ namespace OOP_Project_HOR
                 {
                     string uname = username_login_textBox.Text;
                     utility.currentdir = utility.folderdir + utility.slash + uname + utility.slash;
+                    propertyread();
+                    allpropertyread();
                     HomePage h2 = new HomePage();
                     h2.Show();
                     this.Hide();
@@ -165,6 +167,7 @@ namespace OOP_Project_HOR
                 }
                 if (flag)
                 {
+                    utility.addkori();
                     propertyread();
                     allpropertyread();
 
@@ -212,15 +215,30 @@ namespace OOP_Project_HOR
                 bool intercom = Convert.ToBoolean(p[20]);
                 bool cleaning = Convert.ToBoolean(p[21]);
                 bool maintenance = Convert.ToBoolean(p[22]);
+                string uname = p[23];
+                
+                
 
                 property ppp = new property(location, name, city, room, mas_bed, bath, balcony, size, rent, gasline, water, park, lake, electricity, security, elevator, market, religious, education, parking, intercom, cleaning, maintenance);
+                
+
+                foreach (user u in utility.users)
+                {
+                    if (u.uname == uname)
+                    {
+                        ppp.users = u; 
+                        break;
+                    }
+                }
                 utility.properties.Add(ppp);
+                s = sw.ReadLine();
             }
+            sw.Close();
         }
 
         private void allpropertyread()
         {
-            StreamReader sw = new StreamReader(utility.folderdir + "All Properties.txt");
+            StreamReader sw = new StreamReader(@"C:\HoR\All Properties.txt");
             string s = sw.ReadLine();
             while (s != null)
             {
@@ -250,11 +268,27 @@ namespace OOP_Project_HOR
                 bool cleaning = Convert.ToBoolean(p[21]);
                 bool maintenance = Convert.ToBoolean(p[22]);
 
-                property ppp = new property(location, name, city, room, mas_bed, bath, balcony, size, rent, gasline, water, park, lake, electricity, security, elevator, market, religious, education, parking, intercom, cleaning, maintenance);
-                utility.allproperties.Add(ppp);
-            }
-        }
+                string uname = p[23];
 
+
+
+                property ppp = new property(location, name, city, room, mas_bed, bath, balcony, size, rent, gasline, water, park, lake, electricity, security, elevator, market, religious, education, parking, intercom, cleaning, maintenance);
+
+
+                foreach (user u in utility.users)
+                {
+                    if (u.uname == uname)
+                    {
+                        ppp.users = u;
+                        break;
+                    }
+                }
+                utility.allproperties.Add(ppp);
+
+                s = sw.ReadLine();
+            }
+            sw.Close();
+        }
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             if(password_login_textBox.UseSystemPasswordChar) 
