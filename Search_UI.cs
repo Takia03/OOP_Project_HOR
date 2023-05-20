@@ -21,7 +21,7 @@ namespace OOP_Project_HOR
 
         private void rayshadboss()
         {
-            string s = $"Name\tRooms\tBathrooms\tSize (sft)\tRent (taka)\tMobile";
+            string s = $"Rent(tk)\tRooms\tMaster\tBaths\tBalcony\tSize (sft)\tMobile\t\tName";
             listBox_search_property.Items.Add(s);
         }
 
@@ -158,7 +158,7 @@ namespace OOP_Project_HOR
                         if (includeProperty)
                         {
                             propertyList.Add(p);
-                            string ss = $"{p.name}\t{p.room}\t{p.bath}\t{p.size} sft\t{p.rent} taka\t{p.users.mobile}";
+                            string ss = $"{p.rent}\t{p.room}\t{p.mas_bed}\t{p.bath}\t{p.balcony}\t{p.size} sft\t{p.users.mobile}\t{p.name}";
                             listBox_search_property.Items.Add(ss);
                             //MessageBox.Show("Dib shkibidi");
                         }

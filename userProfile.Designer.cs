@@ -127,13 +127,13 @@
             // listBox_bariwala
             // 
             this.listBox_bariwala.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.listBox_bariwala.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox_bariwala.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox_bariwala.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.listBox_bariwala.FormattingEnabled = true;
-            this.listBox_bariwala.ItemHeight = 31;
+            this.listBox_bariwala.ItemHeight = 25;
             this.listBox_bariwala.Location = new System.Drawing.Point(671, 79);
             this.listBox_bariwala.Name = "listBox_bariwala";
-            this.listBox_bariwala.Size = new System.Drawing.Size(779, 593);
+            this.listBox_bariwala.Size = new System.Drawing.Size(779, 604);
             this.listBox_bariwala.TabIndex = 32;
             // 
             // name_label
