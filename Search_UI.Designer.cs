@@ -35,7 +35,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.listBox_search_property = new System.Windows.Forms.ListBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.checkBox_maintenance = new System.Windows.Forms.CheckBox();
             this.checkBox_elevator = new System.Windows.Forms.CheckBox();
             this.checkBox_cleaning = new System.Windows.Forms.CheckBox();
@@ -50,9 +49,11 @@
             this.checkBox_water = new System.Windows.Forms.CheckBox();
             this.checkBox_market = new System.Windows.Forms.CheckBox();
             this.checkBox_gas = new System.Windows.Forms.CheckBox();
-            this.home_button = new System.Windows.Forms.Button();
             this.loc_comboBox = new System.Windows.Forms.ComboBox();
             this.search_button = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -134,17 +135,6 @@
             this.listBox_search_property.Size = new System.Drawing.Size(1230, 655);
             this.listBox_search_property.TabIndex = 31;
             this.listBox_search_property.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::OOP_Project_HOR.Properties.Resources.Cross;
-            this.pictureBox2.Location = new System.Drawing.Point(1414, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(36, 35);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 32;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // checkBox_maintenance
             // 
@@ -328,20 +318,6 @@
             this.checkBox_gas.Text = "Gas Line";
             this.checkBox_gas.UseVisualStyleBackColor = false;
             // 
-            // home_button
-            // 
-            this.home_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.home_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.home_button.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.home_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.home_button.Location = new System.Drawing.Point(16, 21);
-            this.home_button.Name = "home_button";
-            this.home_button.Size = new System.Drawing.Size(92, 35);
-            this.home_button.TabIndex = 33;
-            this.home_button.Text = "Home";
-            this.home_button.UseVisualStyleBackColor = false;
-            this.home_button.Click += new System.EventHandler(this.home_button_Click);
-            // 
             // loc_comboBox
             // 
             this.loc_comboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
@@ -387,6 +363,28 @@
             this.search_button.UseVisualStyleBackColor = false;
             this.search_button.Click += new System.EventHandler(this.search_button_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::OOP_Project_HOR.Properties.Resources.home_logo_final_01;
+            this.pictureBox1.Location = new System.Drawing.Point(16, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(63, 58);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 68;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::OOP_Project_HOR.Properties.Resources.Cross;
+            this.pictureBox2.Location = new System.Drawing.Point(1414, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(36, 35);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 32;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // Search_UI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -394,6 +392,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1462, 781);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.search_button);
             this.Controls.Add(this.loc_comboBox);
             this.Controls.Add(this.checkBox_maintenance);
@@ -410,7 +409,6 @@
             this.Controls.Add(this.checkBox_water);
             this.Controls.Add(this.checkBox_market);
             this.Controls.Add(this.checkBox_gas);
-            this.Controls.Add(this.home_button);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.listBox_search_property);
             this.Controls.Add(this.label1);
@@ -424,6 +422,7 @@
             this.Name = "Search_UI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Search_UI";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -453,8 +452,8 @@
         private System.Windows.Forms.CheckBox checkBox_water;
         private System.Windows.Forms.CheckBox checkBox_market;
         private System.Windows.Forms.CheckBox checkBox_gas;
-        private System.Windows.Forms.Button home_button;
         private System.Windows.Forms.ComboBox loc_comboBox;
         private System.Windows.Forms.Button search_button;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

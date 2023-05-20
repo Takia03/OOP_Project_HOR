@@ -42,7 +42,6 @@
             this.mas_comboBox = new System.Windows.Forms.ComboBox();
             this.bath_comboBox = new System.Windows.Forms.ComboBox();
             this.add_button = new System.Windows.Forms.Button();
-            this.home_button = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.FlatSize_textBox = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -63,8 +62,10 @@
             this.checkBox_market = new System.Windows.Forms.CheckBox();
             this.checkBox_gas = new System.Windows.Forms.CheckBox();
             this.loc_comboBox = new System.Windows.Forms.ComboBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -274,20 +275,6 @@
             this.add_button.Text = "ADD";
             this.add_button.UseVisualStyleBackColor = false;
             this.add_button.Click += new System.EventHandler(this.add_button_Click);
-            // 
-            // home_button
-            // 
-            this.home_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.home_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.home_button.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.home_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.home_button.Location = new System.Drawing.Point(12, 725);
-            this.home_button.Name = "home_button";
-            this.home_button.Size = new System.Drawing.Size(131, 46);
-            this.home_button.TabIndex = 17;
-            this.home_button.Text = "Home";
-            this.home_button.UseVisualStyleBackColor = false;
-            this.home_button.Click += new System.EventHandler(this.home_button_Click);
             // 
             // label7
             // 
@@ -559,6 +546,17 @@
             this.loc_comboBox.Size = new System.Drawing.Size(379, 27);
             this.loc_comboBox.TabIndex = 52;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::OOP_Project_HOR.Properties.Resources.home_logo_final_01;
+            this.pictureBox3.Location = new System.Drawing.Point(54, 713);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(63, 58);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 69;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
             // add_property
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -566,6 +564,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1462, 783);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.loc_comboBox);
             this.Controls.Add(this.checkBox_maintaince);
             this.Controls.Add(this.checkBox_elevator);
@@ -586,7 +585,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.FlatSize_textBox);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.home_button);
             this.Controls.Add(this.add_button);
             this.Controls.Add(this.bath_comboBox);
             this.Controls.Add(this.mas_comboBox);
@@ -609,6 +607,7 @@
             this.Load += new System.EventHandler(this.add_property_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -629,7 +628,6 @@
         private System.Windows.Forms.ComboBox mas_comboBox;
         private System.Windows.Forms.ComboBox bath_comboBox;
         private System.Windows.Forms.Button add_button;
-        private System.Windows.Forms.Button home_button;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox FlatSize_textBox;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -650,5 +648,6 @@
         private System.Windows.Forms.CheckBox checkBox_market;
         private System.Windows.Forms.CheckBox checkBox_gas;
         private System.Windows.Forms.ComboBox loc_comboBox;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

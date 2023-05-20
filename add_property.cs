@@ -99,5 +99,13 @@ namespace OOP_Project_HOR
         {
             Application.Exit();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            HomePage a2h = new HomePage();
+            a2h.Show();
+            this.Hide();
+
+        }
     }
 }

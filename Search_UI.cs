@@ -170,5 +170,12 @@ namespace OOP_Project_HOR
                 }
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            HomePage suihomepage = new HomePage();
+            suihomepage.Show();
+            this.Hide();
+        }
     }
 }
