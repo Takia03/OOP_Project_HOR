@@ -83,7 +83,7 @@
             this.min_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.min_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.min_textBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.min_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.min_textBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.min_textBox.Location = new System.Drawing.Point(416, 60);
             this.min_textBox.Name = "min_textBox";
             this.min_textBox.Size = new System.Drawing.Size(145, 23);
@@ -94,7 +94,7 @@
             this.max_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.max_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.max_textBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.max_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.max_textBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.max_textBox.Location = new System.Drawing.Point(678, 59);
             this.max_textBox.Name = "max_textBox";
             this.max_textBox.Size = new System.Drawing.Size(145, 23);
