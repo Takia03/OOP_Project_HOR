@@ -70,7 +70,7 @@ namespace OOP_Project_HOR
                 MessageBox.Show("Please signup First");
             }
 
-            if (File.Exists(directory_bariwala))
+            if (File.Exists(directory_varatia))
             {
                 try
                 {
@@ -95,7 +95,7 @@ namespace OOP_Project_HOR
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    //MessageBox.Show(ex.Message + "mc");
                 }
             }
             else
@@ -201,37 +201,41 @@ namespace OOP_Project_HOR
                 string size = p[7];
                 string rent = p[8];
 
-                bool gasline = Convert.ToBoolean(p[9]);
-                bool water = Convert.ToBoolean(p[10]);
-                bool park = Convert.ToBoolean(p[11]);
-                bool lake = Convert.ToBoolean(p[12]);
-                bool electricity = Convert.ToBoolean(p[13]);
-                bool security = Convert.ToBoolean(p[14]);
-                bool elevator = Convert.ToBoolean(p[15]);
-                bool market = Convert.ToBoolean(p[16]);
-                bool religious = Convert.ToBoolean(p[17]);
-                bool education = Convert.ToBoolean(p[18]);
-                bool parking = Convert.ToBoolean(p[19]);
-                bool intercom = Convert.ToBoolean(p[20]);
-                bool cleaning = Convert.ToBoolean(p[21]);
-                bool maintenance = Convert.ToBoolean(p[22]);
-                string uname = p[23];
                 
-                
+                    bool gasline = Convert.ToBoolean(p[9]);
+                    bool water = Convert.ToBoolean(p[10]);
+                    bool park = Convert.ToBoolean(p[11]);
+                    bool lake = Convert.ToBoolean(p[12]);
+                    bool electricity = Convert.ToBoolean(p[13]);
+                    bool security = Convert.ToBoolean(p[14]);
+                    bool elevator = Convert.ToBoolean(p[15]);
+                    bool market = Convert.ToBoolean(p[16]);
+                    bool religious = Convert.ToBoolean(p[17]);
+                    bool education = Convert.ToBoolean(p[18]);
+                    bool parking = Convert.ToBoolean(p[19]);
+                    bool intercom = Convert.ToBoolean(p[20]);
+                    bool cleaning = Convert.ToBoolean(p[21]);
+                    bool maintenance = Convert.ToBoolean(p[22]);
 
-                property ppp = new property(location, name, city, room, mas_bed, bath, balcony, size, rent, gasline, water, park, lake, electricity, security, elevator, market, religious, education, parking, intercom, cleaning, maintenance);
-                
+                    string uname = p[23];
 
-                foreach (user u in utility.users)
-                {
-                    if (u.uname == uname)
+
+
+                    property ppp = new property(location, name, city, room, mas_bed, bath, balcony, size, rent, gasline, water, park, lake, electricity, security, elevator, market, religious, education, parking, intercom, cleaning, maintenance);
+
+
+                    foreach (user u in utility.users)
                     {
-                        ppp.users = u; 
-                        break;
+                        if (u.uname == uname)
+                        {
+                            ppp.users = u;
+                            break;
+                        }
                     }
-                }
-                utility.properties.Add(ppp);
-                s = sw.ReadLine();
+                    utility.properties.Add(ppp);
+                    s = sw.ReadLine();
+                
+                
             }
             sw.Close();
         }

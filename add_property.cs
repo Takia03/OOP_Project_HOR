@@ -76,6 +76,7 @@ namespace OOP_Project_HOR
             property p = new property(location, name, city, room, mas_bed, bath, balcony, size, rent, gasline, water, park, lake, electricity, security, elevator, market, religious, education, parking, intercom, cleaning, maintenance);
             p.users = utility.currentuser;
             utility.properties.Add(p);
+            utility.allproperties.Add(p);
 
             StreamWriter sw = File.AppendText(utility.currentdir + "properties.txt");
             string q = $"{name},{city},{location},{room},{mas_bed},{bath},{balcony},{size},{rent},{gasline},{water},{park},{lake},{electricity},{security},{elevator},{market},{religious},{education},{parking},{intercom},{cleaning},{maintenance},{p.users.uname}";

@@ -27,12 +27,15 @@ namespace OOP_Project_HOR
         private void listmaker()
         {
             listBox_bariwala.Items.Clear();
-            string s = $"Name\tRooms\tBathrooms\tSize (sft)\tRent (taka)";
+            string s = $"Name\tRooms\tBaths\tSize (sft)\tRent (taka)";
             listBox_bariwala.Items.Add(s);
             foreach (property p in utility.properties)
             {
-                string ss = $"{p.name}\t{p.room}\t{p.bath}\t{p.size} sft\t{p.rent} taka";
-                listBox_bariwala.Items.Add(ss);
+                if(p.name != "-")
+                {
+                    string ss = $"{p.name}\t{p.room}\t{p.bath}\t{p.size} sft\t{p.rent} taka";
+                    listBox_bariwala.Items.Add(ss);
+                }
             }
         }
 

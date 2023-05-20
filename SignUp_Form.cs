@@ -26,6 +26,7 @@ namespace OOP_Project_HOR
             mobile_signup_textBox.Text = null;;
             password_signup_textBox.Text = null;;
             retype_signup_textBox.Text = null;
+            user_type_comboBox.Text = null;
 
         }
 
@@ -33,13 +34,21 @@ namespace OOP_Project_HOR
         private void signup_button_Click(object sender, EventArgs e)
         {
             string uname = username_signup_textBox.Text;
-            DirectoryInfo dir = new DirectoryInfo(utility.folderdir + utility.slash + uname + utility.slash);
-            dir.Create();
+            if(user_type_comboBox.Text == "Landlord")
+            {
+                DirectoryInfo dir = new DirectoryInfo(utility.folderdir + utility.slash + uname + utility.slash);
+                dir.Create();
+                string q = "-,-,-,-,-,-,-,-,-,True,True,False,False,True,False,False,False,False,False,False,False,False,False,-";
+                StreamWriter sw = File.AppendText(utility.folderdir + utility.slash + uname + utility.slash + "properties.txt");
+                sw.WriteLine(q);
+                sw.Close();
+
+            }
             utility.currentdir = utility.folderdir + utility.slash + uname + utility.slash;
             userwrite();
 
 
-            MessageBox.Show("Sign Up Successful");
+            /*MessageBox.Show("Sign Up Successful");
 
             name_signup_textBox.Clear();
             username_signup_textBox.Clear();
@@ -50,7 +59,7 @@ namespace OOP_Project_HOR
 
             Login_Form l1 = new Login_Form();
             l1.Show();
-            this.Hide();
+            this.Hide();*/
             
             
         }
@@ -67,8 +76,8 @@ namespace OOP_Project_HOR
             string retype = retype_signup_textBox.Text;
             string type = user_type_comboBox.Text;
 
-
-
+            
+            
             if (pass == retype)
             {
                 if (pass.Length > 5)
@@ -76,7 +85,7 @@ namespace OOP_Project_HOR
                     user u = new user(name, uname, email, mobile, pass, type);
                     utility.users.Add(u);
 
-                    if(user_type_comboBox.Text == "Landlord")
+                    if (user_type_comboBox.Text == "Landlord")
                     {
                         if (File.Exists(directory_bariwala))
                         {
@@ -101,7 +110,7 @@ namespace OOP_Project_HOR
                         }
                     }
 
-                    
+
                 }
                 else
                 {
@@ -112,7 +121,11 @@ namespace OOP_Project_HOR
             {
                 MessageBox.Show("Password and Retype Password does not match");
             }
+
+
         }
+                        
+    
         private void habijabi_varatia()
         {
             string name = name_signup_textBox.Text;
@@ -128,6 +141,13 @@ namespace OOP_Project_HOR
             string q = $"{name},{uname},{email},{mobile},{pass},{type}";
             sw.WriteLine(q); ;
             sw.Close();
+
+            MessageBox.Show("Sign Up Successful as Tenent!");
+
+
+            Login_Form l1 = new Login_Form();
+            l1.Show();
+            this.Hide();
         }
         private void habijabi_bariwala()
         {
@@ -143,6 +163,12 @@ namespace OOP_Project_HOR
             string q = $"{name},{uname},{email},{mobile},{pass},{type}";
             sw.WriteLine(q); 
             sw.Close();
+
+            MessageBox.Show("Sign Up Successful as Landlord!");
+
+            Login_Form l1 = new Login_Form();
+            l1.Show();
+            this.Hide();
         }
 
         private void pass_pictureBox_Click(object sender, EventArgs e)
