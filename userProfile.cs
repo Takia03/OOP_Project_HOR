@@ -41,7 +41,18 @@ namespace OOP_Project_HOR
 
         private void name_label_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
            
+=======
+
+
+            //name_label.Text = utility.currentuser.name;
+            //uname_label.Text = utility.currentuser.uname;
+            // email_label.Text = utility.currentuser.email;
+            //mobile_label.Text = utility.currentuser.mobile;
+
+
+>>>>>>> 2890c81665890a255e3b4bc46fcd9447d02f2697
 
         }
     }
