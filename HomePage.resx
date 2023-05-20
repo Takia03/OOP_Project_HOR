@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Aboutlabel.Text" xml:space="preserve">
+    <value>A user-friendly  solution  designed to 
+make the rental process easier.   With 
+our app , you can easily manage  and  
+track  your  rental  properties from a 
+single location.Enjoy the convenience  
+of  automatically   creating  thorough 
+reports  for both owners and tenants. 
+Experience  the  power  of  our  user- 
+friendly  interface, which makes  your 
+home rental business easier than ever.
+Improve  your property management 
+experience  with  our dependable and 
+effective software.</value>
+  </data>
 </root>

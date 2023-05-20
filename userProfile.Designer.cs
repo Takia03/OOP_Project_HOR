@@ -134,7 +134,7 @@
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label6.Location = new System.Drawing.Point(67, 238);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(123, 38);
+            this.label6.Size = new System.Drawing.Size(118, 37);
             this.label6.TabIndex = 21;
             this.label6.Text = "Name :";
             // 
@@ -158,9 +158,10 @@
             this.name_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.name_label.Location = new System.Drawing.Point(345, 238);
             this.name_label.Name = "name_label";
-            this.name_label.Size = new System.Drawing.Size(175, 38);
+            this.name_label.Size = new System.Drawing.Size(168, 37);
             this.name_label.TabIndex = 33;
             this.name_label.Text = "name label";
+            this.name_label.Click += new System.EventHandler(this.name_label_Click);
             // 
             // uname_label
             // 
@@ -170,7 +171,7 @@
             this.uname_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.uname_label.Location = new System.Drawing.Point(345, 299);
             this.uname_label.Name = "uname_label";
-            this.uname_label.Size = new System.Drawing.Size(194, 38);
+            this.uname_label.Size = new System.Drawing.Size(186, 37);
             this.uname_label.TabIndex = 34;
             this.uname_label.Text = "uname label";
             // 
@@ -182,7 +183,7 @@
             this.email_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.email_label.Location = new System.Drawing.Point(345, 367);
             this.email_label.Name = "email_label";
-            this.email_label.Size = new System.Drawing.Size(194, 38);
+            this.email_label.Size = new System.Drawing.Size(186, 37);
             this.email_label.TabIndex = 35;
             this.email_label.Text = "uname label";
             // 
@@ -194,7 +195,7 @@
             this.mobile_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.mobile_label.Location = new System.Drawing.Point(345, 434);
             this.mobile_label.Name = "mobile_label";
-            this.mobile_label.Size = new System.Drawing.Size(240, 38);
+            this.mobile_label.Size = new System.Drawing.Size(231, 37);
             this.mobile_label.TabIndex = 36;
             this.mobile_label.Text = "mobile number";
             // 

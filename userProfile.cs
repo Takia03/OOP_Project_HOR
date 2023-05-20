@@ -38,5 +38,11 @@ namespace OOP_Project_HOR
             h1.Show();
             this.Hide();
         }
+
+        private void name_label_Click(object sender, EventArgs e)
+        {
+           
+
+        }
     }
 }
