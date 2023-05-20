@@ -61,7 +61,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label2.Location = new System.Drawing.Point(191, 57);
+            this.label2.Location = new System.Drawing.Point(220, 57);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 26);
             this.label2.TabIndex = 22;
@@ -72,7 +72,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label3.Location = new System.Drawing.Point(326, 57);
+            this.label3.Location = new System.Drawing.Point(355, 57);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 26);
             this.label3.TabIndex = 23;
@@ -84,7 +84,7 @@
             this.min_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.min_textBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.min_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.min_textBox.Location = new System.Drawing.Point(387, 60);
+            this.min_textBox.Location = new System.Drawing.Point(416, 60);
             this.min_textBox.Name = "min_textBox";
             this.min_textBox.Size = new System.Drawing.Size(145, 23);
             this.min_textBox.TabIndex = 25;
@@ -95,7 +95,7 @@
             this.max_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.max_textBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.max_textBox.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.max_textBox.Location = new System.Drawing.Point(649, 59);
+            this.max_textBox.Location = new System.Drawing.Point(678, 59);
             this.max_textBox.Name = "max_textBox";
             this.max_textBox.Size = new System.Drawing.Size(145, 23);
             this.max_textBox.TabIndex = 27;
@@ -105,7 +105,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label4.Location = new System.Drawing.Point(568, 56);
+            this.label4.Location = new System.Drawing.Point(597, 56);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 26);
             this.label4.TabIndex = 26;
@@ -116,7 +116,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label1.Location = new System.Drawing.Point(191, 21);
+            this.label1.Location = new System.Drawing.Point(220, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(190, 26);
             this.label1.TabIndex = 29;
@@ -129,9 +129,9 @@
             this.listBox_search_property.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.listBox_search_property.FormattingEnabled = true;
             this.listBox_search_property.ItemHeight = 22;
-            this.listBox_search_property.Location = new System.Drawing.Point(191, 108);
+            this.listBox_search_property.Location = new System.Drawing.Point(220, 108);
             this.listBox_search_property.Name = "listBox_search_property";
-            this.listBox_search_property.Size = new System.Drawing.Size(1259, 642);
+            this.listBox_search_property.Size = new System.Drawing.Size(1230, 642);
             this.listBox_search_property.TabIndex = 31;
             this.listBox_search_property.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -368,7 +368,7 @@
             "Uttara-16",
             "Uttara-17",
             "Uttara-18"});
-            this.loc_comboBox.Location = new System.Drawing.Point(387, 19);
+            this.loc_comboBox.Location = new System.Drawing.Point(416, 19);
             this.loc_comboBox.Name = "loc_comboBox";
             this.loc_comboBox.Size = new System.Drawing.Size(407, 27);
             this.loc_comboBox.TabIndex = 66;

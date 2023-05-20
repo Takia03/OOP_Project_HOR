@@ -28,21 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(userProfile));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.uname_textBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.mob_textBox = new System.Windows.Forms.TextBox();
-            this.e_textBox = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.home_button = new System.Windows.Forms.Button();
             this.show_list_button = new System.Windows.Forms.Button();
-            this.name_signup_textBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.listBox_bariwala = new System.Windows.Forms.ListBox();
+            this.name_label = new System.Windows.Forms.Label();
+            this.uname_label = new System.Windows.Forms.Label();
+            this.email_label = new System.Windows.Forms.Label();
+            this.mobile_label = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,72 +62,31 @@
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.label2.Location = new System.Drawing.Point(67, 299);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(259, 37);
+            this.label2.Size = new System.Drawing.Size(171, 37);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Username           :";
-            // 
-            // uname_textBox
-            // 
-            this.uname_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.uname_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.uname_textBox.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uname_textBox.Location = new System.Drawing.Point(361, 299);
-            this.uname_textBox.Name = "uname_textBox";
-            this.uname_textBox.Size = new System.Drawing.Size(365, 38);
-            this.uname_textBox.TabIndex = 3;
+            this.label2.Text = "Username:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label4.Location = new System.Drawing.Point(67, 365);
+            this.label4.Location = new System.Drawing.Point(67, 367);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(255, 37);
+            this.label4.Size = new System.Drawing.Size(111, 37);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Email                  :";
+            this.label4.Text = "Email:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label5.Location = new System.Drawing.Point(67, 445);
+            this.label5.Location = new System.Drawing.Point(67, 434);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(260, 37);
             this.label5.TabIndex = 6;
             this.label5.Text = "Mobile Number :";
-            // 
-            // mob_textBox
-            // 
-            this.mob_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.mob_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.mob_textBox.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mob_textBox.Location = new System.Drawing.Point(361, 444);
-            this.mob_textBox.Name = "mob_textBox";
-            this.mob_textBox.Size = new System.Drawing.Size(365, 38);
-            this.mob_textBox.TabIndex = 7;
-            // 
-            // e_textBox
-            // 
-            this.e_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.e_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.e_textBox.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e_textBox.Location = new System.Drawing.Point(361, 365);
-            this.e_textBox.Name = "e_textBox";
-            this.e_textBox.Size = new System.Drawing.Size(365, 38);
-            this.e_textBox.TabIndex = 8;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(842, 94);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(548, 578);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
@@ -169,18 +126,6 @@
             this.show_list_button.Text = "Show Listed Properties";
             this.show_list_button.UseVisualStyleBackColor = false;
             // 
-            // name_signup_textBox
-            // 
-            this.name_signup_textBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.name_signup_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.name_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.name_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name_signup_textBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.name_signup_textBox.Location = new System.Drawing.Point(361, 241);
-            this.name_signup_textBox.Name = "name_signup_textBox";
-            this.name_signup_textBox.Size = new System.Drawing.Size(365, 35);
-            this.name_signup_textBox.TabIndex = 22;
-            // 
             // label6
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -193,6 +138,66 @@
             this.label6.TabIndex = 21;
             this.label6.Text = "Name :";
             // 
+            // listBox_bariwala
+            // 
+            this.listBox_bariwala.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.listBox_bariwala.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox_bariwala.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.listBox_bariwala.FormattingEnabled = true;
+            this.listBox_bariwala.ItemHeight = 22;
+            this.listBox_bariwala.Location = new System.Drawing.Point(754, 79);
+            this.listBox_bariwala.Name = "listBox_bariwala";
+            this.listBox_bariwala.Size = new System.Drawing.Size(696, 620);
+            this.listBox_bariwala.TabIndex = 32;
+            // 
+            // name_label
+            // 
+            this.name_label.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.name_label.AutoSize = true;
+            this.name_label.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.name_label.Location = new System.Drawing.Point(345, 238);
+            this.name_label.Name = "name_label";
+            this.name_label.Size = new System.Drawing.Size(175, 38);
+            this.name_label.TabIndex = 33;
+            this.name_label.Text = "name label";
+            // 
+            // uname_label
+            // 
+            this.uname_label.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.uname_label.AutoSize = true;
+            this.uname_label.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uname_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.uname_label.Location = new System.Drawing.Point(345, 299);
+            this.uname_label.Name = "uname_label";
+            this.uname_label.Size = new System.Drawing.Size(194, 38);
+            this.uname_label.TabIndex = 34;
+            this.uname_label.Text = "uname label";
+            // 
+            // email_label
+            // 
+            this.email_label.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.email_label.AutoSize = true;
+            this.email_label.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.email_label.Location = new System.Drawing.Point(345, 367);
+            this.email_label.Name = "email_label";
+            this.email_label.Size = new System.Drawing.Size(194, 38);
+            this.email_label.TabIndex = 35;
+            this.email_label.Text = "uname label";
+            // 
+            // mobile_label
+            // 
+            this.mobile_label.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.mobile_label.AutoSize = true;
+            this.mobile_label.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mobile_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
+            this.mobile_label.Location = new System.Drawing.Point(345, 434);
+            this.mobile_label.Name = "mobile_label";
+            this.mobile_label.Size = new System.Drawing.Size(240, 38);
+            this.mobile_label.TabIndex = 36;
+            this.mobile_label.Text = "mobile number";
+            // 
             // userProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -200,26 +205,25 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1462, 713);
-            this.Controls.Add(this.name_signup_textBox);
+            this.Controls.Add(this.mobile_label);
+            this.Controls.Add(this.email_label);
+            this.Controls.Add(this.uname_label);
+            this.Controls.Add(this.name_label);
+            this.Controls.Add(this.listBox_bariwala);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.show_list_button);
             this.Controls.Add(this.home_button);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.e_textBox);
-            this.Controls.Add(this.mob_textBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.uname_textBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "userProfile";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "userProfile";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -227,19 +231,18 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox uname_textBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox mob_textBox;
-        private System.Windows.Forms.TextBox e_textBox;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button home_button;
         private System.Windows.Forms.Button show_list_button;
-        private System.Windows.Forms.TextBox name_signup_textBox;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ListBox listBox_bariwala;
+        private System.Windows.Forms.Label name_label;
+        private System.Windows.Forms.Label uname_label;
+        private System.Windows.Forms.Label email_label;
+        private System.Windows.Forms.Label mobile_label;
     }
 }
