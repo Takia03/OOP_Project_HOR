@@ -20,7 +20,7 @@ namespace OOP_Project_HOR
             if (Directory.Exists(@"C:\HoR"))
             {
                 user_read();
-
+                utility.addkori();
             }
             else
             {
@@ -167,7 +167,7 @@ namespace OOP_Project_HOR
                 }
                 if (flag)
                 {
-                    utility.addkori();
+                    
                     //propertyread();
                     allpropertyread();
 

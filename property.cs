@@ -36,6 +36,7 @@ namespace OOP_Project_HOR
         public bool Cleaning { get; set; }
         public bool Maintenance { get; set; }
         public user users { get; set; }
+        public bool isrented { get; set; }
 
 
 

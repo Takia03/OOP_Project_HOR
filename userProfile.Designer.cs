@@ -32,20 +32,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.uname_textBox = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.mob_textBox = new System.Windows.Forms.TextBox();
             this.e_textBox = new System.Windows.Forms.TextBox();
-            this.loc_textBox = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.home_button = new System.Windows.Forms.Button();
             this.show_list_button = new System.Windows.Forms.Button();
             this.name_signup_textBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.button_rented = new System.Windows.Forms.Button();
-            this.button_to_let = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -66,7 +62,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label2.Location = new System.Drawing.Point(47, 236);
+            this.label2.Location = new System.Drawing.Point(67, 299);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(259, 37);
             this.label2.TabIndex = 2;
@@ -77,28 +73,17 @@
             this.uname_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.uname_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.uname_textBox.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uname_textBox.Location = new System.Drawing.Point(341, 236);
+            this.uname_textBox.Location = new System.Drawing.Point(361, 299);
             this.uname_textBox.Name = "uname_textBox";
             this.uname_textBox.Size = new System.Drawing.Size(365, 38);
             this.uname_textBox.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label3.Location = new System.Drawing.Point(47, 298);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(257, 37);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Location             :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label4.Location = new System.Drawing.Point(47, 381);
+            this.label4.Location = new System.Drawing.Point(67, 365);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(255, 37);
             this.label4.TabIndex = 5;
@@ -109,7 +94,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label5.Location = new System.Drawing.Point(47, 461);
+            this.label5.Location = new System.Drawing.Point(67, 445);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(260, 37);
             this.label5.TabIndex = 6;
@@ -120,7 +105,7 @@
             this.mob_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.mob_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.mob_textBox.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mob_textBox.Location = new System.Drawing.Point(341, 460);
+            this.mob_textBox.Location = new System.Drawing.Point(361, 444);
             this.mob_textBox.Name = "mob_textBox";
             this.mob_textBox.Size = new System.Drawing.Size(365, 38);
             this.mob_textBox.TabIndex = 7;
@@ -130,26 +115,16 @@
             this.e_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.e_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.e_textBox.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.e_textBox.Location = new System.Drawing.Point(341, 381);
+            this.e_textBox.Location = new System.Drawing.Point(361, 365);
             this.e_textBox.Name = "e_textBox";
             this.e_textBox.Size = new System.Drawing.Size(365, 38);
             this.e_textBox.TabIndex = 8;
-            // 
-            // loc_textBox
-            // 
-            this.loc_textBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.loc_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.loc_textBox.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loc_textBox.Location = new System.Drawing.Point(341, 298);
-            this.loc_textBox.Name = "loc_textBox";
-            this.loc_textBox.Size = new System.Drawing.Size(365, 38);
-            this.loc_textBox.TabIndex = 9;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(853, 94);
+            this.pictureBox1.Location = new System.Drawing.Point(842, 94);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(548, 578);
             this.pictureBox1.TabIndex = 0;
@@ -187,7 +162,7 @@
             this.show_list_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.show_list_button.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.show_list_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.show_list_button.Location = new System.Drawing.Point(464, 606);
+            this.show_list_button.Location = new System.Drawing.Point(195, 550);
             this.show_list_button.Name = "show_list_button";
             this.show_list_button.Size = new System.Drawing.Size(365, 66);
             this.show_list_button.TabIndex = 19;
@@ -201,7 +176,7 @@
             this.name_signup_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.name_signup_textBox.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name_signup_textBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.name_signup_textBox.Location = new System.Drawing.Point(341, 178);
+            this.name_signup_textBox.Location = new System.Drawing.Point(361, 241);
             this.name_signup_textBox.Name = "name_signup_textBox";
             this.name_signup_textBox.Size = new System.Drawing.Size(365, 35);
             this.name_signup_textBox.TabIndex = 22;
@@ -212,37 +187,11 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label6.Location = new System.Drawing.Point(47, 175);
+            this.label6.Location = new System.Drawing.Point(67, 238);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(123, 38);
             this.label6.TabIndex = 21;
             this.label6.Text = "Name :";
-            // 
-            // button_rented
-            // 
-            this.button_rented.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.button_rented.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_rented.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_rented.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.button_rented.Location = new System.Drawing.Point(655, 32);
-            this.button_rented.Name = "button_rented";
-            this.button_rented.Size = new System.Drawing.Size(174, 50);
-            this.button_rented.TabIndex = 23;
-            this.button_rented.Text = "Rented";
-            this.button_rented.UseVisualStyleBackColor = false;
-            // 
-            // button_to_let
-            // 
-            this.button_to_let.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.button_to_let.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button_to_let.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_to_let.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.button_to_let.Location = new System.Drawing.Point(655, 109);
-            this.button_to_let.Name = "button_to_let";
-            this.button_to_let.Size = new System.Drawing.Size(174, 50);
-            this.button_to_let.TabIndex = 24;
-            this.button_to_let.Text = "To-Let";
-            this.button_to_let.UseVisualStyleBackColor = false;
             // 
             // userProfile
             // 
@@ -251,19 +200,15 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(35)))), ((int)(((byte)(43)))));
             this.ClientSize = new System.Drawing.Size(1462, 713);
-            this.Controls.Add(this.button_to_let);
-            this.Controls.Add(this.button_rented);
             this.Controls.Add(this.name_signup_textBox);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.show_list_button);
             this.Controls.Add(this.home_button);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.loc_textBox);
             this.Controls.Add(this.e_textBox);
             this.Controls.Add(this.mob_textBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.uname_textBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -287,18 +232,14 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox uname_textBox;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox mob_textBox;
         private System.Windows.Forms.TextBox e_textBox;
-        private System.Windows.Forms.TextBox loc_textBox;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button home_button;
         private System.Windows.Forms.Button show_list_button;
         private System.Windows.Forms.TextBox name_signup_textBox;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button_rented;
-        private System.Windows.Forms.Button button_to_let;
     }
 }
