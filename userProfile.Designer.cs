@@ -49,7 +49,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label1.Location = new System.Drawing.Point(62, 79);
+            this.label1.Location = new System.Drawing.Point(38, 79);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(336, 68);
             this.label1.TabIndex = 1;
@@ -58,33 +58,33 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label2.Location = new System.Drawing.Point(67, 322);
+            this.label2.Location = new System.Drawing.Point(44, 319);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 37);
+            this.label2.Size = new System.Drawing.Size(142, 32);
             this.label2.TabIndex = 2;
             this.label2.Text = "Username:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label4.Location = new System.Drawing.Point(67, 390);
+            this.label4.Location = new System.Drawing.Point(44, 387);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 37);
+            this.label4.Size = new System.Drawing.Size(94, 32);
             this.label4.TabIndex = 5;
             this.label4.Text = "Email:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label5.Location = new System.Drawing.Point(67, 457);
+            this.label5.Location = new System.Drawing.Point(44, 454);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(260, 37);
+            this.label5.Size = new System.Drawing.Size(218, 32);
             this.label5.TabIndex = 6;
             this.label5.Text = "Mobile Number :";
             // 
@@ -103,35 +103,35 @@
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.label6.Location = new System.Drawing.Point(67, 261);
+            this.label6.Location = new System.Drawing.Point(44, 258);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(118, 37);
+            this.label6.Size = new System.Drawing.Size(98, 32);
             this.label6.TabIndex = 21;
             this.label6.Text = "Name :";
             // 
             // listBox_bariwala
             // 
             this.listBox_bariwala.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.listBox_bariwala.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox_bariwala.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox_bariwala.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.listBox_bariwala.FormattingEnabled = true;
-            this.listBox_bariwala.ItemHeight = 25;
-            this.listBox_bariwala.Location = new System.Drawing.Point(671, 79);
+            this.listBox_bariwala.ItemHeight = 22;
+            this.listBox_bariwala.Location = new System.Drawing.Point(628, 79);
             this.listBox_bariwala.Name = "listBox_bariwala";
-            this.listBox_bariwala.Size = new System.Drawing.Size(779, 604);
+            this.listBox_bariwala.Size = new System.Drawing.Size(822, 598);
             this.listBox_bariwala.TabIndex = 32;
             // 
             // name_label
             // 
             this.name_label.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.name_label.AutoSize = true;
-            this.name_label.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name_label.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.name_label.Location = new System.Drawing.Point(345, 261);
+            this.name_label.Location = new System.Drawing.Point(283, 258);
             this.name_label.Name = "name_label";
-            this.name_label.Size = new System.Drawing.Size(168, 37);
+            this.name_label.Size = new System.Drawing.Size(143, 32);
             this.name_label.TabIndex = 33;
             this.name_label.Text = "name label";
             this.name_label.Click += new System.EventHandler(this.name_label_Click);
@@ -140,11 +140,11 @@
             // 
             this.uname_label.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.uname_label.AutoSize = true;
-            this.uname_label.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uname_label.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uname_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.uname_label.Location = new System.Drawing.Point(345, 322);
+            this.uname_label.Location = new System.Drawing.Point(283, 319);
             this.uname_label.Name = "uname_label";
-            this.uname_label.Size = new System.Drawing.Size(186, 37);
+            this.uname_label.Size = new System.Drawing.Size(159, 32);
             this.uname_label.TabIndex = 34;
             this.uname_label.Text = "uname label";
             // 
@@ -152,11 +152,11 @@
             // 
             this.email_label.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.email_label.AutoSize = true;
-            this.email_label.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email_label.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.email_label.Location = new System.Drawing.Point(345, 390);
+            this.email_label.Location = new System.Drawing.Point(283, 387);
             this.email_label.Name = "email_label";
-            this.email_label.Size = new System.Drawing.Size(186, 37);
+            this.email_label.Size = new System.Drawing.Size(159, 32);
             this.email_label.TabIndex = 35;
             this.email_label.Text = "uname label";
             // 
@@ -164,11 +164,11 @@
             // 
             this.mobile_label.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.mobile_label.AutoSize = true;
-            this.mobile_label.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mobile_label.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mobile_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
-            this.mobile_label.Location = new System.Drawing.Point(345, 457);
+            this.mobile_label.Location = new System.Drawing.Point(283, 454);
             this.mobile_label.Name = "mobile_label";
-            this.mobile_label.Size = new System.Drawing.Size(231, 37);
+            this.mobile_label.Size = new System.Drawing.Size(195, 32);
             this.mobile_label.TabIndex = 36;
             this.mobile_label.Text = "mobile number";
             // 

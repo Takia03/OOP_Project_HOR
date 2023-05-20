@@ -126,13 +126,13 @@
             // listBox_search_property
             // 
             this.listBox_search_property.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.listBox_search_property.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox_search_property.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox_search_property.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(237)))), ((int)(((byte)(252)))));
             this.listBox_search_property.FormattingEnabled = true;
-            this.listBox_search_property.ItemHeight = 31;
+            this.listBox_search_property.ItemHeight = 26;
             this.listBox_search_property.Location = new System.Drawing.Point(220, 108);
             this.listBox_search_property.Name = "listBox_search_property";
-            this.listBox_search_property.Size = new System.Drawing.Size(1230, 655);
+            this.listBox_search_property.Size = new System.Drawing.Size(1230, 654);
             this.listBox_search_property.TabIndex = 31;
             this.listBox_search_property.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 

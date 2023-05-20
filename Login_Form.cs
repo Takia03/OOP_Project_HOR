@@ -219,8 +219,7 @@ namespace OOP_Project_HOR
 
                     string uname = p[23];
 
-
-
+                    
                     property ppp = new property(location, name, city, room, mas_bed, bath, balcony, size, rent, gasline, water, park, lake, electricity, security, elevator, market, religious, education, parking, intercom, cleaning, maintenance);
 
 
