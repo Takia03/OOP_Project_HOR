@@ -15,6 +15,25 @@ namespace OOP_Project_HOR
         public userProfile()
         {
             InitializeComponent();
+            name_label.Text = utility.currentuser.name;
+            uname_label.Text = utility.currentuser.uname;
+            email_label.Text = utility.currentuser.email;
+            mobile_label.Text = utility.currentuser.mobile;
+
+            listmaker();
+
+        }
+
+        private void listmaker()
+        {
+            listBox_bariwala.Items.Clear();
+            string s = $"Name\tRooms\tBathrooms\tSize (sft)\tRent (taka)";
+            listBox_bariwala.Items.Add(s);
+            foreach (property p in utility.properties)
+            {
+                string ss = $"{p.name}\t{p.room}\t{p.bath}\t{p.size} sft\t{p.rent} taka";
+                listBox_bariwala.Items.Add(ss);
+            }
         }
 
         private void h_button_Click(object sender, EventArgs e)
@@ -41,18 +60,7 @@ namespace OOP_Project_HOR
 
         private void name_label_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-           
-=======
 
-
-            //name_label.Text = utility.currentuser.name;
-            //uname_label.Text = utility.currentuser.uname;
-            // email_label.Text = utility.currentuser.email;
-            //mobile_label.Text = utility.currentuser.mobile;
-
-
->>>>>>> 2890c81665890a255e3b4bc46fcd9447d02f2697
 
         }
     }
