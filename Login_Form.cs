@@ -168,7 +168,7 @@ namespace OOP_Project_HOR
                 if (flag)
                 {
                     utility.addkori();
-                    propertyread();
+                    //propertyread();
                     allpropertyread();
 
                     HomePage l2h = new HomePage();
