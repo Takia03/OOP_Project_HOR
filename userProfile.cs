@@ -56,15 +56,20 @@ namespace OOP_Project_HOR
 
         private void home_button_Click(object sender, EventArgs e)
         {
-            HomePage h1 = new HomePage();
-            h1.Show();
-            this.Hide();
+            
         }
 
         private void name_label_Click(object sender, EventArgs e)
         {
 
 
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            HomePage u2h = new HomePage();
+            u2h.Show();
+            this.Hide();
         }
     }
 }

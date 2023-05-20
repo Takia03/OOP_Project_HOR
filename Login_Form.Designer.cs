@@ -162,14 +162,14 @@
             // 
             // user_type_cb
             // 
-            this.user_type_cb.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.user_type_cb.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.user_type_cb.FormattingEnabled = true;
             this.user_type_cb.Items.AddRange(new object[] {
             "Landlord",
             "Tenent"});
             this.user_type_cb.Location = new System.Drawing.Point(1086, 238);
             this.user_type_cb.Name = "user_type_cb";
-            this.user_type_cb.Size = new System.Drawing.Size(306, 44);
+            this.user_type_cb.Size = new System.Drawing.Size(306, 42);
             this.user_type_cb.TabIndex = 15;
             // 
             // label6
